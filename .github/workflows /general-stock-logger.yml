@@ -1,0 +1,51 @@
+# .github/workflows/general-stock-logger.yml
+name: General Stock Report Logger Pipeline
+
+on:
+  repository_dispatch:
+    types: [general_stock_update]
+  workflow_dispatch:
+    inputs:
+      raw_text:
+        description: 'Paste the raw report text (one or more === -delimited stories)'
+        required: true
+  schedule:
+    # Runs every 6 hours purely to re-age active/archive items.
+    # Does NOT create new entries.
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  log-and-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Logger Script
+        env:
+          REBUCKET_ONLY: ${{ github.event_name == 'schedule' && '1' || '0' }}
+          DISPATCH_CLIENT_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          MANUAL_RAW_TEXT: ${{ github.event.inputs.raw_text }}
+        run: python scripts/logger.py
+
+      - name: Commit Data Update
+        # always() so a partial parse failure (logger.py exits non-zero
+        # but still saved whatever DID parse) doesn't also throw away
+        # the data that was successfully updated.
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add data/
+          git diff-index --quiet HEAD || git commit -m "🤖 System: Updated General Stock Report data [skip ci]"
+          git push origin main
