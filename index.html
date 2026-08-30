@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Stock Report — Daily Market Close</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0B0D10; --panel:#12151A; --line:#242830;
+    --text:#E6E8EB; --muted:#8B93A1; --amber:#FF7A29; --teal:#3DDC97; --red:#FF5C5C;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .panel{background:var(--panel); border:1px solid var(--line);}
+  .hairline{border-color:var(--line);}
+  .live-dot{width:8px;height:8px;border-radius:50%;background:var(--teal);
+    box-shadow:0 0 0 0 rgba(61,220,151,.6); animation:pulse 2s infinite;}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(61,220,151,.5);}
+    70%{box-shadow:0 0 0 8px rgba(61,220,151,0);}
+    100%{box-shadow:0 0 0 0 rgba(61,220,151,0);}
+  }
+  .row-enter{animation:fadeSlide .5s ease-out;}
+  @keyframes fadeSlide{ from{opacity:0; transform:translateY(-6px);} to{opacity:1; transform:translateY(0);} }
+  details > summary{cursor:pointer; list-style:none;}
+  details > summary::-webkit-details-marker{display:none;}
+  details[open] .chev{transform:rotate(90deg);}
+  ::-webkit-scrollbar{width:8px;} ::-webkit-scrollbar-thumb{background:var(--line); border-radius:4px;}
+  table{border-collapse:collapse; width:100%;}
+  th{text-align:left; font-family:'IBM Plex Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); padding:6px 10px; border-bottom:1px solid var(--line); white-space:nowrap;}
+  td{padding:8px 10px; border-bottom:1px solid var(--line); font-size:14px; vertical-align:top;}
+  tr:last-child td{border-bottom:none;}
+  @media (prefers-reduced-motion: reduce){ .live-dot, .row-enter { animation: none; } }
+</style>
+</head>
+<body class="min-h-screen">
+
+  <div class="w-full px-8 py-10">
+
+    <!-- Header -->
+    <header class="mb-8">
+      <div class="flex items-center gap-2 mb-1">
+        <span class="live-dot"></span>
+        <span class="mono text-[17px] uppercase tracking-widest text-[var(--muted)]" id="updated-label">Syncing…</span>
+      </div>
+      <h1 class="text-[36px] font-semibold tracking-tight">General Stock Report</h1>
+      <p class="text-[15px] text-[var(--muted)] mt-1">Official market closures, major index moves, and the day's top gainers / losers above $7.00</p>
+    </header>
+
+    <!-- Static scan configuration — what this report is set up to track -->
+    <section class="panel rounded-lg p-4 mb-8">
+      <div class="mono text-[13px] uppercase tracking-widest text-[var(--muted)] mb-2">Report Configuration</div>
+      <div class="flex flex-wrap gap-2">
+        <span class="mono text-[13px] px-2.5 py-1 rounded-full border" style="border-color:var(--teal); color:var(--teal)">Official Close Summary · S&amp;P 500 / Nasdaq / NYSE</span>
+        <span class="mono text-[13px] px-2.5 py-1 rounded-full border" style="border-color:var(--amber); color:var(--amber)">Top 10 Gainers &amp; Losers · Price ≥ $7.00 · Sector &amp; Industry tagged</span>
+        <span class="mono text-[13px] px-2.5 py-1 rounded-full border" style="border-color:var(--red); color:var(--red)">Catalyst &amp; Earnings Focus</span>
+        <span class="mono text-[13px] px-2.5 py-1 rounded-full border hairline" style="color:var(--muted)">Custom Date Header per Close</span>
+      </div>
+    </section>
+
+    <!-- Rolling log (live, from data/active_week.json) -->
+    <section class="mb-10">
+      <div class="flex items-baseline justify-between mb-3">
+        <h2 class="text-[21px] font-semibold uppercase tracking-wide text-[var(--muted)]">Current Week Rolling Log</h2>
+        <span class="mono text-[15px] text-[var(--muted)]">newest first</span>
+      </div>
+      <div id="log-feed" class="space-y-3"></div>
+    </section>
+
+    <!-- Historical archive (live, from data/archive.json) -->
+    <section class="mb-10">
+      <h2 class="text-[21px] font-semibold uppercase tracking-wide text-[var(--muted)] mb-3">Historical Log Archives</h2>
+      <div id="archive-buckets" class="space-y-2"></div>
+    </section>
+
+    <footer class="text-center text-[15px] text-[var(--muted)] mono pt-4 border-t hairline">
+      auto-refreshes every 45s · data/active_week.json + data/archive.json
+    </footer>
+
+  </div>
+
+<script>
+  const ACTIVE_URL = 'data/active_week.json';
+  const ARCHIVE_URL = 'data/archive.json';
+  const POLL_MS = 45000;
+  let lastActiveSignature = null;
+
+  const BUCKET_LABELS = {
+    past_2_weeks: 'Past 2 Weeks',
+    past_1_month: 'Past 1 Month',
+    past_3_months: 'Past 3 Months',
+    past_6_months: 'Past 6 Months',
+    past_1_year: 'Past 1 Year',
+    historical: 'Historical'
+  };
+
+  const escapeHtml = (str) => {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  };
+
+  const directionColor = (dir) => {
+    const d = (dir || '').toUpperCase();
+    if (d === 'UP') return 'var(--teal)';
+    if (d === 'DOWN') return 'var(--red)';
+    if (d === 'MIXED') return 'var(--amber)';
+    return 'var(--muted)';
+  };
+
+  function relativeTime(iso) {
+    const diffMs = Date.now() - new Date(iso).getTime();
+    const mins = Math.round(diffMs / 60000);
+    if (mins < 1) return 'just now';
+    if (mins < 60) return `${mins}m ago`;
+    const hrs = Math.round(mins / 60);
+    if (hrs < 24) return `${hrs}h ago`;
+    return `${Math.round(hrs / 24)}d ago`;
+  }
+
+  function formatTimestamp(iso) {
+    try {
+      const d = new Date(iso);
+      return d.toISOString().slice(0, 16).replace('T', ' ');
+    } catch { return iso; }
+  }
+
+  function indexesHTML(indexes) {
+    if (!indexes || !indexes.length) return '';
+    return `<div class="flex flex-wrap gap-x-5 gap-y-1 mt-2 mono text-[13px] text-[var(--muted)]">` +
+      indexes.map(ix => {
+        const up = (ix.pct || '').trim().startsWith('+');
+        const color = up ? 'var(--teal)' : 'var(--red)';
+        return `<span>${escapeHtml(ix.name)}: <span class="text-[var(--text)]">${escapeHtml(ix.value)}</span> <span style="color:${color}">${escapeHtml(ix.change)} / ${escapeHtml(ix.pct)}</span></span>`;
+      }).join('') + `</div>`;
+  }
+
+  function moversTableHTML(title, rows, color) {
+    if (!rows || !rows.length) return '';
+    return `
+      <div class="mt-3">
+        <div class="mono text-[13px] uppercase tracking-wide mb-1" style="color:${color}">${escapeHtml(title)}</div>
+        <div class="panel rounded-lg overflow-x-auto">
+          <table>
+            <thead><tr>
+              <th>Ticker / Company</th><th>Sector / Industry</th><th>Price</th><th>Chg</th><th>%</th><th>Catalyst</th>
+            </tr></thead>
+            <tbody>
+              ${rows.map(r => `
+                <tr>
+                  <td class="font-semibold whitespace-nowrap">${escapeHtml(r.ticker)}<div class="text-[var(--muted)] font-normal">${escapeHtml(r.company)}</div></td>
+                  <td class="text-[var(--muted)]">${escapeHtml(r.sector)}</td>
+                  <td class="mono whitespace-nowrap">${escapeHtml(r.price)}</td>
+                  <td class="mono whitespace-nowrap" style="color:${color}">${escapeHtml(r.change)}</td>
+                  <td class="mono whitespace-nowrap" style="color:${color}">${escapeHtml(r.pct)}</td>
+                  <td class="text-[var(--muted)]">${escapeHtml(r.catalyst)}</td>
+                </tr>`).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>`;
+  }
+
+  function catalystsHTML(catalysts) {
+    if (!catalysts || !catalysts.length) return '';
+    return `
+      <div class="mt-3">
+        <div class="mono text-[13px] uppercase tracking-wide mb-1 text-[var(--muted)]">Core Underlying Catalysts</div>
+        <ul class="list-disc list-inside space-y-1 text-[14px] text-[var(--text)]">
+          ${catalysts.map(c => `<li>${escapeHtml(c)}</li>`).join('')}
+        </ul>
+      </div>`;
+  }
+
+  function rowHTML(item, animate) {
+    const color = directionColor(item.market_direction);
+    return `
+      <div class="panel rounded-lg p-4 flex gap-3 items-start${animate ? ' row-enter' : ''}">
+        <div class="w-1 self-stretch rounded-full" style="background:${color}"></div>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 mb-0.5 flex-wrap">
+            <span class="mono text-[13px] text-[var(--muted)]">${formatTimestamp(item.timestamp)} UTC</span>
+            <span class="mono text-[13px] uppercase tracking-wide">Daily Close</span>
+            <span class="mono text-[13px] uppercase tracking-wide px-1.5 py-0.5 rounded" style="color:${color}; border:1px solid ${color}">${escapeHtml(item.market_direction) || '—'}</span>
+          </div>
+          <div class="text-[19px] font-semibold leading-snug">${escapeHtml(item.header)}</div>
+          ${item.headline ? `<div class="text-[14px] text-[var(--muted)] mt-1 leading-relaxed">${escapeHtml(item.headline)}</div>` : ''}
+          ${indexesHTML(item.indexes)}
+          <details class="mt-3">
+            <summary class="mono text-[13px] uppercase tracking-wide text-[var(--muted)] hover:text-[var(--text)]">
+              <span class="chev inline-block transition-transform">▸</span> Read full report
+            </summary>
+            ${moversTableHTML('Top Gainers', item.gainers, 'var(--teal)')}
+            ${moversTableHTML('Top Losers', item.losers, 'var(--red)')}
+            ${catalystsHTML(item.catalysts)}
+          </details>
+        </div>
+      </div>`;
+  }
+
+  function renderActive(items) {
+    const feed = document.getElementById('log-feed');
+    const isFirstRender = feed.childElementCount === 0;
+    feed.innerHTML = items.length
+      ? items.map(item => rowHTML(item, !isFirstRender)).join('')
+      : `<div class="text-[21px] text-[var(--muted)] mono">No active entries this week.</div>`;
+
+    if (items.length) {
+      document.getElementById('updated-label').textContent =
+        `Live · latest entry ${relativeTime(items[0].timestamp)}`;
+    }
+  }
+
+  function renderArchive(archive) {
+    const container = document.getElementById('archive-buckets');
+    container.innerHTML = '';
+    Object.keys(BUCKET_LABELS).forEach(key => {
+      const items = archive[key] || [];
+      if (!items.length) return;
+      const det = document.createElement('details');
+      det.className = 'panel rounded-lg';
+      det.innerHTML = `
+        <summary class="p-3 flex items-center justify-between">
+          <span class="text-[21px] font-medium">${BUCKET_LABELS[key]}</span>
+          <span class="flex items-center gap-2">
+            <span class="mono text-[15px] text-[var(--muted)]">${items.length} entr${items.length === 1 ? 'y' : 'ies'}</span>
+            <span class="chev mono text-[15px] text-[var(--muted)] transition-transform">▸</span>
+          </span>
+        </summary>
+        <div class="px-3 pb-3 space-y-2">
+          ${items.map(item => rowHTML(item, false)).join('')}
+        </div>`;
+      container.appendChild(det);
+    });
+    if (!container.childElementCount) {
+      container.innerHTML = `<div class="text-[21px] text-[var(--muted)] mono">No archived entries yet.</div>`;
+    }
+  }
+
+  async function poll() {
+    try {
+      const [activeRes, archiveRes] = await Promise.all([
+        fetch(`${ACTIVE_URL}?t=${Date.now()}`, { cache: 'no-store' }),
+        fetch(`${ARCHIVE_URL}?t=${Date.now()}`, { cache: 'no-store' })
+      ]);
+      if (!activeRes.ok) throw new Error(`active_week.json HTTP ${activeRes.status}`);
+      if (!archiveRes.ok) throw new Error(`archive.json HTTP ${archiveRes.status}`);
+
+      const activeData = await activeRes.json();
+      const archiveData = await archiveRes.json();
+
+      const signature = JSON.stringify(activeData);
+      if (signature !== lastActiveSignature) {
+        lastActiveSignature = signature;
+        renderActive(activeData);
+        renderArchive(archiveData);
+      } else if (activeData.length) {
+        document.getElementById('updated-label').textContent =
+          `Live · latest entry ${relativeTime(activeData[0].timestamp)}`;
+      }
+    } catch (err) {
+      document.getElementById('updated-label').textContent = 'Sync failed — retrying…';
+      console.error('Dashboard fetch failed:', err);
+    }
+  }
+
+  poll();
+  setInterval(poll, POLL_MS);
+</script>
+</body>
+</html>
