@@ -1,4 +1,4 @@
-name: General Stock Report Logger Pipeline 
+name: General Stock Report Logger Pipeline
 
 on:
   repository_dispatch:
