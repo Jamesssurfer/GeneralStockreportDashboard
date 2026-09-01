@@ -1,5 +1,220 @@
 {
-  "past_2_weeks": [],
+  "past_2_weeks": [
+    {
+      "timestamp": "2026-08-24T20:00:00+00:00",
+      "header": "Monday, August 24, 2026's Report",
+      "headline": "The Stock Market Update Agent has been updated to exclude any equities closing below $7.00.",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "S&P 500 Index",
+          "value": "7,652.86",
+          "change": "-21.51 pts",
+          "pct": "-0.28%"
+        },
+        {
+          "name": "Dow Jones Industrial Average",
+          "value": "53,417.16",
+          "change": "+140.15 pts",
+          "pct": "+0.26%"
+        },
+        {
+          "name": "Nasdaq Composite",
+          "value": "25,980.19",
+          "change": "-200.26 pts",
+          "pct": "-0.80%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "NASDAQ: TOP",
+          "company": "TOP Financial",
+          "sector": "",
+          "price": "$16.24",
+          "change": "+$2.11",
+          "pct": "+14.93%",
+          "catalyst": "Triggered by sudden high-volume retail trading momentum 1.1.4."
+        },
+        {
+          "ticker": "NASDAQ: GENB",
+          "company": "Generate Bio",
+          "sector": "",
+          "price": "$17.72",
+          "change": "+$1.60",
+          "pct": "+9.93%",
+          "catalyst": "Advanced strongly on speculative biotechnology volume pipelines ."
+        },
+        {
+          "ticker": "NASDAQ: WBTN",
+          "company": "Webtoon Ent.",
+          "sector": "",
+          "price": "$9.59",
+          "change": "+$0.79",
+          "pct": "+8.98%",
+          "catalyst": "Gained traction following late-day momentum buying across entertainment tech ."
+        },
+        {
+          "ticker": "NASDAQ: SA",
+          "company": "Seabridge Gold",
+          "sector": "",
+          "price": "$34.27",
+          "change": "+$2.04",
+          "pct": "+6.35%",
+          "catalyst": "Lifted sharply as safe-haven gold spots rallied amid global geopolitical uncertainty 1.5.1."
+        },
+        {
+          "ticker": "NASDAQ: BMNR",
+          "company": "Bitmine Tech",
+          "sector": "",
+          "price": "$24.22",
+          "change": "+$1.39",
+          "pct": "+6.07%",
+          "catalyst": "Rallied alongside crypto-asset strength as Bitcoin neared the $80,000 milestone 1.2.5."
+        },
+        {
+          "ticker": "NYSE: NUE",
+          "company": "Nucor Corp",
+          "sector": "",
+          "price": "$185.40",
+          "change": "+$7.13",
+          "pct": "+4.00%",
+          "catalyst": "Jumped after U.S.-Canada auto and steel tariff talks collapsed over the weekend ."
+        },
+        {
+          "ticker": "NYSE: STLD",
+          "company": "Steel Dynamics",
+          "sector": "",
+          "price": "$132.80",
+          "change": "+$4.49",
+          "pct": "+3.50%",
+          "catalyst": "Rose in lockstep with Nucor on expectations of stronger domestic steel protective margins ."
+        },
+        {
+          "ticker": "NASDAQ: GLNG",
+          "company": "Golar LNG",
+          "sector": "",
+          "price": "$38.10",
+          "change": "+$1.12",
+          "pct": "+3.03%",
+          "catalyst": "Upgraded to Buy at Pareto with a new $70 target price 1.5.3."
+        },
+        {
+          "ticker": "NYSE: DRI",
+          "company": "Darden Restaurants",
+          "sector": "",
+          "price": "$174.45",
+          "change": "+$4.20",
+          "pct": "+2.47%",
+          "catalyst": "Raised to Outperform at Baird, lifting its price target to $250 ."
+        },
+        {
+          "ticker": "NYSE: CLS",
+          "company": "Celestica",
+          "sector": "",
+          "price": "$382.40",
+          "change": "+$8.12",
+          "pct": "+2.17%",
+          "catalyst": "Upgraded to Buy from Neutral at UBS with a lifted target price of $430 ."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "NASDAQ: AAOI",
+          "company": "Applied Optotech",
+          "sector": "",
+          "price": "$110.26",
+          "change": "-$14.56",
+          "pct": "-11.66%",
+          "catalyst": "Tumbled sharply after announcing a massive $600M at-the-market stock offering dilute proposal."
+        },
+        {
+          "ticker": "NASDAQ: BABA",
+          "company": "Alibaba Group",
+          "sector": "",
+          "price": "$78.20",
+          "change": "-$8.68",
+          "pct": "-10.00%",
+          "catalyst": "Slid heavily after a massive $10.2 billion AI-related share sale diluted public investors 1.1.2."
+        },
+        {
+          "ticker": "NASDAQ: XPEV",
+          "company": "XPeng Inc",
+          "sector": "",
+          "price": "$11.12",
+          "change": "-$1.07",
+          "pct": "-8.79%",
+          "catalyst": "Sold off due to broader tech rotation away from Chinese EV ADRs."
+        },
+        {
+          "ticker": "NASDAQ: PONY",
+          "company": "Pony AI",
+          "sector": "",
+          "price": "$7.52",
+          "change": "-$0.71",
+          "pct": "-8.69%",
+          "catalyst": "Slumped amid structural autonomous vehicle pricing pressure across U.S. and Asian markets ."
+        },
+        {
+          "ticker": "NASDAQ: SNDK",
+          "company": "SanDisk Corp",
+          "sector": "",
+          "price": "$1,480.57",
+          "change": "-$115.52",
+          "pct": "-7.24%",
+          "catalyst": "Erased gains during intense institutional sector rotation out of historical data-hardware leaders ."
+        },
+        {
+          "ticker": "NASDAQ: MU",
+          "company": "Micron Tech",
+          "sector": "",
+          "price": "$135.20",
+          "change": "-$8.32",
+          "pct": "-5.80%",
+          "catalyst": "Slashed as chipmakers pulled back ahead of Nvidia's upcoming earnings report 1.4.2."
+        },
+        {
+          "ticker": "NASDAQ: PLUG",
+          "company": "Plug Power",
+          "sector": "",
+          "price": "$2.18",
+          "change": "-$0.09",
+          "pct": "-3.96%",
+          "catalyst": "Continues its downward drift under systemic alternative-energy capital outflows ."
+        },
+        {
+          "ticker": "NYSE: STLA",
+          "company": "Stellantis NV",
+          "sector": "",
+          "price": "$12.45",
+          "change": "-$0.45",
+          "pct": "-3.50%",
+          "catalyst": "Aggressively penalized by the 50% tariff escalation threat on Canadian automotive parts ."
+        },
+        {
+          "ticker": "NYSE: F",
+          "company": "Ford Motor Co",
+          "sector": "",
+          "price": "$10.15",
+          "change": "-$0.31",
+          "pct": "-2.96%",
+          "catalyst": "Dropped roughly 3% on concerns over integrated Ontario-based auto component supply chains ."
+        },
+        {
+          "ticker": "NASDAQ: NVDA",
+          "company": "Nvidia Corp",
+          "sector": "",
+          "price": "$124.60",
+          "change": "-$3.72",
+          "pct": "-2.90%",
+          "catalyst": "Defensive positioning and profit-taking dragging the stock down ahead of the week's critical earnings tape ."
+        }
+      ],
+      "catalysts": [
+        "The Global AI Dilemma: Heavy corporate actions like Alibaba's discounted share offering to fund its AI growth roadmap spooked tech desks, causing an industry-wide reassessment of short-term tech dilutions .",
+        "Tariff Disruption: Auto suppliers and legacy manufacturers (Ford, Stellantis) felt instant supply chain anxiety following the executive branch's announcement of a planned 50% tariff hike on cross-border Canadian manufacturing ."
+      ]
+    }
+  ],
   "past_1_month": [],
   "past_3_months": [],
   "past_6_months": [],
