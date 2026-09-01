@@ -32,7 +32,9 @@ import sys
 import json
 from datetime import datetime, timedelta, timezone
 
-from parser import parse_stories
+# Add the scripts directory to Python path and import parser
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from scripts.parser import parse_stories
 
 DATA_DIR = "data"
 ACTIVE_FILE = os.path.join(DATA_DIR, "active_week.json")
@@ -46,7 +48,8 @@ def load_data(path, default_type=list):
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 return json.load(f)
-        except Exception:
+        except Exception as e:
+            print(f"Warning: Could not load {path}: {e}")
             return default_type()
     return default_type()
 
@@ -62,24 +65,33 @@ def get_raw_texts():
     source triggered this run. Empty list if this is a rebucket-only
     scheduled run or there's nothing usable."""
     if os.environ.get("REBUCKET_ONLY") == "1":
+        print("Debug: REBUCKET_ONLY mode - no new texts to process")
         return []
 
     p_str = os.environ.get("DISPATCH_CLIENT_PAYLOAD")
-    if p_str and p_str.strip():
+    if p_str and p_str.strip() and p_str.strip() != 'null':
+        print(f"Debug: Found DISPATCH_CLIENT_PAYLOAD (length: {len(p_str)})")
         try:
             p = json.loads(p_str)
-        except Exception:
+        except Exception as e:
+            print(f"Warning: Could not parse DISPATCH_CLIENT_PAYLOAD: {e}")
             p = None
         if isinstance(p, dict):
             if p.get("raw_text"):
+                print("Debug: Found raw_text in payload")
                 return [p["raw_text"]]
             if p.get("raw_text_list"):
+                print(f"Debug: Found raw_text_list with {len(p['raw_text_list'])} items")
                 return list(p["raw_text_list"])
+    else:
+        print("Debug: No DISPATCH_CLIENT_PAYLOAD found")
 
     manual = os.environ.get("MANUAL_RAW_TEXT")
     if manual and manual.strip():
+        print(f"Debug: Found MANUAL_RAW_TEXT (length: {len(manual)})")
         return [manual]
 
+    print("Debug: No raw text found in any source")
     return []
 
 
@@ -90,12 +102,26 @@ def get_events():
     main() knows to exit non-zero even though good data still saved."""
     events = []
     had_errors = False
-    for text in get_raw_texts():
-        parsed, errors = parse_stories(text)
-        events.extend(parsed)
-        for snippet, e in errors:
+    raw_texts = get_raw_texts()
+    
+    if not raw_texts:
+        print("No new stories to process")
+        return events, had_errors
+    
+    for i, text in enumerate(raw_texts):
+        print(f"Processing story {i+1}/{len(raw_texts)} (length: {len(text)} chars)")
+        try:
+            parsed, errors = parse_stories(text)
+            events.extend(parsed)
+            print(f"  Successfully parsed {len(parsed)} stories")
+            for snippet, e in errors:
+                had_errors = True
+                print(f"::warning::Failed to parse a story (starts: \"{snippet}\"): {e}", file=sys.stderr)
+        except Exception as e:
             had_errors = True
-            print(f"::warning::Failed to parse a story (starts: \"{snippet}\"): {e}", file=sys.stderr)
+            print(f"::error::Failed to process story {i+1}: {e}", file=sys.stderr)
+            
+    print(f"Total events parsed: {len(events)}")
     return events, had_errors
 
 
@@ -117,6 +143,10 @@ def bucket_for_age(age: timedelta):
 
 
 def main():
+    print("=== Starting General Stock Report Logger ===")
+    print(f"Time: {datetime.now(timezone.utc).isoformat()}")
+    print(f"Working directory: {os.getcwd()}")
+    
     new_events, had_errors = get_events()
     now = datetime.now(timezone.utc)
 
@@ -127,6 +157,8 @@ def main():
     for b in BUCKETS:
         if b not in archive_dict:
             archive_dict[b] = []
+
+    print(f"Loaded {len(active_items)} active items and {sum(len(v) for v in archive_dict.values())} archived items")
 
     pool = list(new_events)
     pool.extend(active_items)
@@ -141,6 +173,8 @@ def main():
         if uid not in seen:
             seen.add(uid)
             unique_all.append(item)
+
+    print(f"Total unique items after deduplication: {len(unique_all)}")
 
     new_active = []
     new_archive = {b: [] for b in BUCKETS}
@@ -157,6 +191,10 @@ def main():
         else:
             new_archive[b].append(item)
 
+    print(f"Items in active bucket: {len(new_active)}")
+    for b in BUCKETS:
+        print(f"Items in {b}: {len(new_archive[b])}")
+
     t_sort = lambda x: x.get('timestamp', '')
     new_active.sort(key=t_sort, reverse=True)
     for b in BUCKETS:
@@ -164,9 +202,13 @@ def main():
 
     save_data(ACTIVE_FILE, new_active)
     save_data(ARCHIVE_FILE, new_archive)
+    print("Data saved successfully")
 
     if had_errors:
+        print("Had errors during parsing - exiting with code 1")
         sys.exit(1)
+    
+    print("=== Completed successfully ===")
 
 
 if __name__ == "__main__":
