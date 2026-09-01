@@ -1,0 +1,102 @@
+name: General Stock Report Logger
+
+on:
+  repository_dispatch:
+    types: [general_stock_update]
+  workflow_dispatch:
+    inputs:
+      raw_text:
+        description: 'Paste the raw report text (one or more === -delimited stories)'
+        required: false
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  process-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Debug Environment
+        run: |
+          echo "=== Environment Debug ==="
+          echo "Event name: ${{ github.event_name }}"
+          echo "Event action: ${{ github.event.action }}"
+          echo "Repository: ${{ github.repository }}"
+          echo "Workspace: $(pwd)"
+          echo ""
+          echo "=== Files in workspace ==="
+          ls -la
+          echo ""
+          echo "=== Scripts directory ==="
+          ls -la scripts/ 2>/dev/null || echo "scripts/ directory not found"
+          echo ""
+          echo "=== Data directory ==="
+          ls -la data/ 2>/dev/null || echo "data/ directory not found"
+          echo ""
+          echo "=== Python ==="
+          python --version
+          which python
+          echo ""
+          echo "=== Checking imports ==="
+          python -c "import sys; print(sys.path)"
+
+      - name: Run Logger Script
+        env:
+          REBUCKET_ONLY: ${{ github.event_name == 'schedule' && '1' || '0' }}
+          DISPATCH_CLIENT_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          MANUAL_RAW_TEXT: ${{ github.event.inputs.raw_text }}
+        run: |
+          echo "=== Running Logger ==="
+          echo "REBUCKET_ONLY=$REBUCKET_ONLY"
+          if [ -n "$DISPATCH_CLIENT_PAYLOAD" ] && [ "$DISPATCH_CLIENT_PAYLOAD" != "null" ]; then
+            echo "DISPATCH_CLIENT_PAYLOAD is set"
+          else
+            echo "DISPATCH_CLIENT_PAYLOAD is not set"
+          fi
+          if [ -n "$MANUAL_RAW_TEXT" ]; then
+            echo "MANUAL_RAW_TEXT is set"
+          else
+            echo "MANUAL_RAW_TEXT is not set"
+          fi
+          echo ""
+          cd $GITHUB_WORKSPACE
+          python scripts/logger.py
+          exit_code=$?
+          echo "Logger exit code: $exit_code"
+          exit $exit_code
+
+      - name: Commit Data Update
+        if: always()
+        run: |
+          echo "=== Committing Data ==="
+          cd $GITHUB_WORKSPACE
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          
+          # Check if data directory exists and has changes
+          if [ -d "data" ]; then
+            git add data/
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+            else
+              echo "Changes detected:"
+              git diff --cached --stat
+              git commit -m "🤖 System: Updated General Stock Report data [skip ci]"
+              git push origin main
+              echo "Changes committed and pushed"
+            fi
+          else
+            echo "data/ directory does not exist"
+          fi
