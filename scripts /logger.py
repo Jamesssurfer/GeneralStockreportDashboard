@@ -1,4 +1,4 @@
-# scripts/logger.py — General Stock Report 
+# scripts/logger.py — General Stock Report
 #
 # Same active/archive/re-age mechanic as the critical-news-logger.
 # The difference: this logger receives RAW NARRATIVE TEXT (same
