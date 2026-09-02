@@ -1,5 +1,111 @@
 [
   {
+    "timestamp": "2026-09-01T20:00:00+00:00",
+    "header": "Tuesday, September 1, 2026's Report",
+    "headline": "Wall Street extends losses as rising bond yields and U.S. airstrikes drag tech equities down. Equities kicked off September under notable pressure as a global bond sell-off deepened and Treasury yields climbed. Market sentiment remained heavy following fresh U.S. military strikes against Iranian rocket launchers around the Strait of Hormuz, which prolonged energy supply concerns and intensified pro-inflationary macro risks.",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "Nasdaq Composite",
+        "value": "26,089.04",
+        "change": "-281.84 pts",
+        "pct": "-1.07%"
+      },
+      {
+        "name": "S&P 500 Index",
+        "value": "7,631.54",
+        "change": "-54.60 pts",
+        "pct": "-0.71%"
+      },
+      {
+        "name": "NYSE Composite",
+        "value": "24,338.36",
+        "change": "-123.58 pts",
+        "pct": "-0.51%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "NASDAQ: NVAX",
+        "company": "Novavax Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$10.11",
+        "change": "+$0.75",
+        "pct": "+7.96%",
+        "catalyst": "Advanced heavily on late-session volume spikes tracking speculative pipeline positioning."
+      },
+      {
+        "ticker": "NASDAQ: CNXC",
+        "company": "Concentrix Corp.",
+        "sector": "Technology / Information Technology Services",
+        "price": "$32.28",
+        "change": "+$2.18",
+        "pct": "+7.24%",
+        "catalyst": "Rebounded sharply as investors dip-bought the deeply discounted valuation following recent asset filings."
+      },
+      {
+        "ticker": "NASDAQ: KLRA",
+        "company": "Kailera Therapeutics",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$16.46",
+        "change": "+$1.07",
+        "pct": "+6.95%",
+        "catalyst": "Caught significant healthcare momentum bids ahead of early-autumn industry medical data presentations."
+      },
+      {
+        "ticker": "NASDAQ: SDGR",
+        "company": "Schrodinger Inc.",
+        "sector": "Healthcare / Health Information Services",
+        "price": "$20.80",
+        "change": "+$1.31",
+        "pct": "+6.70%",
+        "catalyst": "Rose steadily as safe-haven allocations favored software-driven medical infrastructure plays."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NASDAQ: AXON",
+        "company": "Axon Enterprise",
+        "sector": "Industrials / Aerospace & Defense",
+        "price": "$518.30",
+        "change": "-$48.26",
+        "pct": "-8.52%",
+        "catalyst": "Slipped deeply as institutional desks trimmed exposure due to stretched forward valuation multiples."
+      },
+      {
+        "ticker": "NASDAQ: FROG",
+        "company": "JFrog Ltd.",
+        "sector": "Technology / Software—Application",
+        "price": "$91.78",
+        "change": "-$8.29",
+        "pct": "-8.28%",
+        "catalyst": "Faced aggressive institutional profit-taking following a multi-day post-earnings expansion trend."
+      },
+      {
+        "ticker": "NASDAQ: SN",
+        "company": "SharkNinja Inc.",
+        "sector": "Consumer Cyclical / Furnishings & Appliances",
+        "price": "$177.22",
+        "change": "-$15.28",
+        "pct": "-7.94%",
+        "catalyst": "Hit hard by consumer discretionary rebalancing as shipping bottleneck anxieties mounted."
+      },
+      {
+        "ticker": "NASDAQ: CRWD",
+        "company": "CrowdStrike Holdings",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$215.07",
+        "change": "-$15.93",
+        "pct": "-6.90%",
+        "catalyst": "Pulled back as part of a wider, systemic sector rotation out of high-flying tech leaders."
+      }
+    ],
+    "catalysts": [
+      "Geopolitical Strain: Continued tactical friction between the U.S. and Iran over crucial Persian Gulf supply points kept raw oil prices volatile, worsening fears of a secondary wave of consumer price inflation.",
+      "Yield Pressure: Long-term borrowing costs remained high, driving up risk premiums and prompting money managers to re-weight portfolios away from expensive technology assets."
+    ]
+  },
+  {
     "timestamp": "2026-08-31T20:00:00+00:00",
     "header": "Monday, August 31, 2026's Report",
     "headline": "Wall Street slides to close out August as U.S.-Iran military skirmishes spark an oil spike. Major indices slipped on Monday after U.S. forces struck Iranian rocket launchers in the Strait of Hormuz. The sudden military flare-up sent crude prices surging toward $90 a barrel, re-igniting energy inflation anxieties and strengthening bets that the Federal Reserve will implement a hawkish rate hike at its September meeting.",
