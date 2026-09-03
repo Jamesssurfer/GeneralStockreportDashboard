@@ -1,5 +1,171 @@
 [
   {
+    "timestamp": "2026-09-02T20:00:00+00:00",
+    "header": "Wednesday, September 2, 2026's Report",
+    "headline": "Wall Street snaps a three-day losing streak as a pause in soaring bond yields triggers a moderate market bounce. U.S. stocks rebounded on Wednesday as a relentless march higher in global bond yields and oil prices took a brief breather. Investors weighed a cooler-than-expected ADP private payrolls report against ongoing geopolitical concerns regarding military escalations between the U.S. and Iran, allowing large-cap tech and corporate earnings stars to reclaim some ground.",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "Dow Jones Industrial Average",
+        "value": "52,950.12",
+        "change": "+183.24 pts",
+        "pct": "+0.35%"
+      },
+      {
+        "name": "S&P 500 Index",
+        "value": "7,661.23",
+        "change": "+29.76 pts",
+        "pct": "+0.39%"
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "26,183.99",
+        "change": "+84.21 pts",
+        "pct": "+0.32%"
+      },
+      {
+        "name": "NYSE Composite",
+        "value": "19,825.40",
+        "change": "+83.30 pts",
+        "pct": "+0.42%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "NASDAQ: FRVO",
+        "company": "Fervo Energy Co.",
+        "sector": "Utilities / Independent Power Producers",
+        "price": "$19.75",
+        "change": "+$4.37",
+        "pct": "+28.41%",
+        "catalyst": "Exploded higher as alternative geothermal and clean grid infrastructure projects drew significant geopolitical hedge volume."
+      },
+      {
+        "ticker": "NYSE: CRK",
+        "company": "Comstock Resources",
+        "sector": "Energy / Oil & Gas E&P",
+        "price": "$16.02",
+        "change": "+$1.59",
+        "pct": "+11.02%",
+        "catalyst": "Climbed over 11% on persistent underlying strength across global crude and natural gas asset plays."
+      },
+      {
+        "ticker": "NASDAQ: MMED",
+        "company": "MiniMed Group",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$22.42",
+        "change": "+$2.16",
+        "pct": "+10.66%",
+        "catalyst": "Rallied hard following optimistic pipeline announcements and institutional block accumulation."
+      },
+      {
+        "ticker": "NASDAQ: MRNA",
+        "company": "Moderna Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$154.27",
+        "change": "+$13.93",
+        "pct": "+9.93%",
+        "catalyst": "Advanced nearly 10% as speculative pharmaceutical capital rolled heavily back into high-profile clinical trial pipelines."
+      },
+      {
+        "ticker": "NASDAQ: DELL",
+        "company": "Dell Technologies",
+        "sector": "Technology / Computer Hardware",
+        "price": "$464.60",
+        "change": "+$39.60",
+        "pct": "+9.31%",
+        "catalyst": "Jumped over 9% after crushing earnings and raising its full-year outlook, citing immense secular strength in its AI services business."
+      },
+      {
+        "ticker": "NYSE: EIX",
+        "company": "Edison International",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$58.80",
+        "change": "+$4.82",
+        "pct": "+8.93%",
+        "catalyst": "Staged a definitive technical reversal, recovering a chunk of prior sector losses."
+      },
+      {
+        "ticker": "NYSE: ONDS",
+        "company": "Ondas Holdings",
+        "sector": "Technology / Communication Equipment",
+        "price": "$7.43",
+        "change": "+$0.39",
+        "pct": "+5.54%",
+        "catalyst": "Caught strong momentum bids above its critical $7 threshold on defense infrastructure volume."
+      },
+      {
+        "ticker": "NYSE: NU",
+        "company": "Nu Holdings Ltd.",
+        "sector": "Financial Services / Regional Banks",
+        "price": "$15.26",
+        "change": "+$0.80",
+        "pct": "+5.50%",
+        "catalyst": "Rose as foreign banking operations outperformed during a volatile session for regional banking indexes."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NASDAQ: CRDO",
+        "company": "Credo Technology",
+        "sector": "Technology / Semiconductors",
+        "price": "$164.16",
+        "change": "-$42.47",
+        "pct": "-20.55%",
+        "catalyst": "Cratered over 20% on massive institutional distribution following conservative data-center guidance."
+      },
+      {
+        "ticker": "NYSE: PLTR",
+        "company": "Palantir Technologies",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$168.64",
+        "change": "-$11.28",
+        "pct": "-6.27%",
+        "catalyst": "Dropped roughly 6.2% as short-term traders actively trimmed overextended enterprise software gains."
+      },
+      {
+        "ticker": "NYSE: PCG",
+        "company": "PG&E Corporation",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$13.15",
+        "change": "-$0.91",
+        "pct": "-6.47%",
+        "catalyst": "Dropped more than 6% on notable volume amid escalating operating costs."
+      },
+      {
+        "ticker": "NASDAQ: PSQL",
+        "company": "Pasqal Holding SA",
+        "sector": "Technology / Computer Hardware",
+        "price": "$13.88",
+        "change": "-$1.68",
+        "pct": "-10.78%",
+        "catalyst": "Slid double digits due to aggressive capital adjustments away from speculative quantum computing hardware lines."
+      },
+      {
+        "ticker": "NASDAQ: OSW",
+        "company": "OneSpaWorld Holdings",
+        "sector": "Consumer Cyclical / Travel Services",
+        "price": "$22.24",
+        "change": "-$2.59",
+        "pct": "-10.43%",
+        "catalyst": "Slumped as macroeconomic discretionary travel budgets faced scrutiny."
+      },
+      {
+        "ticker": "NASDAQ: PS",
+        "company": "Pershing Square Inc.",
+        "sector": "Financial Services / Closed-End Funds",
+        "price": "$37.12",
+        "change": "-$1.40",
+        "pct": "-3.65%",
+        "catalyst": "Slid further as fund rebalancing actions hit asset valuations."
+      }
+    ],
+    "catalysts": [
+      "The AI Earnings Fuel: Solid corporate deliverables from Dell Technologies reassured trading desks that corporate spending on hardware and enterprise artificial intelligence pipelines is holding firm.",
+      "Yield Consolidation: The benchmark U.S. 10-year Treasury yield hit a multi-year high of 4.814% before stabilizing slightly lower on the day. This quick cooling pattern gave tech and growth equities a much-needed afternoon window to recover."
+    ]
+  },
+  {
     "timestamp": "2026-09-01T20:00:00+00:00",
     "header": "Tuesday, September 1, 2026's Report",
     "headline": "Wall Street extends losses as rising bond yields and U.S. airstrikes drag tech equities down. Equities kicked off September under notable pressure as a global bond sell-off deepened and Treasury yields climbed. Market sentiment remained heavy following fresh U.S. military strikes against Iranian rocket launchers around the Strait of Hormuz, which prolonged energy supply concerns and intensified pro-inflationary macro risks.",
