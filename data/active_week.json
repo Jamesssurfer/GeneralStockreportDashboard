@@ -1,5 +1,34 @@
 [
   {
+    "timestamp": "2026-09-03T20:00:00+00:00",
+    "header": "Thursday, September 3, 2026's Report",
+    "headline": "Wall Street logs its best trading session in over four weeks as cooling Treasury yields and dovish Federal Reserve commentary fuel a broad risk-on rally. U.S. benchmark indexes surged on Thursday, clawing back losses from earlier in the week. The aggressive buying was triggered by comments from Federal Reserve Governor Christopher Waller, who indicated he would support holding interest rates steady at the upcoming September meeting. This significantly tempered aggressive rate hike bets, sending the 10-year U.S. Treasury yield pulling back to around 4.75%. Lower yields immediately sparked massive short-covering and institutional demand across mega-cap tech, communication services, and consumer discretionary sectors.",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,747.71",
+        "change": "+81.11 pts",
+        "pct": "+1.06%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,584.06",
+        "change": "+366.39 pts",
+        "pct": "+1.40%"
+      },
+      {
+        "name": "NYSE Composite (.NYA)",
+        "value": "24,290.40",
+        "change": "+178.50 pts",
+        "pct": "+0.74%"
+      }
+    ],
+    "gainers": [],
+    "losers": [],
+    "catalysts": []
+  },
+  {
     "timestamp": "2026-09-02T20:00:00+00:00",
     "header": "Wednesday, September 2, 2026's Report",
     "headline": "Wall Street snaps a three-day losing streak as a pause in soaring bond yields triggers a moderate market bounce. U.S. stocks rebounded on Wednesday as a relentless march higher in global bond yields and oil prices took a brief breather. Investors weighed a cooler-than-expected ADP private payrolls report against ongoing geopolitical concerns regarding military escalations between the U.S. and Iran, allowing large-cap tech and corporate earnings stars to reclaim some ground.",
