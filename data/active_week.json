@@ -1,5 +1,153 @@
 [
   {
+    "timestamp": "2026-09-04T20:00:00+00:00",
+    "header": "Friday, September 4, 2026's Report",
+    "headline": "September 4, 5:00 PM EST.",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,717.00",
+        "change": "-30.71 pts",
+        "pct": "-0.40%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,504.12",
+        "change": "-80.10 pts",
+        "pct": "-0.30%"
+      },
+      {
+        "name": "NYSE Composite (.NYA)",
+        "value": "24,214.32",
+        "change": "-76.08 pts",
+        "pct": "-0.31%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "NX",
+        "company": "",
+        "sector": "",
+        "price": "Basic Materials / Building Products",
+        "change": "$22.46",
+        "pct": "+19.63%",
+        "catalyst": "Exploded higher following strong institutional block demand during the morning session."
+      },
+      {
+        "ticker": "TYRA",
+        "company": "",
+        "sector": "",
+        "price": "Healthcare / Biotechnology",
+        "change": "$28.11",
+        "pct": "+13.21%",
+        "catalyst": "Advanced heavily on speculative biotechnology asset volume pipelines."
+      },
+      {
+        "ticker": "CBRS",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Computer Hardware",
+        "change": "$213.75",
+        "pct": "+12.23%",
+        "catalyst": "Rallied significantly under massive institutional support for next-gen data computing."
+      },
+      {
+        "ticker": "AEHR",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Semiconductor Equipment",
+        "change": "$85.17",
+        "pct": "+11.72%",
+        "catalyst": "Lifted sharply as automated testing demand metrics outpaced standard semi pullbacks."
+      },
+      {
+        "ticker": "SNDK",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Computer Hardware",
+        "change": "$1,718.11",
+        "pct": "+10.76%",
+        "catalyst": "SanDisk and memory stocks bucked the down tape(https://finance.yahoo.com/markets/stocks/articles/stock-market-midday-sept-4-163537251.html) on structurally strong sequential pricing indicators."
+      },
+      {
+        "ticker": "ALAB",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Semiconductors",
+        "change": "$312.62",
+        "pct": "+10.53%",
+        "catalyst": "Rocketed over 10% on high-volume enterprise data connectivity architecture orders."
+      },
+      {
+        "ticker": "BLTE",
+        "company": "",
+        "sector": "",
+        "price": "Healthcare / Biotechnology",
+        "change": "$189.16",
+        "pct": "+10.45%",
+        "catalyst": "Caught strong momentum bids ahead of early autumn medical conference data releases."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "GWRE",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Software—Application",
+        "change": "$160.58",
+        "pct": "-20.89%",
+        "catalyst": "Tumbled roughly 21% on sudden institutional distribution following structural software adjustments."
+      },
+      {
+        "ticker": "PATH",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Software—Application",
+        "change": "$15.07",
+        "pct": "-17.42%",
+        "catalyst": "UiPath collapsed 17% after Q3 revenue guidance(https://finance.yahoo.com/markets/stocks/articles/uipath-tumbles-14-guided-slowdown-144002432.html) missed estimates, warning of AI-driven client purchase delays."
+      },
+      {
+        "ticker": "LULU",
+        "company": "",
+        "sector": "",
+        "price": "Consumer Cyclical / Apparel Retail",
+        "change": "$100.45",
+        "pct": "-17.53%",
+        "catalyst": "Lululemon plummeted over 17% after posting disappointing earnings and aggressively slashing its guidance."
+      },
+      {
+        "ticker": "FICO",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Software—Application",
+        "change": "$943.73",
+        "pct": "-15.66%",
+        "catalyst": "Fair Isaac plunged nearly 16% following critical pricing reviews published by the Federal Housing Finance Agency."
+      },
+      {
+        "ticker": "ASAN",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Software—Application",
+        "change": "$8.72",
+        "pct": "-13.79%",
+        "catalyst": "Slid double digits amidst a widespread thematic unwind of high-multiple application names."
+      },
+      {
+        "ticker": "ADSK",
+        "company": "",
+        "sector": "",
+        "price": "Technology / Software—Application",
+        "change": "$218.19",
+        "pct": "-8.17%",
+        "catalyst": "Dropped more than 8% due to software workflow optimization changes across commercial lines."
+      }
+    ],
+    "catalysts": []
+  },
+  {
     "timestamp": "2026-09-03T20:00:00+00:00",
     "header": "Thursday, September 3, 2026's Report",
     "headline": "Wall Street logs its best trading session in over four weeks as cooling Treasury yields and dovish Federal Reserve commentary fuel a broad risk-on rally. U.S. benchmark indexes surged on Thursday, clawing back losses from earlier in the week. The aggressive buying was triggered by comments from Federal Reserve Governor Christopher Waller, who indicated he would support holding interest rates steady at the upcoming September meeting. This significantly tempered aggressive rate hike bets, sending the 10-year U.S. Treasury yield pulling back to around 4.75%. Lower yields immediately sparked massive short-covering and institutional demand across mega-cap tech, communication services, and consumer discretionary sectors.",
