@@ -172,9 +172,192 @@
         "pct": "+0.74%"
       }
     ],
-    "gainers": [],
-    "losers": [],
-    "catalysts": []
+    "gainers": [{
+        "ticker": "NYSE: SNOW",
+        "company": "Snowflake Inc",
+        "sector": "Technology / Software—Application",
+        "price": "$142.10",
+        "change": "+$15.06",
+        "pct": "+11.85%",
+        "catalyst": "Surged violently alongside a massive industry-wide software relief rally following Waller's dovish pivot."
+      },
+      {
+        "ticker": "NASDAQ: ZS",
+        "company": "Zscaler Inc",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$182.45",
+        "change": "+$15.55",
+        "pct": "+9.32%",
+        "catalyst": "Accumulated aggressively ahead of its highly anticipated fiscal Q3 earnings report, driven by peer security sector strength."
+      },
+      {
+        "ticker": "NASDAQ: MDB",
+        "company": "Mongodb Inc",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$285.50",
+        "change": "+$22.25",
+        "pct": "+8.45%",
+        "catalyst": "Slipped out of near-term consolidation as institutional growth asset allocations rapidly returned."
+      },
+      {
+        "ticker": "NYSE: ONON",
+        "company": "On Holding AG",
+        "sector": "Consumer Cyclical / Footwear & Accessories",
+        "price": "$48.20",
+        "change": "+$2.84",
+        "pct": "+6.25%",
+        "catalyst": "Led the high-performing consumer discretionary sector rally as rate relief fanned retail spending confidence."
+      },
+      {
+        "ticker": "NASDAQ: DELL",
+        "company": "Dell Technologies",
+        "sector": "Technology / Computer Hardware",
+        "price": "$138.90",
+        "change": "+$7.39",
+        "pct": "+5.62%",
+        "catalyst": "Upgraded on notable enterprise hardware demand and positive forward-looking data center server growth expectations [Wednesday, September 2]."
+      },
+      {
+        "ticker": "NYSE: CRM",
+        "company": "Salesforce Inc",
+        "sector": "Technology / Software—Application",
+        "price": "$265.4",
+        "change": "+$13.15",
+        "pct": "+5.21%",
+        "catalyst": "Dow constituent jumped over 5% on severe short-covering following the softening of sovereign yield curves."
+      },
+      {
+        "ticker": "NASDAQ: MSFT",
+        "company": "Microsoft Corp",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$442.15",
+        "change": "+$13.39",
+        "pct": "+3.12%",
+        "catalyst": "Heavily buoyed index metrics on multi-million share block institutional buy inflows targeting enterprise cloud layers."
+      },
+      {
+        "ticker": "NASDAQ: PLTR",
+        "company": "Palantir Technologies Inc",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$44.15",
+        "change": "+$1.22",
+        "pct": "+2.85%",
+        "catalyst": "Advanced steadily as data-mining and commercial defense platform pipelines attract defensive capital."
+      }
+      {
+        "ticker": "NASDAQ: META",
+        "company": "Meta Platforms Inc",
+        "sector": "Communication Services / Internet Content",
+        "price": "$531.10",
+        "change": "+$13.87",
+        "pct": "+2.68%",
+        "catalyst": "Gained traction as heavy-weight communication services valuations reasserted broader market influence."
+      }
+      {
+        "ticker": "NYSE: ANET",
+        "company": "Arista Networks Inc",
+        "sector": "Technology / Computer Hardware",
+        "price": "$358.90",
+        "change": "+$7.55",
+        "pct": "+2.15%",
+        "catalyst": "Recouped early weekly losses on accelerated computing hardware and enterprise networking volume expansion."
+      }
+    ],
+    "losers": [{
+        "ticker": "NASDAQ: AVGO",
+        "company": "Broadcom Inc",
+        "sector": "Technology / Semiconductors",
+        "price": "$162.40",
+        "change": "-$11.72",
+        "pct": "-6.73%",
+        "catalyst": "Slumped sharply after issuing forward revenue and guidance metrics that missed lofty AI growth expectations."
+      },
+      {
+        "ticker": "NASDAQ: PDD",
+        "company": "PDD Holdings Inc - ADR",
+        "sector": "Consumer Cyclical / Internet Retail",
+        "price": "$92.15",
+        "change": "-$5.27",
+        "pct": "-5.41%",
+        "catalyst": "Hammered on supply chain and shipping lane friction amidst the compounding Middle East trade blockade context [Iran expanded its blacklist of commercial vessels]."
+      },
+      {
+        "ticker": "NASDAQ: APA",
+        "company": "APA Corporation",
+        "sector": "Energy / Oil & Gas Exploration",
+        "price": "$24.80",
+        "change": "-$1.12",
+        "pct": "-4.32%",
+        "catalyst": "Dragged lower as energy saw the biggest systemic drop across the board on Thursday."
+      },
+      {
+        "ticker": "NYSE: DVN",
+        "company": "Devon Energy Corp",
+        "sector": "Energy / Oil & Gas Exploration",
+        "price": "$36.12",
+        "change": "-$1.49",
+        "pct": "-3.95%",
+        "catalyst": "Faced aggressive liquidations as institutional profit-taking swept the conventional fossil fuel spaces."
+      },
+      {
+        "ticker": "NYSE: HAL",
+        "company": "HAL (Halliburton Company)",
+        "sector": "Energy / Oil & Gas Equipment",
+        "price": "$31.05",
+        "change": "-$1.25",
+        "pct": "-3.88%",
+        "catalyst": "Fell back under the 50-day moving average as crude price paper specs cooled relative to growth asset demand."
+      },
+      {
+        "ticker": "NYSE: MRO",
+        "company": "MRO (Marathon Oil Corporation)",
+        "sector": "Energy / Oil & Gas Exploration",
+        "price": "$26.15",
+        "change": "-$0.95",
+        "pct": "-3.52%",
+        "catalyst": "Suffered broad sector-wide de-risking as macro capital rotated back into oversold tech software nodes."
+      }
+      {
+        "ticker": "NYSE: XOM",
+        "company": "Exxonmobil Holdings Corp",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$114.20",
+        "change": "-$3.34",
+        "pct": "-2.84%",
+        "catalyst": "Heavily weighed down blue-chip matrices on institutional energy paring as oil prices paused their climb."
+      }
+      {
+        "ticker": "NYSE: PCG",
+        "company": "PG&E Corp",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$12.75",
+        "change": "-$0.32",
+        "pct": "-2.45%",
+        "catalyst": "Underperformed significantly as capital completely abandoned defensive yield-insulation utility models."
+      }
+      {
+        "ticker": "NYSE: NOC",
+        "company": "Northrop Grumman Corp",
+        "sector": "Industrials / Aerospace & Defense",
+        "price": "$531.10",
+        "change": "-$11.00",
+        "pct": "-2.03%",
+        "catalyst": "Pulled back on minor profit-taking following the IDF's successful clearance of contested underground ridge targets."
+      }
+      {
+        "ticker": "NYSE: NEM",
+        "company": NEM (Newmont Corporation)",
+        "sector": "Basic Materials / Gold Mining",
+        "price": "$42.15",
+        "change": "-$0.83",
+        "pct": "-1.92%",
+        "catalyst": "Eased lower as safe-haven flight into physical hard assets temporarily paused on Waller's economic cushion [remarks from Federal Reserve Governor Christopher Waller]."
+      }
+    ],
+    "catalysts": [
+      "NVIDIA's Hugging Face Acquisition: Adding a massive corporate catalyst to the tech landscape, NVIDIA ($NVDA) officially announced a definitive $12.93 billion acquisition of the popular open-source AI platform Hugging Face. The massive capital commitment heavily reinforced institutional confidence in long-term artificial intelligence software infrastructure and computing demand",
+      "The Broadcom AI Guidance Miss: Conversely, chip giant Broadcom ($AVGO) fell completely onto the defensive after its quarterly report missed lofty AI revenue benchmarks [The major catalyst hitting the software industry was UiPath ($PATH)]. The negative guidance created a stark internal division within the semiconductor space, highlighting that institutions are becoming hyper-selective regarding real AI execution loops."
+    ]
   },
   {
     "timestamp": "2026-09-02T20:00:00+00:00",
