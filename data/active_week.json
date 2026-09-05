@@ -346,7 +346,7 @@
       }
       {
         "ticker": "NYSE: NEM",
-        "company": NEM (Newmont Corporation)",
+        "company": "NEM (Newmont Corporation)",
         "sector": "Basic Materials / Gold Mining",
         "price": "$42.15",
         "change": "-$0.83",
