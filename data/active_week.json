@@ -24,8 +24,127 @@
         "pct": "-0.31%"
       }
     ],
-    "gainers": null,
-    "losers": null,
+    "gainers": [
+      {
+        "ticker": "NX",
+        "company": "",
+        "sector": "Basic Materials / Building Products",
+        "price": "$22.46",
+        "change": "+$3.69",
+        "pct": "+19.63%",
+        "catalyst": "Exploded higher following strong institutional block demand during the morning session [Basic Materials / Building Products]."
+      },
+      {
+        "ticker": "TYRA",
+        "company": "",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$28.11",
+        "change": "+$3.28",
+        "pct": "+13.21%",
+        "catalyst": "Advanced heavily on speculative biotechnology asset volume pipelines [Healthcare / Biotechnology]."
+      },
+      {
+        "ticker": "CBRS",
+        "company": "",
+        "sector": "Technology / Computer Hardware",
+        "price": "$213.75",
+        "change": "+$23.29",
+        "pct": "+12.23%",
+        "catalyst": "Rallied significantly under massive institutional support for next-gen data computing [Technology / Computer Hardware]."
+      },
+      {
+        "ticker": "AEHR",
+        "company": "",
+        "sector": "Technology / Semiconductor Equipment",
+        "price": "$85.17",
+        "change": "+$8.93",
+        "pct": "+11.72%",
+        "catalyst": "Lifted sharply as automated testing demand metrics outpaced standard semi pullbacks [Technology / Semiconductor Equipment]."
+      },
+      {
+        "ticker": "SNDK",
+        "company": "",
+        "sector": "Technology / Computer Hardware",
+        "price": "$1,718.11",
+        "change": "+$166.92",
+        "pct": "+10.76%",
+        "catalyst": "SanDisk and memory stocks bucked the down tape on structurally strong sequential pricing indicators [SanDisk and memory stocks bucked the down tape]."
+      },
+      {
+        "ticker": "ALAB",
+        "company": "",
+        "sector": "Technology / Semiconductors",
+        "price": "$312.62",
+        "change": "+$29.78",
+        "pct": "+10.53%",
+        "catalyst": "Rocketed over 10% on high-volume enterprise data connectivity architecture orders [Technology / Semiconductors]."
+      },
+      {
+        "ticker": "BLTE",
+        "company": "",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$189.16",
+        "change": "+$17.90",
+        "pct": "+10.45%",
+        "catalyst": "Caught strong momentum bids ahead of early autumn medical conference data releases [Healthcare / Biotechnology]."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "GWRE",
+        "company": "",
+        "sector": "Technology / Software—Application",
+        "price": "$160.58",
+        "change": "-$42.41",
+        "pct": "-20.89%",
+        "catalyst": "Tumbled roughly 21% on sudden institutional distribution following structural software adjustments [Technology / Software—Application]."
+      },
+      {
+        "ticker": "LULU",
+        "company": "",
+        "sector": "Consumer Cyclical / Apparel Retail",
+        "price": "$100.45",
+        "change": "-$21.36",
+        "pct": "-17.53%",
+        "catalyst": "Lululemon plummeted over 17% after posting disappointing earnings and aggressively slashing its guidance [Lululemon plummeted over 17%]."
+      },
+      {
+        "ticker": "PATH",
+        "company": "",
+        "sector": "Technology / Software—Application",
+        "price": "$15.07",
+        "change": "-$3.18",
+        "pct": "-17.42%",
+        "catalyst": "UiPath collapsed 17% after Q3 revenue guidance missed estimates, warning of AI-driven client purchase delays [UiPath collapsed 17% after Q3 revenue guidance]."
+      },
+      {
+        "ticker": "FICO",
+        "company": "",
+        "sector": "Technology / Software—Application",
+        "price": "$943.73",
+        "change": "-$175.24",
+        "pct": "-15.66%",
+        "catalyst": "Fair Isaac plunged nearly 16% following critical pricing reviews published by the Federal Housing Finance Agency [Fair Isaac plunged nearly 16%]."
+      },
+      {
+        "ticker": "ASAN",
+        "company": "",
+        "sector": "Technology / Software—Application",
+        "price": "$8.72",
+        "change": "-$1.39",
+        "pct": "-13.79%",
+        "catalyst": "Slid double digits amidst a widespread thematic unwind of high-multiple application names [Technology / Software—Application]."
+      },
+      {
+        "ticker": "ADSK",
+        "company": "",
+        "sector": "Technology / Software—Application",
+        "price": "$218.19",
+        "change": "-$19.42",
+        "pct": "-8.17%",
+        "catalyst": "Dropped more than 8% due to software workflow optimization changes across commercial lines [Technology / Software—Application]."
+      }
+    ],
     "catalysts": []
   },
   {
@@ -88,8 +207,136 @@
         "pct": "+0.42%"
       }
     ],
-    "gainers": null,
-    "losers": null,
+    "gainers": [
+      {
+        "ticker": "NASDAQ: FRVO",
+        "company": "Fervo Energy Co.",
+        "sector": "Utilities / Independent Power Producers",
+        "price": "$19.75",
+        "change": "+$4.37",
+        "pct": "+28.41%",
+        "catalyst": "Exploded higher as alternative geothermal and clean grid infrastructure projects drew significant geopolitical hedge volume."
+      },
+      {
+        "ticker": "NYSE: CRK",
+        "company": "Comstock Resources",
+        "sector": "Energy / Oil & Gas E&P",
+        "price": "$16.02",
+        "change": "+$1.59",
+        "pct": "+11.02%",
+        "catalyst": "Climbed over 11% on persistent underlying strength across global crude and natural gas asset plays."
+      },
+      {
+        "ticker": "NASDAQ: MMED",
+        "company": "MiniMed Group",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$22.42",
+        "change": "+$2.16",
+        "pct": "+10.66%",
+        "catalyst": "Rallied hard following optimistic pipeline announcements and institutional block accumulation."
+      },
+      {
+        "ticker": "NASDAQ: MRNA",
+        "company": "Moderna Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$154.27",
+        "change": "+$13.93",
+        "pct": "+9.93%",
+        "catalyst": "Advanced nearly 10% as speculative pharmaceutical capital rolled heavily back into high-profile clinical trial pipelines."
+      },
+      {
+        "ticker": "NASDAQ: DELL",
+        "company": "Dell Technologies",
+        "sector": "Technology / Computer Hardware",
+        "price": "$464.60",
+        "change": "+$39.60",
+        "pct": "+9.31%",
+        "catalyst": "Jumped over 9% after crushing earnings and raising its full-year outlook, citing immense secular strength in its AI services business."
+      },
+      {
+        "ticker": "NYSE: EIX",
+        "company": "Edison International",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$58.80",
+        "change": "+$4.82",
+        "pct": "+8.93%",
+        "catalyst": "Staged a definitive technical reversal, recovering a chunk of prior sector losses."
+      },
+      {
+        "ticker": "NYSE: ONDS",
+        "company": "Ondas Holdings",
+        "sector": "Technology / Communication Equipment",
+        "price": "$7.43",
+        "change": "+$0.39",
+        "pct": "+5.54%",
+        "catalyst": "Caught strong momentum bids above its critical $7 threshold on defense infrastructure volume."
+      },
+      {
+        "ticker": "NYSE: NU",
+        "company": "Nu Holdings Ltd.",
+        "sector": "Financial Services / Regional Banks",
+        "price": "$15.26",
+        "change": "+$0.80",
+        "pct": "+5.50%",
+        "catalyst": "Rose as foreign banking operations outperformed during a volatile session for regional banking indexes."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NASDAQ: CRDO",
+        "company": "Credo Technology",
+        "sector": "Technology / Semiconductors",
+        "price": "$164.16",
+        "change": "-$42.47",
+        "pct": "-20.55%",
+        "catalyst": "Cratered over 20% on massive institutional distribution following conservative data-center guidance."
+      },
+      {
+        "ticker": "NYSE: PLTR",
+        "company": "Palantir Technologies",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$168.64",
+        "change": "-$11.28",
+        "pct": "-6.27%",
+        "catalyst": "Dropped roughly 6.2% as short-term traders actively trimmed overextended enterprise software gains."
+      },
+      {
+        "ticker": "NYSE: PCG",
+        "company": "PG&E Corporation",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$13.15",
+        "change": "-$0.91",
+        "pct": "-6.47%",
+        "catalyst": "Dropped more than 6% on notable volume amid escalating operating costs."
+      },
+      {
+        "ticker": "NASDAQ: PSQL",
+        "company": "Pasqal Holding SA",
+        "sector": "Technology / Computer Hardware",
+        "price": "$13.88",
+        "change": "-$1.68",
+        "pct": "-10.78%",
+        "catalyst": "Slid double digits due to aggressive capital adjustments away from speculative quantum computing hardware lines."
+      },
+      {
+        "ticker": "NASDAQ: OSW",
+        "company": "OneSpaWorld Holdings",
+        "sector": "Consumer Cyclical / Travel Services",
+        "price": "$22.24",
+        "change": "-$2.59",
+        "pct": "-10.43%",
+        "catalyst": "Slumped as macroeconomic discretionary travel budgets faced scrutiny."
+      },
+      {
+        "ticker": "NASDAQ: PS",
+        "company": "Pershing Square Inc.",
+        "sector": "Financial Services / Closed-End Funds",
+        "price": "$37.12",
+        "change": "-$1.40",
+        "pct": "-3.65%",
+        "catalyst": "Slid further as fund rebalancing actions hit asset valuations."
+      }
+    ],
     "catalysts": [
       "The AI Earnings Fuel: Solid corporate deliverables from Dell Technologies reassured trading desks that corporate spending on hardware and enterprise artificial intelligence pipelines is holding firm.",
       "Yield Consolidation: The benchmark U.S. 10-year Treasury yield hit a multi-year high of 4.814% before stabilizing slightly lower on the day. This quick cooling pattern gave tech and growth equities a much-needed afternoon window to recover."
@@ -120,8 +367,82 @@
         "pct": "-0.51%"
       }
     ],
-    "gainers": null,
-    "losers": null,
+    "gainers": [
+      {
+        "ticker": "NASDAQ: NVAX",
+        "company": "Novavax Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$10.11",
+        "change": "+$0.75",
+        "pct": "+7.96%",
+        "catalyst": "Advanced heavily on late-session volume spikes tracking speculative pipeline positioning."
+      },
+      {
+        "ticker": "NASDAQ: CNXC",
+        "company": "Concentrix Corp.",
+        "sector": "Technology / Information Technology Services",
+        "price": "$32.28",
+        "change": "+$2.18",
+        "pct": "+7.24%",
+        "catalyst": "Rebounded sharply as investors dip-bought the deeply discounted valuation following recent asset filings."
+      },
+      {
+        "ticker": "NASDAQ: KLRA",
+        "company": "Kailera Therapeutics",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$16.46",
+        "change": "+$1.07",
+        "pct": "+6.95%",
+        "catalyst": "Caught significant healthcare momentum bids ahead of early-autumn industry medical data presentations."
+      },
+      {
+        "ticker": "NASDAQ: SDGR",
+        "company": "Schrodinger Inc.",
+        "sector": "Healthcare / Health Information Services",
+        "price": "$20.80",
+        "change": "+$1.31",
+        "pct": "+6.70%",
+        "catalyst": "Rose steadily as safe-haven allocations favored software-driven medical infrastructure plays."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NASDAQ: AXON",
+        "company": "Axon Enterprise",
+        "sector": "Industrials / Aerospace & Defense",
+        "price": "$518.30",
+        "change": "-$48.26",
+        "pct": "-8.52%",
+        "catalyst": "Slipped deeply as institutional desks trimmed exposure due to stretched forward valuation multiples."
+      },
+      {
+        "ticker": "NASDAQ: FROG",
+        "company": "JFrog Ltd.",
+        "sector": "Technology / Software—Application",
+        "price": "$91.78",
+        "change": "-$8.29",
+        "pct": "-8.28%",
+        "catalyst": "Faced aggressive institutional profit-taking following a multi-day post-earnings expansion trend."
+      },
+      {
+        "ticker": "NASDAQ: SN",
+        "company": "SharkNinja Inc.",
+        "sector": "Consumer Cyclical / Furnishings & Appliances",
+        "price": "$177.22",
+        "change": "-$15.28",
+        "pct": "-7.94%",
+        "catalyst": "Hit hard by consumer discretionary rebalancing as shipping bottleneck anxieties mounted."
+      },
+      {
+        "ticker": "NASDAQ: CRWD",
+        "company": "CrowdStrike Holdings",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$215.07",
+        "change": "-$15.93",
+        "pct": "-6.90%",
+        "catalyst": "Pulled back as part of a wider, systemic sector rotation out of high-flying tech leaders."
+      }
+    ],
     "catalysts": [
       "Geopolitical Strain: Continued tactical friction between the U.S. and Iran over crucial Persian Gulf supply points kept raw oil prices volatile, worsening fears of a secondary wave of consumer price inflation.",
       "Yield Pressure: Long-term borrowing costs remained high, driving up risk premiums and prompting money managers to re-weight portfolios away from expensive technology assets."
@@ -152,8 +473,100 @@
         "pct": "-0.36%"
       }
     ],
-    "gainers": null,
-    "losers": null,
+    "gainers": [
+      {
+        "ticker": "NASDAQ: ASST",
+        "company": "Strive, Inc.",
+        "sector": "Financial Services / Asset Management",
+        "price": "$23.97",
+        "change": "+$2.23",
+        "pct": "+10.23%",
+        "catalyst": "Jumped over 10% on high-volume asset allocation flows."
+      },
+      {
+        "ticker": "NASDAQ: CRCL",
+        "company": "Circle Internet",
+        "sector": "Technology / Software—Application",
+        "price": "$94.28",
+        "change": "+$7.14",
+        "pct": "+8.19%",
+        "catalyst": "Rallied sharply on stablecoin volume spikes following the global geopolitical shock."
+      },
+      {
+        "ticker": "NASDAQ: STDN",
+        "company": "Standard Nuclear",
+        "sector": "Energy / Nuclear Utilities",
+        "price": "$15.20",
+        "change": "+$1.09",
+        "pct": "+7.77%",
+        "catalyst": "Surged as alternative-energy players looked toward nuclear grids amid oil supply disruptions."
+      },
+      {
+        "ticker": "NASDAQ: CHA",
+        "company": "Chagee Holdings",
+        "sector": "Consumer Cyclical / Restaurants",
+        "price": "$11.58",
+        "change": "+$0.78",
+        "pct": "+7.23%",
+        "catalyst": "Advanced strongly on retail consumer growth metrics and organic expansion momentum."
+      },
+      {
+        "ticker": "NASDAQ: ASND",
+        "company": "Ascendis Pharma",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$264.69",
+        "change": "+$16.78",
+        "pct": "+6.77%",
+        "catalyst": "Gained ground after revealing optimistic data pipelines at an industry healthcare conference."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NYSE: EIX",
+        "company": "Eison International",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$53.91",
+        "change": "-$16.26",
+        "pct": "-23.17%",
+        "catalyst": "Cratered over 23% on extreme grid structural exposure and severe institutional capital exit."
+      },
+      {
+        "ticker": "NYSE: PCG",
+        "company": "PG&E Corp.",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$13.54",
+        "change": "-$3.06",
+        "pct": "-18.43%",
+        "catalyst": "Slipped heavily under massive volume on increased systemic liability and macro cost pressures."
+      },
+      {
+        "ticker": "NASDAQ: PYPL",
+        "company": "PayPal Holdings",
+        "sector": "Financial Services / Credit Services",
+        "price": "$47.26",
+        "change": "-$6.88",
+        "pct": "-12.70%",
+        "catalyst": "Extended its deep plunge after Bloomberg confirmed a major private buyout group abandoned deal talks."
+      },
+      {
+        "ticker": "NASDAQ: MNSO",
+        "company": "MINISO Group",
+        "sector": "Consumer Cyclical / Specialty Retail",
+        "price": "$9.33",
+        "change": "-$1.01",
+        "pct": "-9.73%",
+        "catalyst": "Hit hard by supply chain friction worries following the Strait of Hormuz blockades."
+      },
+      {
+        "ticker": "NASDAQ: AON",
+        "company": "Aon plc",
+        "sector": "Financial Services / Insurance Brokers",
+        "price": "$324.16",
+        "change": "-$31.24",
+        "pct": "-8.79%",
+        "catalyst": "Corrected violently due to escalating systemic risk premiums and global insurance adjustments."
+      }
+    ],
     "catalysts": [
       "Strait of Hormuz Shockwave: The military exchange between the U.S. and Iran pushed Brent crude futures up significantly, forcing a defensive market rotation out of consumer-sensitive retail equities and classic utility sectors.",
       "The Aggressive Fed Threat: Investors paired back stock exposure as fears mounted that high oil prices would breed a secondary wave of sticky consumer inflation, forcing the central bank to keep interest rates elevated for a longer horizon."
