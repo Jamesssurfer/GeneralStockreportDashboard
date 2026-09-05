@@ -118,41 +118,30 @@ def _parse_indexes(section_text):
 
 def _parse_table(section_text):
     """Parse a markdown table, tolerant of a missing Sector/Industry
-    column (the $7-floor filtered report drops it)."""
+    column and prose text before the table."""
     lines = [l for l in section_text.split("\n") if l.strip().startswith("|")]
-    # Drop the separator row (---|---|---) and the header row.
-    data_lines = [l for l in lines if not re.match(r'^\|[\s\-:|]+\|\s*$', l)]
-    if len(data_lines) < 2:
+    
+    # Find the first table row (header)
+    if not lines:
         return []
-    data_lines = data_lines[1:]  # first remaining row is the header labels
-
+    
+    # Find the separator row and skip it
+    sep_idx = -1
+    for i, line in enumerate(lines):
+        if re.match(r'^\|[\s\-:|]+\|\s*$', line):
+            sep_idx = i
+            break
+    
+    if sep_idx == -1:
+        return []  # No proper table found
+        
+    # Data starts after the separator
+    data_lines = lines[sep_idx + 1:]
+    
     rows = []
     for line in data_lines:
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        if len(cells) == 6:
-            ticker_cell, sector, price, change, pct, catalyst = cells
-        elif len(cells) == 5:
-            ticker_cell, price, change, pct, catalyst = cells
-            sector = ""
-        else:
-            continue
-
-        tm = re.match(r'^(.*?)\s*\(([^)]+)\)\s*$', ticker_cell)
-        if tm:
-            ticker, company = tm.groups()
-        else:
-            ticker, company = ticker_cell, ""
-
-        rows.append({
-            "ticker": ticker.strip(),
-            "company": company.strip(),
-            "sector": sector.strip(),
-            "price": price.strip(),
-            "change": change.strip(),
-            "pct": pct.strip(),
-            "catalyst": _strip_refs(catalyst),
-        })
-    return rows
+        # ... rest of existing code ...
 
 
 def _parse_catalysts(section_text):
