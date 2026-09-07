@@ -1,6 +1,130 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-08-31T20:00:00+00:00",
+      "header": "Monday, August 31, 2026's Report",
+      "headline": "Wall Street slides to close out August as U.S.-Iran military skirmishes spark an oil spike. Major indices slipped on Monday after U.S. forces struck Iranian rocket launchers in the Strait of Hormuz. The sudden military flare-up sent crude prices surging toward $90 a barrel, re-igniting energy inflation anxieties and strengthening bets that the Federal Reserve will implement a hawkish rate hike at its September meeting.",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "Nasdaq Composite",
+          "value": "26,288.00",
+          "change": "-114.42 pts",
+          "pct": "-0.43%"
+        },
+        {
+          "name": "S&P 500 Index",
+          "value": "7,686.38",
+          "change": "-25.38 pts",
+          "pct": "-0.33%"
+        },
+        {
+          "name": "NYSE Composite",
+          "value": "19,742.10",
+          "change": "-70.35 pts",
+          "pct": "-0.36%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "NASDAQ: ASST",
+          "company": "Strive, Inc.",
+          "sector": "Financial Services / Asset Management",
+          "price": "$23.97",
+          "change": "+$2.23",
+          "pct": "+10.23%",
+          "catalyst": "Jumped over 10% on high-volume asset allocation flows."
+        },
+        {
+          "ticker": "NASDAQ: CRCL",
+          "company": "Circle Internet",
+          "sector": "Technology / Software—Application",
+          "price": "$94.28",
+          "change": "+$7.14",
+          "pct": "+8.19%",
+          "catalyst": "Rallied sharply on stablecoin volume spikes following the global geopolitical shock."
+        },
+        {
+          "ticker": "NASDAQ: STDN",
+          "company": "Standard Nuclear",
+          "sector": "Energy / Nuclear Utilities",
+          "price": "$15.20",
+          "change": "+$1.09",
+          "pct": "+7.77%",
+          "catalyst": "Surged as alternative-energy players looked toward nuclear grids amid oil supply disruptions."
+        },
+        {
+          "ticker": "NASDAQ: CHA",
+          "company": "Chagee Holdings",
+          "sector": "Consumer Cyclical / Restaurants",
+          "price": "$11.58",
+          "change": "+$0.78",
+          "pct": "+7.23%",
+          "catalyst": "Advanced strongly on retail consumer growth metrics and organic expansion momentum."
+        },
+        {
+          "ticker": "NASDAQ: ASND",
+          "company": "Ascendis Pharma",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$264.69",
+          "change": "+$16.78",
+          "pct": "+6.77%",
+          "catalyst": "Gained ground after revealing optimistic data pipelines at an industry healthcare conference."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "NYSE: EIX",
+          "company": "Eison International",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$53.91",
+          "change": "-$16.26",
+          "pct": "-23.17%",
+          "catalyst": "Cratered over 23% on extreme grid structural exposure and severe institutional capital exit."
+        },
+        {
+          "ticker": "NYSE: PCG",
+          "company": "PG&E Corp.",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$13.54",
+          "change": "-$3.06",
+          "pct": "-18.43%",
+          "catalyst": "Slipped heavily under massive volume on increased systemic liability and macro cost pressures."
+        },
+        {
+          "ticker": "NASDAQ: PYPL",
+          "company": "PayPal Holdings",
+          "sector": "Financial Services / Credit Services",
+          "price": "$47.26",
+          "change": "-$6.88",
+          "pct": "-12.70%",
+          "catalyst": "Extended its deep plunge after Bloomberg confirmed a major private buyout group abandoned deal talks."
+        },
+        {
+          "ticker": "NASDAQ: MNSO",
+          "company": "MINISO Group",
+          "sector": "Consumer Cyclical / Specialty Retail",
+          "price": "$9.33",
+          "change": "-$1.01",
+          "pct": "-9.73%",
+          "catalyst": "Hit hard by supply chain friction worries following the Strait of Hormuz blockades."
+        },
+        {
+          "ticker": "NASDAQ: AON",
+          "company": "Aon plc",
+          "sector": "Financial Services / Insurance Brokers",
+          "price": "$324.16",
+          "change": "-$31.24",
+          "pct": "-8.79%",
+          "catalyst": "Corrected violently due to escalating systemic risk premiums and global insurance adjustments."
+        }
+      ],
+      "catalysts": [
+        "Strait of Hormuz Shockwave: The military exchange between the U.S. and Iran pushed Brent crude futures up significantly, forcing a defensive market rotation out of consumer-sensitive retail equities and classic utility sectors.",
+        "The Aggressive Fed Threat: Investors paired back stock exposure as fears mounted that high oil prices would breed a secondary wave of sticky consumer inflation, forcing the central bank to keep interest rates elevated for a longer horizon."
+      ]
+    },
+    {
       "timestamp": "2026-08-28T20:00:00+00:00",
       "header": "Friday, August 28, 2026's Report",
       "headline": "Wall Street inches lower as Chair Warsh delivers a hawkish inflation warning at Jackson Hole. Major indices pulled back on Friday as investors digested Federal Reserve Chairman Kevin Warsh's debut speech. Warsh emphasized that the central bank remains fiercely committed to crushing sticky core inflation, stating that if price pressures do not steadily head toward the 2% goal, the Fed still has \"more work to do\". Short-term bond yields spiked, cooling down the tech-led momentum from earlier in the week.",
@@ -513,7 +637,9 @@
         "The Debt & Currency Debasement Trade: Investor fears over the national debt hitting $40 trillion, combined with strategic bond market maneuvers by the Treasury, triggered a major return to gold and digital crypto assets.",
         "Retaliatory Tariffs: Trade friction escalated as Canada placed $20 billion in duties on American steel, dairy, and farm equipment, though energy commodities remained untouched, buffering wider infrastructure equities."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-08-24T20:00:00+00:00",
       "header": "Monday, August 24, 2026's Report",
@@ -729,7 +855,6 @@
       ]
     }
   ],
-  "past_1_month": [],
   "past_3_months": [],
   "past_6_months": [],
   "past_1_year": [],
