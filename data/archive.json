@@ -1,6 +1,157 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-09-04T20:00:00+00:00",
+      "header": "Friday, September 4, 2026's Report",
+      "headline": "Wall Street edges lower as a hotter-than-expected August jobs report triggers an immediate surge in Federal Reserve interest rate hike expectations. U.S. stocks finished the week on a soft note on Friday after the Labor Department reported that nonfarm payrolls surged by 162,000 in August, wildly overshooting consensus economic estimates [U.S. stocks finished the week on a soft note on Friday]. This dramatic evidence of labor market strength instantly caused traders to price in over a 50% chance of an upcoming Fed rate hike, pushing short-term two-year Treasury yields up to 4.37% and triggering institutional rotation out of credit-sensitive and retail sectors [U.S. stocks finished the week on a soft note on Friday].",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,717.00",
+          "change": "-30.71 pts",
+          "pct": "-0.40%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,504.12",
+          "change": "-80.10 pts",
+          "pct": "-0.30%"
+        },
+        {
+          "name": "NYSE Composite (.NYA)",
+          "value": "24,214.32",
+          "change": "-76.08 pts",
+          "pct": "-0.31%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "NX",
+          "company": "",
+          "sector": "Basic Materials / Building Products",
+          "price": "$22.46",
+          "change": "+$3.69",
+          "pct": "+19.63%",
+          "catalyst": "Exploded higher following strong institutional block demand during the morning session [Basic Materials / Building Products]."
+        },
+        {
+          "ticker": "TYRA",
+          "company": "",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$28.11",
+          "change": "+$3.28",
+          "pct": "+13.21%",
+          "catalyst": "Advanced heavily on speculative biotechnology asset volume pipelines [Healthcare / Biotechnology]."
+        },
+        {
+          "ticker": "CBRS",
+          "company": "",
+          "sector": "Technology / Computer Hardware",
+          "price": "$213.75",
+          "change": "+$23.29",
+          "pct": "+12.23%",
+          "catalyst": "Rallied significantly under massive institutional support for next-gen data computing [Technology / Computer Hardware]."
+        },
+        {
+          "ticker": "AEHR",
+          "company": "",
+          "sector": "Technology / Semiconductor Equipment",
+          "price": "$85.17",
+          "change": "+$8.93",
+          "pct": "+11.72%",
+          "catalyst": "Lifted sharply as automated testing demand metrics outpaced standard semi pullbacks [Technology / Semiconductor Equipment]."
+        },
+        {
+          "ticker": "SNDK",
+          "company": "",
+          "sector": "Technology / Computer Hardware",
+          "price": "$1,718.11",
+          "change": "+$166.92",
+          "pct": "+10.76%",
+          "catalyst": "SanDisk and memory stocks bucked the down tape on structurally strong sequential pricing indicators [SanDisk and memory stocks bucked the down tape]."
+        },
+        {
+          "ticker": "ALAB",
+          "company": "",
+          "sector": "Technology / Semiconductors",
+          "price": "$312.62",
+          "change": "+$29.78",
+          "pct": "+10.53%",
+          "catalyst": "Rocketed over 10% on high-volume enterprise data connectivity architecture orders [Technology / Semiconductors]."
+        },
+        {
+          "ticker": "BLTE",
+          "company": "",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$189.16",
+          "change": "+$17.90",
+          "pct": "+10.45%",
+          "catalyst": "Caught strong momentum bids ahead of early autumn medical conference data releases [Healthcare / Biotechnology]."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "GWRE",
+          "company": "",
+          "sector": "Technology / Software—Application",
+          "price": "$160.58",
+          "change": "-$42.41",
+          "pct": "-20.89%",
+          "catalyst": "Tumbled roughly 21% on sudden institutional distribution following structural software adjustments [Technology / Software—Application]."
+        },
+        {
+          "ticker": "LULU",
+          "company": "",
+          "sector": "Consumer Cyclical / Apparel Retail",
+          "price": "$100.45",
+          "change": "-$21.36",
+          "pct": "-17.53%",
+          "catalyst": "Lululemon plummeted over 17% after posting disappointing earnings and aggressively slashing its guidance [Lululemon plummeted over 17%]."
+        },
+        {
+          "ticker": "PATH",
+          "company": "",
+          "sector": "Technology / Software—Application",
+          "price": "$15.07",
+          "change": "-$3.18",
+          "pct": "-17.42%",
+          "catalyst": "UiPath collapsed 17% after Q3 revenue guidance missed estimates, warning of AI-driven client purchase delays [UiPath collapsed 17% after Q3 revenue guidance]."
+        },
+        {
+          "ticker": "FICO",
+          "company": "",
+          "sector": "Technology / Software—Application",
+          "price": "$943.73",
+          "change": "-$175.24",
+          "pct": "-15.66%",
+          "catalyst": "Fair Isaac plunged nearly 16% following critical pricing reviews published by the Federal Housing Finance Agency [Fair Isaac plunged nearly 16%]."
+        },
+        {
+          "ticker": "ASAN",
+          "company": "",
+          "sector": "Technology / Software—Application",
+          "price": "$8.72",
+          "change": "-$1.39",
+          "pct": "-13.79%",
+          "catalyst": "Slid double digits amidst a widespread thematic unwind of high-multiple application names [Technology / Software—Application]."
+        },
+        {
+          "ticker": "ADSK",
+          "company": "",
+          "sector": "Technology / Software—Application",
+          "price": "$218.19",
+          "change": "-$19.42",
+          "pct": "-8.17%",
+          "catalyst": "Dropped more than 8% due to software workflow optimization changes across commercial lines [Technology / Software—Application]."
+        }
+      ],
+      "catalysts": [
+        "The Enterprise AI Purchase Delay: The major catalyst hitting the software industry was UiPath ($PATH), which warned that clients are purposefully pausing standard enterprise software migrations [UiPath collapsed 17% after Q3 revenue guidance]. This structural buying delay to evaluate new generative-AI alternatives is actively punishing immediate SaaS billing metrics [UiPath collapsed 17% after Q3 revenue guidance].",
+        "Lululemon's Consumer Pullback: In consumer retail, Lululemon ($LULU) noted that shifting global core demand and slowing foot traffic metrics forced a sudden curtailment of their fiscal 2026 projection tape, fanning consumer discretionary anxieties [Lululemon plummeted over 17%]."
+      ]
+    },
+    {
       "timestamp": "2026-09-03T20:00:00+00:00",
       "header": "Thursday, September 3, 2026's Report",
       "headline": "Wall Street logs its best trading session in over four weeks as cooling Treasury yields and dovish Federal Reserve commentary fuel a broad risk-on rally. U.S. benchmark indexes surged on Thursday, clawing back losses from earlier in the week [U.S. stocks surged on Thursday]. The aggressive buying was triggered by comments from Federal Reserve Governor Christopher Waller, who indicated he would support holding interest rates steady at the upcoming September meeting [remarks from Federal Reserve Governor Christopher Waller]. This significantly tempered aggressive rate hike bets, sending the 10-year U.S. Treasury yield pulling back [U.S. stocks surged on Thursday]. Lower yields immediately sparked massive short-covering and institutional demand across mega-cap tech, communication services, and consumer discretionary sectors.",
@@ -609,7 +760,9 @@
         "Strait of Hormuz Shockwave: The military exchange between the U.S. and Iran pushed Brent crude futures up significantly, forcing a defensive market rotation out of consumer-sensitive retail equities and classic utility sectors.",
         "The Aggressive Fed Threat: Investors paired back stock exposure as fears mounted that high oil prices would breed a secondary wave of sticky consumer inflation, forcing the central bank to keep interest rates elevated for a longer horizon."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-08-28T20:00:00+00:00",
       "header": "Friday, August 28, 2026's Report",
@@ -751,9 +904,7 @@
         "The Hawkish Warsh Effect: Bond yields climbed decisively as Fed Chair Kevin Warsh signaled that interest rates may need to remain elevated for longer to anchor long-term structural expectations. Short-dated 2-year Treasury yields surged 12 basis points to 4.35%, introducing significant headwind risks for high-multiple growth equities.",
         "Corporate Actions Cut Deep: The macro correction was compounded by massive localized micro adjustments—namely the abandonment of the private PayPal deal and strict forward capacity boundaries set by hardware leaders like Marvell."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-08-27T20:00:00+00:00",
       "header": "Thursday, August 27, 2026's Report",
