@@ -7,12 +7,21 @@
 # (e.g. the filtered $7-floor report drops the Sector/Industry column
 # entirely), that field comes back empty rather than invented.
 #
-# Known limitation, stated plainly rather than hidden: if the agent's
-# wording drifts from the patterns below (different heading emoji,
-# different table column order), extraction for that section will come
-# back partial or empty. This parser was built against the 3 sample
-# reports you provided — it is not guaranteed against formats it has
-# never seen.
+# ROBUSTNESS NOTE (read this before "fixing" a new format drift):
+# the agent's headings and table columns have already drifted at least
+# three times in the sample data this parser was built against:
+#   - table columns: "TICKER (Company)" combined cell -> "Ticker" /
+#     "Company Name" as two separate cells
+#   - gainers/losers heading: "Top Gainers" -> "Top 10 Gainers"
+#   - catalysts heading: "Core Underlying Catalysts" -> "Catalyst &
+#     Earnings Focus"
+# To survive the *next* drift without another emergency fix, table
+# parsing is header-driven (matches columns by keyword, not position
+# or count) and section boundaries match on the one stable keyword
+# ("Gainers", "Losers", "Catalyst") rather than the exact phrase around
+# it. If a future report renames a column to something with none of
+# the keywords below, that field will come back empty rather than
+# invented — check the keyword lists in _parse_table first.
 
 import re
 from datetime import datetime, timezone
@@ -52,10 +61,13 @@ def _split_stories(raw_text):
 def _find_header_and_date(text):
     """Returns (header_string, (year, month, day)) using whichever of
     three patterns is present, in order of preference."""
-    # Pattern A: "## Friday, August 28, 2026's Report"
-    m = re.search(r"##\s*((\w+),\s*(\w+)\s+(\d{1,2}),\s*(\d{4})'s Report)", text)
+    # Pattern A: "## [emoji ]Friday, August 28, 2026's Report"
+    # Non-greedy [^\n]*? between ## and the weekday tolerates an emoji
+    # or any other decoration the agent puts right after the ##
+    # (seen: "## 🗒 Thursday, September 10, 2026's Report").
+    m = re.search(r"##[^\n]*?(\w+,\s*(\w+)\s+(\d{1,2}),\s*(\d{4})'s Report)", text)
     if m:
-        header, _, month_name, day, year = m.groups()
+        header, month_name, day, year = m.groups()
         month = MONTHS.get(month_name.lower())
         if month:
             return header, (int(year), month, int(day))
@@ -116,41 +128,98 @@ def _parse_indexes(section_text):
     return indexes
 
 
+def _find_col(header_cells_lower, *predicates):
+    """Returns the index of the first header cell matching ANY of the
+    given predicates (each predicate is a callable taking the lowercased
+    cell text), or None if no cell matches."""
+    for i, h in enumerate(header_cells_lower):
+        for pred in predicates:
+            if pred(h):
+                return i
+    return None
+
+
 def _parse_table(section_text):
-    """Parse a markdown table, tolerant of a missing Sector/Industry
-    column (the $7-floor filtered report drops it)."""
+    """Parse a markdown table by reading the header row and matching
+    columns by keyword, not by position or column count. This survives
+    the agent reordering columns, adding/dropping Sector/Industry, or
+    splitting a combined "Ticker (Company)" cell into separate Ticker
+    and Company columns — all of which have already happened across
+    the sample reports this parser was built against."""
     lines = [l for l in section_text.split("\n") if l.strip().startswith("|")]
-    # Drop the separator row (---|---|---) and the header row.
-    data_lines = [l for l in lines if not re.match(r'^\|[\s\-:|]+\|\s*$', l)]
-    if len(data_lines) < 2:
+    if not lines:
         return []
-    data_lines = data_lines[1:]  # first remaining row is the header labels
+
+    sep_idx = next(
+        (i for i, l in enumerate(lines) if re.match(r'^\|[\s\-:|]+\|\s*$', l)),
+        None
+    )
+    # Need a header row before the separator, and at least one data row after.
+    if sep_idx is None or sep_idx == 0 or sep_idx == len(lines) - 1:
+        return []
+
+    header_cells = [c.strip() for c in lines[0].strip().strip("|").split("|")]
+    header_lower = [h.lower() for h in header_cells]
+    data_lines = lines[sep_idx + 1:]
+
+    idx_ticker = _find_col(header_lower, lambda h: "ticker" in h)
+    idx_company = _find_col(header_lower, lambda h: "company" in h)
+    # If "ticker" and "company" both land on the SAME header cell (e.g.
+    # "Ticker / Company"), it's one combined column, not two — the
+    # combined-cell regex below handles splitting it.
+    combined_ticker_company = (
+        idx_ticker is not None and idx_ticker == idx_company
+    )
+    idx_sector = _find_col(header_lower, lambda h: "sector" in h or "industry" in h)
+    idx_price = _find_col(
+        header_lower,
+        lambda h: ("price" in h or "clos" in h) and "change" not in h
+    )
+    idx_change = _find_col(
+        header_lower,
+        lambda h: "change" in h and "%" not in h and "percent" not in h
+    )
+    idx_pct = _find_col(header_lower, lambda h: "%" in h or "percent" in h)
+    idx_catalyst = _find_col(header_lower, lambda h: "catalyst" in h or "reason" in h)
+
+    if idx_ticker is None:
+        # Can't identify which column is even the ticker — nothing
+        # reliable to extract from this table.
+        return []
+
+    def cell(cells, idx):
+        return cells[idx].strip() if idx is not None and idx < len(cells) else ""
 
     rows = []
     for line in data_lines:
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
-        if len(cells) == 6:
-            ticker_cell, sector, price, change, pct, catalyst = cells
-        elif len(cells) == 5:
-            ticker_cell, price, change, pct, catalyst = cells
-            sector = ""
-        else:
+        if len(cells) < 2:
             continue
 
-        tm = re.match(r'^(.*?)\s*\(([^)]+)\)\s*$', ticker_cell)
-        if tm:
-            ticker, company = tm.groups()
+        ticker_cell = cell(cells, idx_ticker)
+        if not ticker_cell:
+            continue
+
+        if idx_company is not None and not combined_ticker_company:
+            ticker = ticker_cell
+            company = cell(cells, idx_company)
         else:
-            ticker, company = ticker_cell, ""
+            # Combined cell, e.g. "NASDAQ: MRNA (Moderna)" or a bare
+            # "SNOW" with no company at all.
+            tm = re.match(r'^(.*?)\s*\(([^)]+)\)\s*$', ticker_cell)
+            if tm:
+                ticker, company = tm.groups()
+            else:
+                ticker, company = ticker_cell, ""
 
         rows.append({
             "ticker": ticker.strip(),
             "company": company.strip(),
-            "sector": sector.strip(),
-            "price": price.strip(),
-            "change": change.strip(),
-            "pct": pct.strip(),
-            "catalyst": _strip_refs(catalyst),
+            "sector": cell(cells, idx_sector),
+            "price": cell(cells, idx_price),
+            "change": cell(cells, idx_change),
+            "pct": cell(cells, idx_pct),
+            "catalyst": _strip_refs(cell(cells, idx_catalyst)),
         })
     return rows
 
@@ -224,13 +293,18 @@ def parse_story(text):
     ])
     indexes = _parse_indexes(idx_section)
 
-    gainers_section = _section(text, [r'##[^\n]*Top Gainers[^\n]*\n'])
+    # Match on the stable keyword only ("Gainers"/"Losers"), not the
+    # exact phrase — headings have varied between "Top Gainers",
+    # "Top 10 Gainers", "Top Gainers (NYSE & NASDAQ)", etc.
+    gainers_section = _section(text, [r'##[^\n]*Gainers[^\n]*\n'])
     gainers = _parse_table(gainers_section)
 
-    losers_section = _section(text, [r'##[^\n]*Top Losers[^\n]*\n'])
+    losers_section = _section(text, [r'##[^\n]*Losers[^\n]*\n'])
     losers = _parse_table(losers_section)
 
-    catalysts_section = _section(text, [r'##[^\n]*Underlying Catalysts[^\n]*\n'])
+    # Same idea: "Catalyst" alone catches both "Core Underlying
+    # Catalysts" and "Catalyst & Earnings Focus".
+    catalysts_section = _section(text, [r'##[^\n]*Catalyst[^\n]*\n'])
     catalysts = _parse_catalysts(catalysts_section)
 
     return {
