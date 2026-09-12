@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-09-11T20:00:00+00:00",
+    "header": "Friday, September 11, 2026's Report",
+    "headline": "Wall Street snaps a painful four-day losing streak as a localized drop in energy costs and meeting-line inflation data help spark a broad relief rally heading into the weekend. U.S. stocks rebounded and clawed back much of their losses for the week after August's Consumer Price Index (CPI) report showed headline inflation holding steady at 3.4% while core inflation decelerated slightly to 2.4% [US inflation rate holds steady, supporting US equity indices ...]. The data matched consensus economic forecasts [Wholesale inflation advanced largely in line with expectations in August, data released Wednesday by the Bureau of Labor Statistics showed.], lifting massive structural uncertainty from the trading desks. Further relief emerged as Brent crude futures pulled back roughly 3% from their multi-month highs [How major US stock indexes fared Friday 9/11/2026], mitigating immediate fears of an escalating consumer energy squeeze and generating strong across-the-board market breadth with all 11 S&P sectors closing green [Stocks rally across the board heading into the weekend.].",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,656.98",
+        "change": "+65.28 pts",
+        "pct": "+0.90%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,333.04",
+        "change": "+251.31 pts",
+        "pct": "+1.00%"
+      },
+      {
+        "name": "NYSE Composite (.NYA)",
+        "value": "24,103.88",
+        "change": "+180.11 pts",
+        "pct": "+0.75%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "ACVA",
+        "company": "ACV Auctions Inc.",
+        "sector": "Consumer Cyclical / Auto & Truck Dealerships",
+        "price": "$25.80",
+        "change": "+$7.88",
+        "pct": "+44.00%",
+        "catalyst": "Soared 44% after online vehicle auctioneer Copart agreed to buy it in an all-cash $1.9 billion deal."
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise Co.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$23.50",
+        "change": "+$2.60",
+        "pct": "+12.44%",
+        "catalyst": "Surged on robust AI infrastructure demand and an upward revision to its forward fiscal guidance."
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$142.15",
+        "change": "+$15.22",
+        "pct": "+11.98%",
+        "catalyst": "Caught parallel institutional accumulation [Stock market today: Dow, S&P 500, Nasdaq end losing week ...] tracking aggressive enterprise server orders and sector AI momentum."
+      },
+      {
+        "ticker": "VICR",
+        "company": "Vicor Corporation",
+        "sector": "Technology / Electronic Components",
+        "price": "$48.20",
+        "change": "+$4.10",
+        "pct": "+9.30%",
+        "catalyst": "Rallied sharply as high-performance power modules drew volume alongside server builds."
+      },
+      {
+        "ticker": "BGSI",
+        "company": "Boyd Group Services Inc.",
+        "sector": "Industrials / Personal Services",
+        "price": "$226.40",
+        "change": "+$18.15",
+        "pct": "+8.72%",
+        "catalyst": "Cleared intermediate chart resistance lines following positive cross-border fleet tracking metrics."
+      },
+      {
+        "ticker": "HTFL",
+        "company": "Heartflow Inc.",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$14.75",
+        "change": "+$1.15",
+        "pct": "+8.46%",
+        "catalyst": "Advanced heavily on specialized multi-year health network software system rollouts."
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$174.12",
+        "change": "+$12.37",
+        "pct": "+7.65%",
+        "catalyst": "Bolstered confidence in AI infrastructure spending following highly successful cloud compute earnings data."
+      },
+      {
+        "ticker": "AAPL",
+        "company": "Apple Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$218.40",
+        "change": "+$2.22",
+        "pct": "+1.03%",
+        "catalyst": "Maintained upward trajectory [Stocks rally across the board heading into the weekend.] as retail pre-order queues for its folding phone stabilized."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$112.50",
+        "change": "+$1.12",
+        "pct": "+1.01%",
+        "catalyst": "Supported broader tech metrics securely as global chip buying resumed post-CPI relief."
+      },
+      {
+        "ticker": "META",
+        "company": "Meta Platforms, Inc.",
+        "sector": "Communication Services / Internet Content",
+        "price": "$703.12",
+        "change": "+$6.29",
+        "pct": "+0.90%",
+        "catalyst": "Extended weekly upside [Stocks rally across the board heading into the weekend.] as elite trading desks continue to evaluate its chat deployment metrics."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power Corp.",
+        "sector": "Industrials / Nuclear Utilities",
+        "price": "$8.61",
+        "change": "-$1.60",
+        "pct": "-15.67%",
+        "catalyst": "Faced sharp profit-taking liquidations following the previous week's massive nuclear infrastructure run."
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo Inc.",
+        "sector": "Energy / Nuclear Utilities",
+        "price": "$37.21",
+        "change": "-$2.68",
+        "pct": "-6.72%",
+        "catalyst": "Slipped under noticeable institutional distribution [Stock Market News for Sep 11, 2026 · Zacks] as safe-haven flight into advanced reactors paused."
+      },
+      {
+        "ticker": "TLX",
+        "company": "Telix Pharmaceuticals Ltd.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$11.40",
+        "change": "-$0.50",
+        "pct": "-4.23%",
+        "catalyst": "Ground lower as localized fund managers trimmed medical scanning assets to back tech software."
+      },
+      {
+        "ticker": "FRVO",
+        "company": "Fervo Energy Co.",
+        "sector": "Energy / Clean Utilities",
+        "price": "$15.09",
+        "change": "-$0.64",
+        "pct": "-4.10%",
+        "catalyst": "Faced aggressive midday rebalancing [Stock Market News for Sep 11, 2026 · Zacks] as capital rotated completely out of geothermal proxies."
+      },
+      {
+        "ticker": "EXEL",
+        "company": "Exelixis Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$55.28",
+        "change": "-$2.15",
+        "pct": "-3.74%",
+        "catalyst": "Sold off on heavy volume following complex structural drug pipeline model reductions."
+      },
+      {
+        "ticker": "SEDG",
+        "company": "SolarEdge Technologies",
+        "sector": "Energy / Solar",
+        "price": "$18.40",
+        "change": "-$0.65",
+        "pct": "-3.41%",
+        "catalyst": "Dragged lower under macro alternative energy paring as conventional utility metrics normalized."
+      },
+      {
+        "ticker": "ENPH",
+        "company": "Enphase Energy, Inc.",
+        "sector": "Energy / Solar",
+        "price": "$98.15",
+        "change": "-$2.35",
+        "pct": "-2.34%",
+        "catalyst": "Faced technical pressure as lower short-term energy squeeze anxiety cooled clean hardware bids."
+      },
+      {
+        "ticker": "CCJ",
+        "company": "Cameco Corporation",
+        "sector": "Basic Materials / Uranium",
+        "price": "$48.20",
+        "change": "-$1.10",
+        "pct": "-2.23%",
+        "catalyst": "Eased lower as localized resource tracking tracking standard global commodity profit-taking."
+      },
+      {
+        "ticker": "LEU",
+        "company": "Centrus Energy Corp.",
+        "sector": "Energy / Uranium",
+        "price": "$68.40",
+        "change": "-$1.35",
+        "pct": "-1.93%",
+        "catalyst": "Retrenched on volume past recent support floors amid broader nuclear sector consolidation."
+      },
+      {
+        "ticker": "UUUU",
+        "company": "Energy Fuels Inc.",
+        "sector": "Basic Materials / Uranium",
+        "price": "$7.15",
+        "change": "-$0.13",
+        "pct": "-1.78%",
+        "catalyst": "Dropped to the base of its multi-week trading range on light institutional interest."
+      }
+    ],
+    "catalysts": [
+      "The Copart / ACV Auctions Buyout: Copart's acquisition of ACV Auctions for $1.9 billion in cash served as a major transaction catalyst [Shares of ACV Auctions (ACVA.N) , opens new tab soared 44% after online vehicle auctioneer Copart (CPRT.O) , opens new tab agreed to buy it in a nearly $1.9 billion deal.], consolidating digital dealer auctions and boosting activity in online transaction sectors.",
+      "The Enterprise AI Server Surge: HPE and Oracle highlighted continued robust enterprise demand for AI architecture [Confidence in continued AI infrastructure spending was bolstered by Oracle's (NYSE:ORCL) strong results last night.], with HPE raising its forward fiscal expectations [HPE Surges on AI Infrastructure Demand and Recently Raised Guidance] to ignite the broader tech growth index bounce."
+    ]
+  },
+  {
     "timestamp": "2026-09-10T20:00:00+00:00",
     "header": "Thursday, September 10, 2026's Report",
     "headline": "Wall Street extends its slide into a fourth consecutive session as hotter-than-expected wholesale producer inflation and an energy shock push bond yields to peak territory. U.S. stocks finished lower on Thursday after the August Producer Price Index (PPI) revealed wholesale inflation rising at a 5.4% annualized rate, overshooting consensus expectations [Markets News, Sept. 10, 2026: U.S. Indexes Extend Losing ...]. Compounding the macro sell-off, severe geopolitical friction in the Middle East [Stock Market News From Sept. 10, 2026: Dow Falls as CPI ...] drove international Brent crude past $107 a barrel. This combination of data sparked heavy fixed-income distribution, driving the 10-year U.S. Treasury yield up to a staggering 4.95% [How major US stock indexes fared Thursday 9/10/2026] and solidifying broad market expectations for an aggressive interest rate hike by the Federal Reserve next week [S&P 500 ends down as Treasury yields rise and traders fret ...].",
