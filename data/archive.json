@@ -636,7 +636,9 @@
         "Geopolitical Strain: Continued tactical friction between the U.S. and Iran over crucial Persian Gulf supply points kept raw oil prices volatile, worsening fears of a secondary wave of consumer price inflation.",
         "Yield Pressure: Long-term borrowing costs remained high, driving up risk premiums and prompting money managers to re-weight portfolios away from expensive technology assets."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-08-31T20:00:00+00:00",
       "header": "Monday, August 31, 2026's Report",
@@ -760,9 +762,7 @@
         "Strait of Hormuz Shockwave: The military exchange between the U.S. and Iran pushed Brent crude futures up significantly, forcing a defensive market rotation out of consumer-sensitive retail equities and classic utility sectors.",
         "The Aggressive Fed Threat: Investors paired back stock exposure as fears mounted that high oil prices would breed a secondary wave of sticky consumer inflation, forcing the central bank to keep interest rates elevated for a longer horizon."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-08-28T20:00:00+00:00",
       "header": "Friday, August 28, 2026's Report",
