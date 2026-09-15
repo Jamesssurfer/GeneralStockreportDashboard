@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-09-14T20:00:00+00:00",
+    "header": "Monday, September 14, 2026's Report",
+    "headline": "Wall Street slides to begin the week as a sharp sell-off in artificial intelligence chip stocks, climbing crude prices, and a brief spike in bond yields past 5% fuel broad de-risking ahead of the Federal Reserve meeting [Stock Market Today, Monday, September 14, 2026]. U.S. stock indices finished lower on Monday as equity markets faced intense structural pressure [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...]. A sudden warning from top AI laboratory executives calling for a temporary slowdown in technology expansion due to severe safety concerns sparked immediate sector panic [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...]. Adding to the macro drag, Brent crude climbed past $105 a barrel [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...] after a devastating drone attack forced Saudi Arabia to completely shut down a critical pipeline [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...]. The resulting inflation anxieties drove the 10-year U.S. Treasury yield briefly above 5.02% for the first time since 2007 [Treasury 10-Year Yield Rises Past 5%, Oil Advances], causing aggressive institutional risk paring before pulling back late in the session [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...].",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,619.98",
+        "change": "-37.00 pts",
+        "pct": "-0.48%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,186.41",
+        "change": "-146.63 pts",
+        "pct": "-0.56%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "52,421.20",
+        "change": "-152.09 pts",
+        "pct": "-0.29%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$295.40",
+        "change": "+$16.30",
+        "pct": "+5.84%",
+        "catalyst": "Rallied strongly alongside cybersecurity peers as defensive capital sought non-hardware software assets."
+      },
+      {
+        "ticker": "PANW",
+        "company": "Palo Alto Networks",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$352.15",
+        "change": "+$17.10",
+        "pct": "+5.10%",
+        "catalyst": "Caught strong programmatic buy inflows [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...] as enterprise cyber defense metrics hold structural priority over hardware expansion."
+      },
+      {
+        "ticker": "WDAY",
+        "company": "Workday, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$245.80",
+        "change": "+$11.12",
+        "pct": "+4.74%",
+        "catalyst": "Bucked the tech downtrend cleanly [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...] as modern institutional asset allocations returned to steady enterprise workflow SaaS nodes."
+      },
+      {
+        "ticker": "SNE",
+        "company": "Smith & Nephew plc",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$13.45",
+        "change": "+$0.51",
+        "pct": "+3.97%",
+        "catalyst": "Finished as one of the strongest healthcare gainers(https://www.ad-hoc-news.de/boerse/news/corporate-news/smith-and-nephew-stock-heads-into-the-open-after-a-near-4-percent-ftse/70103054) on steady physical product volume lines."
+      },
+      {
+        "ticker": "MDB",
+        "company": "MongoDB, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$268.10",
+        "change": "+$9.15",
+        "pct": "+3.53%",
+        "catalyst": "Advanced steadily as cloud database application structures drew defensive software rebalancing."
+      },
+      {
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$112.45",
+        "change": "+$3.55",
+        "pct": "+3.26%",
+        "catalyst": "Supported solidly by a systemic rotation away from the heavily targeted computing chip layers."
+      },
+      {
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$319.50",
+        "change": "+$8.36",
+        "pct": "+2.69%",
+        "catalyst": "Expanded near-term support frameworks tracking immediate software security volume indicators."
+      },
+      {
+        "ticker": "LNC",
+        "company": "Lincoln National Corp.",
+        "sector": "Financial Services / Life Insurance",
+        "price": "$31.85",
+        "change": "+$0.68",
+        "pct": "+2.18%",
+        "catalyst": "Carved out a modest daily gain(https://www.ad-hoc-news.de/boerse/news/corporate-news/lincoln-national-stock-heads-into-the-open-after-a-modest-gain/70102733) as high benchmark yield tracking supported long-term insurance assets."
+      },
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy Corp.",
+        "sector": "Energy / Oil & Gas Refining",
+        "price": "$142.60",
+        "change": "+$2.65",
+        "pct": "+1.89%",
+        "catalyst": "Advanced on notable downstream refiner demand tracking the broader crude oil price jump [Stock market news for Sept. 14, 2026 - CNBC]."
+      },
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "sector": "Energy / Oil & Gas Refining",
+        "price": "$171.10",
+        "change": "+$2.85",
+        "pct": "+1.69%",
+        "catalyst": "Drew incremental value allocations as cross-border energy supply infrastructure concerns hold."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "PLAY",
+        "company": "Dave & Buster's Ent.",
+        "sector": "Consumer Cyclical / Restaurants",
+        "price": "$31.10",
+        "change": "-$4.65",
+        "pct": "-13.01%",
+        "catalyst": "Tumbled double digits in late trading after swinging to a deep Q2 net loss driven by failing arcade foot traffic."
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology",
+        "sector": "Technology / Semiconductors",
+        "price": "$62.15",
+        "change": "-$5.10",
+        "pct": "-7.57%",
+        "catalyst": "Hammered severely under aggressive institutional chip distribution [Stock market news for Sept. 14, 2026 - CNBC] following global AI demand adjustments."
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corp.",
+        "sector": "Technology / Semiconductors",
+        "price": "$98.92",
+        "change": "-$5.55",
+        "pct": "-5.31%",
+        "catalyst": "Slumped more than 5% [Stock market news for Sept. 14, 2026 - CNBC] as international foundry capital flows faced macro technology deceleration risks."
+      },
+      {
+        "ticker": "BAC",
+        "company": "Bank of America Corp.",
+        "sector": "Financial Services / Diversified Banks",
+        "price": "$38.12",
+        "change": "-$2.01",
+        "pct": "-5.00%",
+        "catalyst": "Plunged 5% after CEO Brian Moynihan warned that Q3 investment banking fees will plummet by over 10%."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$141.20",
+        "change": "-$6.18",
+        "pct": "-4.19%",
+        "catalyst": "Sold off on heavy volume [Stock market news for Sept. 14, 2026 - CNBC] as institutional growth managers rapidly trimmed computing device positions."
+      },
+      {
+        "ticker": "PWR",
+        "company": "Quanta Services Inc.",
+        "sector": "Industrials / Engineering & Construction",
+        "price": "$622.00",
+        "change": "-$28.60",
+        "pct": "-4.40%",
+        "catalyst": "Cratered under noticeable volume(https://www.ad-hoc-news.de/boerse/news/corporate-news/quanta-services-stock-heads-into-the-open-after-a-4-4-percent-slide/70102913) as data center infrastructure builds faced localized project delay worries."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$151.40",
+        "change": "-$6.43",
+        "pct": "-4.07%",
+        "catalyst": "Faced aggressive liquidations [Stock market news for Sept. 14, 2026 - CNBC] as industry growth valuation structures face continuous macro paring."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$109.12",
+        "change": "-$3.38",
+        "pct": "-3.00%",
+        "catalyst": "Heavily dragged equity indices down [Stock market news for Sept. 14, 2026 - CNBC] on massive multi-million block distributions targeting computing clusters."
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$168.20",
+        "change": "-$5.92",
+        "pct": "-3.40%",
+        "catalyst": "Pulled back over 3% [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...] after co-founder Larry Ellison abruptly canceled his previously filed $7.5 billion stock sale plan [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...]."
+      },
+      {
+        "ticker": "CAT",
+        "company": "Caterpillar Inc.",
+        "sector": "Industrials / Farm & Heavy Construction Machinery",
+        "price": "$342.10",
+        "change": "-$14.25",
+        "pct": "-4.00%",
+        "catalyst": "Slipped heavily on volume [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...] as rising global resource shipping costs compressed heavy hardware outlooks."
+      }
+    ],
+    "catalysts": [
+      "The AI Safety Coordinated Shockwaves: The entire technology layer faced profound disruption after CEOs from Anthropic and OpenAI issued highly coordinated statements warning that the extreme pace of AI hardware scaling must be slowed down immediately to navigate advanced software safety vectors [Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning ...]. The unprecedented corporate warning instantly prompted OpenAI to officially delay its highly anticipated initial public offering until 2027 [Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning ...], causing Wall Street portfolios to aggressively scale back near-term semiconductor demand models [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...].",
+      "The Saudi Pipeline Drone Strike: Energy infrastructure metrics fractured globally on Monday following highly targeted drone strikes that damaged Saudi Arabia's critical East-West Pipeline pumping stations [Stocks slide to begin week as 10-year yield briefly touches 5%, oil rises: Live updates]. The kingdom immediately closed the major transit route—which serves as the primary corridor bypassing the volatile Strait of Hormuz—sending International Brent crude contracts surging near $110 a barrel before settling up 1% at $105.68 [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ..., Stocks slide to begin week as 10-year yield briefly touches 5%, oil rises: Live updates]."
+    ]
+  },
+  {
     "timestamp": "2026-09-11T20:00:00+00:00",
     "header": "Friday, September 11, 2026's Report",
     "headline": "Wall Street snaps a painful four-day losing streak as a localized drop in energy costs and meeting-line inflation data help spark a broad relief rally heading into the weekend. U.S. stocks rebounded and clawed back much of their losses for the week after August's Consumer Price Index (CPI) report showed headline inflation holding steady at 3.4% while core inflation decelerated slightly to 2.4% [US inflation rate holds steady, supporting US equity indices ...]. The data matched consensus economic forecasts [Wholesale inflation advanced largely in line with expectations in August, data released Wednesday by the Bureau of Labor Statistics showed.], lifting massive structural uncertainty from the trading desks. Further relief emerged as Brent crude futures pulled back roughly 3% from their multi-month highs [How major US stock indexes fared Friday 9/11/2026], mitigating immediate fears of an escalating consumer energy squeeze and generating strong across-the-board market breadth with all 11 S&P sectors closing green [Stocks rally across the board heading into the weekend.].",
