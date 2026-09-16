@@ -1,6 +1,220 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-09-09T20:00:00+00:00",
+      "header": "Wednesday, September 9, 2026's Report",
+      "headline": "Wall Street posts its third consecutive losing session as benchmark crude oil surges past $101 a barrel, magnifying stubborn inflation anxieties and shifting Federal Reserve interest rate parameters. U.S. stock indices tumbled deep into the red on Wednesday as intensifying geopolitical clashes between the U.S. and Iran stoked strict fears of a prolonged regional energy blockade. Compounding the equity pressure, the 10-year U.S. Treasury yield spiked to its highest tier since 2023 at 4.83% after a long-dated government debt buyback layout disappointed market expectations. This double-barrel yield and energy surge caused investors to sharply adjust positions ahead of key inflation data, with traders now pricing in a 60% probability of an upcoming Fed rate hike.",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,637.16",
+          "change": "-49.22 pts",
+          "pct": "-0.47%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,256.64",
+          "change": "-31.36 pts",
+          "pct": "-0.62%"
+        },
+        {
+          "name": "NYSE Composite (.NYA)",
+          "value": "24,019.85",
+          "change": "-96.47 pts",
+          "pct": "-0.40%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "SIG",
+          "company": "Signet Jewelers Ltd.",
+          "sector": "Consumer Cyclical / Luxury Goods",
+          "price": "$100.58",
+          "change": "+$17.91",
+          "pct": "+21.66%",
+          "catalyst": "Exploded higher following strong fiscal execution metrics and upgraded domestic retail demand frames."
+        },
+        {
+          "ticker": "ASO",
+          "company": "Academy Sports & Outdoors",
+          "sector": "Consumer Cyclical / Specialty Retail",
+          "price": "$50.34",
+          "change": "+$5.63",
+          "pct": "+12.59%",
+          "catalyst": "Rallied double digits after reporting solid quarterly earnings that defied general retail headwinds."
+        },
+        {
+          "ticker": "MKC-V",
+          "company": "McCormick & Co., Inc.",
+          "sector": "Consumer Defensive / Packaged Foods",
+          "price": "$58.70",
+          "change": "+$6.11",
+          "pct": "+11.62%",
+          "catalyst": "Lifted sharply as institutions prioritized stable consumer staples to insulate defensive exposure."
+        },
+        {
+          "ticker": "NET",
+          "company": "Cloudflare, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$314.75",
+          "change": "+$30.45",
+          "pct": "+10.71%",
+          "catalyst": "Caught heavy programmatic institutional accumulation tracking expanding enterprise network security volume."
+        },
+        {
+          "ticker": "SSL",
+          "company": "Sasol Ltd.",
+          "sector": "Energy / Specialty Chemicals",
+          "price": "$14.56",
+          "change": "+$1.26",
+          "pct": "+9.47%",
+          "catalyst": "Pushed significantly higher on structural volume alongside rising international crude pricing baselines."
+        },
+        {
+          "ticker": "GPCR",
+          "company": "Structure Therapeutics Inc.",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$43.55",
+          "change": "+$3.17",
+          "pct": "+7.85%",
+          "catalyst": "Recouped prior weekly losses cleanly via high-volume pipeline tracking and institutional block buying."
+        },
+        {
+          "ticker": "META",
+          "company": "Meta Platforms, Inc.",
+          "sector": "Communication Services / Internet Content",
+          "price": "$653.69",
+          "change": "+$40.21",
+          "pct": "+6.55%",
+          "catalyst": "Bucked the tech downtrend as Wall Street cheered the rollout of its new standalone AI assistant chatbot, Muse."
+        },
+        {
+          "ticker": "IBM",
+          "company": "International Business Machines",
+          "sector": "Technology / Information Technology Services",
+          "price": "$226.40",
+          "change": "+$7.63",
+          "pct": "+3.49%",
+          "catalyst": "Provided index point support as defensive enterprise computing layers caught capital allocations."
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corp.",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$116.71",
+          "change": "+$2.51",
+          "pct": "+2.20%",
+          "catalyst": "Gained traction as the sole rising S&P sector, directly tracking Brent crude’s move above $101."
+        },
+        {
+          "ticker": "CVX",
+          "company": "Chevron Corp.",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$161.90",
+          "change": "+$3.02",
+          "pct": "+1.91%",
+          "catalyst": "Advanced on heavy institutional allocation as global supply constraints lifted commodity floors."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "SUNB",
+          "company": "Sunbelt Rentals Holdings",
+          "sector": "Industrials / Rental & Leasing",
+          "price": "$76.67",
+          "change": "-$11.63",
+          "pct": "-13.17%",
+          "catalyst": "Facing sudden profit paring following soft commercial capital allocation and industrial indicators."
+        },
+        {
+          "ticker": "CASY",
+          "company": "Casey's General Stores",
+          "sector": "Consumer Cyclical / Specialty Retail",
+          "price": "$621.37",
+          "change": "-$112.12",
+          "pct": "-15.28%",
+          "catalyst": "Plummeted heavily after forward guidance and margin compressions failed to satisfy lofty estimates."
+        },
+        {
+          "ticker": "BRZE",
+          "company": "Braze, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$24.00",
+          "change": "-$6.31",
+          "pct": "-20.83%",
+          "catalyst": "Slumped over 20% on severe growth fund distribution following customer procurement slow-downs."
+        },
+        {
+          "ticker": "TBBK",
+          "company": "The Bancorp, Inc.",
+          "sector": "Financial Services / Regional Banks",
+          "price": "$50.44",
+          "change": "-$13.97",
+          "pct": "-21.69%",
+          "catalyst": "Hammered on escalating systemic loan-risk adjustments as sovereign yields pressured regional spreads."
+        },
+        {
+          "ticker": "TTAN",
+          "company": "ServiceTitan, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$57.61",
+          "change": "-$23.97",
+          "pct": "-29.38%",
+          "catalyst": "Cratered roughly 29% under extreme institutional liquidations tracking post-earnings model reductions."
+        },
+        {
+          "ticker": "PATH",
+          "company": "UiPath Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$13.57",
+          "change": "-$0.44",
+          "pct": "-3.14%",
+          "catalyst": "Ground down 3.1% further past recent support floors despite a fresh pre-market initiation buy alert from Citi."
+        },
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "sector": "Technology / Computer Hardware",
+          "price": "$214.25",
+          "change": "-$4.15",
+          "pct": "-1.90%",
+          "catalyst": "Edged lower after rolling out its new foldable smartphone model amid supply chain updates."
+        },
+        {
+          "ticker": "SBUX",
+          "company": "Starbucks Corp.",
+          "sector": "Consumer Cyclical / Restaurants",
+          "price": "$93.42",
+          "change": "-$1.81",
+          "pct": "-1.90%",
+          "catalyst": "Retrenched on volume as elevated input costs and wage tracking trim core retail margins."
+        },
+        {
+          "ticker": "UNH",
+          "company": "UnitedHealth Group Inc.",
+          "sector": "Healthcare / Healthcare Plans",
+          "price": "$393.72",
+          "change": "-$7.12",
+          "pct": "-1.78%",
+          "catalyst": "Weighed heavily on blue-chip matrices under ongoing commercial health policy revisions."
+        },
+        {
+          "ticker": "HD",
+          "company": "Home Depot, Inc.",
+          "sector": "Consumer Cyclical / Home Improvement Retail",
+          "price": "$352.10",
+          "change": "-$3.56",
+          "pct": "-1.00%",
+          "catalyst": "Eased lower as high multi-year mortgage yields continue to depress housing improvement loops."
+        }
+      ],
+      "catalysts": [
+        "Meta's Chatbot Muse Deployment: The premier corporate catalyst focused on Meta Platforms ($META), which successfully countered the index downturn after launching its standalone AI chatbot agent, Muse. Wall Street firms immediately issued highly bullish research updates, stating that the consumer-facing AI messaging lifecycle is fundamentally underpriced inside current baseline equity estimates.",
+        "The Disappointment of the Bond Buyback Extension: Geopolitically and macroeconomically, the market turned defensive following statements from Treasury Secretary Scott Bessent detailing the expansion parameters of the sovereign debt buyback operation. The programmatic setup fell short of the larger interventions expected by institutions, sparking a sharp bond liquidation that pushed the 10-year Treasury yield up past 4.83%."
+      ]
+    },
+    {
       "timestamp": "2026-09-08T20:00:00+00:00",
       "header": "Tuesday, September 8, 2026's Report",
       "headline": "Wall Street posts noticeable declines to kick off the holiday-shortened week as a sharp crude oil spike and expanding international trade barriers rattle market sentiment. U.S. benchmark indexes fell on Tuesday [Wall Street posts noticeable declines to kick off the holiday-shortened week] as investors processed escalating Middle East energy blockades and the implementation of massive cross-border tariffs [U.S. stocks finished the week on a soft note on Friday]. A supply shock pushed Brent crude futures up toward the $100 per barrel threshold [Tuesday, September 1], immediately reviving fears of structural core inflation and solidifying expectations for a Federal Reserve rate hike later this month [Monday, August 31]. Risk premiums expanded across the board, pulling high-beta tech hardware and consumer cyclical groups onto the defensive.",
@@ -578,7 +792,9 @@
         "NVIDIA's Hugging Face Acquisition: Adding a massive corporate catalyst to the tech landscape, NVIDIA ($NVDA) officially announced a definitive $12.93 billion acquisition of the popular open-source AI platform Hugging Face. The massive capital commitment heavily reinforced institutional confidence in long-term artificial intelligence software infrastructure and computing demand.",
         "The Broadcom AI Guidance Miss: Conversely, chip giant Broadcom ($AVGO) fell completely onto the defensive after its quarterly report missed lofty AI revenue benchmarks [The major catalyst hitting the software industry was UiPath ($PATH)]. The negative guidance created a stark internal division within the semiconductor space, highlighting that institutions are becoming hyper-selective regarding real AI execution loops."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-09-02T20:00:00+00:00",
       "header": "Wednesday, September 2, 2026's Report",
@@ -744,9 +960,7 @@
         "The AI Earnings Fuel: Solid corporate deliverables from Dell Technologies reassured trading desks that corporate spending on hardware and enterprise artificial intelligence pipelines is holding firm.",
         "Yield Consolidation: The benchmark U.S. 10-year Treasury yield hit a multi-year high of 4.814% before stabilizing slightly lower on the day. This quick cooling pattern gave tech and growth equities a much-needed afternoon window to recover."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-09-01T20:00:00+00:00",
       "header": "Tuesday, September 1, 2026's Report",
