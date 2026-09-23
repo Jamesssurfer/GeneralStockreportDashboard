@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-09-22T20:00:00+00:00",
+    "header": "Tuesday, September 22, 2026's Report",
+    "headline": "The NASDAQ extends its record-setting run to clinch a second consecutive historic high close as relentless artificial intelligence optimism completely offsets a sharp pullback in blue-chip financials. U.S. benchmark indices delivered a mixed performance on Tuesday. A multi-day retreat in crude oil futures—with Brent trading safely below $100 a barrel following positive diplomatic progress concerning Middle East shipping transit paths—insulated tech growth multipliers from broader macro pressures. However, the blue-chip Dow rolled into negative territory as a flattening Treasury yield curve triggered a systemic institutional exit across mega-cap financial institutions and credit portals, leaving the broader S&P 500 effectively flat on the day.",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "27,184.25",
+        "change": "+62.16 pts",
+        "pct": "+0.23%"
+      },
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,764.10",
+        "change": "-0.60 pts",
+        "pct": "-0.01%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "51,863.83",
+        "change": "-185.00 pts",
+        "pct": "-0.36%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "VKTX",
+        "company": "Viking Therapeutics, Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$38.76",
+        "change": "+$8.65",
+        "pct": "+28.74%",
+        "catalyst": "Surged nearly 29% on heavy volume(https://finance.yahoo.com/quote/VKTX/) tracking speculative medical and clinical pipeline rebalancing."
+      },
+      {
+        "ticker": "BFLY",
+        "company": "Butterfly Network, Inc.",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$9.86",
+        "change": "+$1.71",
+        "pct": "+21.07%",
+        "catalyst": "Advanced heavily past multi-week chart ceiling resistance on positive medical diagnostics volume allocation."
+      },
+      {
+        "ticker": "SGRY",
+        "company": "Surgery Partners, Inc.",
+        "sector": "Healthcare / Medical Facilities",
+        "price": "$15.36",
+        "change": "+$1.70",
+        "pct": "+12.45%",
+        "catalyst": "Caught strong programmatic buying momentum as healthcare desks rotated into mid-cap clinical operators."
+      },
+      {
+        "ticker": "BLLN",
+        "company": "BillionToOne, Inc.",
+        "sector": "Healthcare / Diagnostics & Research",
+        "price": "$115.84",
+        "change": "+$11.98",
+        "pct": "+11.53%",
+        "catalyst": "Exploded double digits following optimized sequential data testing milestones and institutional block buying."
+      },
+      {
+        "ticker": "GRAB",
+        "company": "Grab Holdings Limited",
+        "sector": "Technology / Software—Application",
+        "price": "$3.19",
+        "change": "+$0.28",
+        "pct": "+9.79%",
+        "catalyst": "Rebounded sharply past recent support lines(https://finance.yahoo.com/quote/GRAB/) following positive tracking updates on its regional app ecosystems."
+      },
+      {
+        "ticker": "SHOP",
+        "company": "Shopify Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$148.64",
+        "change": "+$10.72",
+        "pct": "+7.77%",
+        "catalyst": "Rocketed 7.7% after Meta Platforms integrated its autonomous AI agent, Muse,(https://finance.yahoo.com/quote/SHOP/) straight into the Shopify global merchant checkout ecosystem."
+      },
+      {
+        "ticker": "LEN",
+        "company": "Lennar Corporation",
+        "sector": "Consumer Cyclical / Residential Construction",
+        "price": "$182.20",
+        "change": "+$11.10",
+        "pct": "+6.49%",
+        "catalyst": "Surged despite an initial earnings miss(https://finance.yahoo.com/quote/LEN/) after filings revealed Warren Buffett's Berkshire Hathaway officially acquired over $200 million of the stock."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$158.40",
+        "change": "+$7.32",
+        "pct": "+4.85%",
+        "catalyst": "Led the S&P 500 chip advance as secular demand flags for high-bandwidth AI memory hardware remain fully dominant."
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$151.10",
+        "change": "+$4.35",
+        "pct": "+2.96%",
+        "catalyst": "Supported tech metrics cleanly as institutional growth desks continue to chase advanced computational architecture loops."
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir Technologies",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$51.12",
+        "change": "+$1.37",
+        "pct": "+2.75%",
+        "catalyst": "Maintained steady multi-week upside bidding, clearing near-term chart patterns on government enterprise tracking blocks."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "PLNT",
+        "company": "Planet Fitness, Inc.",
+        "sector": "Consumer Cyclical / Health Clubs",
+        "price": "$41.85",
+        "change": "-$5.20",
+        "pct": "-11.06%",
+        "catalyst": "Collapsed over 11% on heavy volume(https://finance.yahoo.com/quote/PLNT/) following sudden down-market re-weightings across gym membership forecasts."
+      },
+      {
+        "ticker": "CLDX",
+        "company": "Celldex Therapeutics, Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$33.89",
+        "change": "-$4.00",
+        "pct": "-10.56%",
+        "catalyst": "Slumped past technical support floors as speculative clinical pipeline funds shifted back into technology layers."
+      },
+      {
+        "ticker": "WGS",
+        "company": "GeneDx Holdings Corp.",
+        "sector": "Healthcare / Diagnostics & Research",
+        "price": "$88.22",
+        "change": "-$9.61",
+        "pct": "-9.82%",
+        "catalyst": "Faced harsh institutional distribution, paring a notable chunk of recent quarterly chart expansion points."
+      },
+      {
+        "ticker": "NYT",
+        "company": "The New York Times Co.",
+        "sector": "Consumer Cyclical / Publishing",
+        "price": "$63.93",
+        "change": "-$6.60",
+        "pct": "-9.36%",
+        "catalyst": "Ground lower past intermediate shelves as macro rebalancing trimmed exposure to traditional ad media nodes."
+      },
+      {
+        "ticker": "DBX",
+        "company": "Dropbox, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$33.38",
+        "change": "-$2.63",
+        "pct": "-7.32%",
+        "catalyst": "Sold off on heavy volume amid persistent workspace application optimization adjustments."
+      },
+      {
+        "ticker": "SCHW",
+        "company": "The Charles Schwab Corp.",
+        "sector": "Financial Services / Capital Markets",
+        "price": "$64.12",
+        "change": "-$4.16",
+        "pct": "-6.10%",
+        "catalyst": "Plunged 6.1% to lead financial sector declines(https://finance.yahoo.com/quote/SCHW/) as investors weighed intense competitive pressures from automated AI brokerage interfaces."
+      },
+      {
+        "ticker": "CSCO",
+        "company": "Cisco Systems, Inc.",
+        "sector": "Technology / Communication Equipment",
+        "price": "$104.79",
+        "change": "-$6.67",
+        "pct": "-5.98%",
+        "catalyst": "Pressed down past its 50-day moving average due to software tracking adjustments across older hardware routes."
+      },
+      {
+        "ticker": "AMP",
+        "company": "Ameriprise Financial, Inc.",
+        "sector": "Financial Services / Asset Management",
+        "price": "$421.10",
+        "change": "-$19.34",
+        "pct": "-4.40%",
+        "catalyst": "Underperformed severely as flattening treasury margins introduction risks for long-duration asset configurations."
+      },
+      {
+        "ticker": "JPM",
+        "company": "JPMorgan Chase & Co.",
+        "sector": "Financial Services / Diversified Banks",
+        "price": "$340.55",
+        "change": "-$11.49",
+        "pct": "-3.26%",
+        "catalyst": "Weighed heavily on the Dow Jones Index(https://finance.yahoo.com/quote/JPM/) as structural bank portfolio metrics adjust to shifting sovereign credit curves."
+      },
+      {
+        "ticker": "RJF",
+        "company": "Raymond James Financial",
+        "sector": "Financial Services / Capital Markets",
+        "price": "$124.50",
+        "change": "-$3.88",
+        "pct": "-3.02%",
+        "catalyst": "Faced aggressive midday liquidations alongside sector asset management peers."
+      }
+    ],
+    "catalysts": [
+      "The Meta Muse-Shopify Integration: A premier fundamental catalyst completely reshaped the application software matrix after Meta Platforms ($META) formally deployed a direct checkout integration linking its high-performing autonomous AI agent, Muse, with Shopify Inc. ($SHOP). The seamless e-commerce pipeline allows consumers to transact natively inside chat frames, driving an immediate 7.7% institutional breakout in Shopify equity.",
+      "The S&P Financials Yield Squeeze: On the macro layer, the S&P 500 Financial Index fell 2.0% in a synchronized drop. Fixed-income desks highlighted that a rapidly flattening U.S. Treasury curve—with the 10-year yield settling near 4.98%—is severely squeezing short-term net interest margins for regional and diversified banking institutions, prompting a tactical cash rotation out of financials into secular tech chip providers."
+    ]
+  },
+  {
     "timestamp": "2026-09-21T20:00:00+00:00",
     "header": "Monday, September 21, 2026's Report",
     "headline": "The NASDAQ powers to an all-time high and Advanced Micro Devices hits a historic $1 trillion market value as a dramatic drop in oil prices and cooling Treasury yields reignite intense artificial intelligence optimism [Nasdaq notches record-high close, AI optimism reignites and ..., Nasdaq surges 2% to record high, Dow and S&P 500 gain as ...]. U.S. stock indices staged a powerful, broad-based comeback to open the trading week on Monday [Nasdaq surges 2% to record high, Dow and S&P 500 gain as ...]. Market anxieties over last week's historic interest rate hike dissolved rapidly after Treasury Secretary Scott Bessent announced \"very successful\" bilateral trade and AI discussions between the U.S. and China [Nasdaq notches record-high close, AI optimism reignites and ...]. Adding a massive fundamental tailwind to the rally, international energy prices plummeted by nearly 4% with Brent crude futures breaking below the critical $100 a barrel threshold [Markets News, Sept. 21, 2026: Nasdaq Closes at Record as ..., Nasdaq surges 2% to record high, Dow and S&P 500 gain as ...]. The relief in energy costs promptly pulled the 10-year Treasury yield back down to 4.96% [Markets News, Sept. 21, 2026: Nasdaq Closes at Record as ...], encouraging institutions to aggressively re-enter high-multiple tech names and semiconductor hardware components [Markets News, Sept. 21, 2026: Nasdaq Closes at Record as ...].",
