@@ -1,6 +1,220 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-09-17T20:00:00+00:00",
+      "header": "Thursday, September 17, 2026's Report",
+      "headline": "Wall Street stages a spectacular late-afternoon turnaround, ending its deep multi-session losing streak as investor panic over the Federal Reserve’s interest rate hike shifts into an aggressive dip-buying rally. U.S. benchmark indices bounced sharply off multi-month lows on Thursday, reversing steep morning losses that were triggered by lingering hawkish anxiety from Wednesday’s Fed rate hike. Sentiment flipped dramatically following a collection of economic data points showing resilient retail activity and a decline in weekly jobless claims, which helped ease immediate recessionary fears. Lowering bond yields offered an additional tailwind to tech valuations, prompting aggressive, computerized short-covering across mega-cap growth and consumer discretionary sectors into the closing bell.",
+      "market_direction": "UP",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,597.10",
+          "change": "+45.29 pts",
+          "pct": "+0.60%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,184.25",
+          "change": "+205.83 pts",
+          "pct": "+0.79%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "51,743.15",
+          "change": "+281.25 pts",
+          "pct": "+0.55%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$110.15",
+          "change": "+$7.05",
+          "pct": "+6.84%",
+          "catalyst": "Surged violently to lead a massive semiconductor short-squeeze as institutional growth funds aggressively scooped up oversold chip names."
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices",
+          "sector": "Technology / Semiconductors",
+          "price": "$141.45",
+          "change": "+$8.30",
+          "pct": "+6.23%",
+          "catalyst": "Advanced alongside sector peers on high-volume institutional block accumulation, breaking a continuous multi-day losing stretch."
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$153.20",
+          "change": "+$8.70",
+          "pct": "+6.02%",
+          "catalyst": "Cleared near-term resistance lines rapidly as computerized index rebalancing flooded back into primary tech clusters."
+        },
+        {
+          "ticker": "LULU",
+          "company": "Lululemon Athletica Inc.",
+          "sector": "Consumer Cyclical / Apparel Retail",
+          "price": "$96.45",
+          "change": "+$4.65",
+          "pct": "+5.07%",
+          "catalyst": "Anchored the consumer discretionary snapback as retail metrics indicated highly stable consumer core margins."
+        },
+        {
+          "ticker": "MDB",
+          "company": "MongoDB, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$265.80",
+          "change": "+$11.60",
+          "pct": "+4.56%",
+          "catalyst": "Recovered early weekly losses cleanly as institutional growth managers re-allocated capital into software layers."
+        },
+        {
+          "ticker": "DDOG",
+          "company": "Datadog, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$111.45",
+          "change": "+$4.33",
+          "pct": "+4.04%",
+          "catalyst": "Caught strong programmatic accumulation as high-multiple cloud monitoring names found structural chart support floors."
+        },
+        {
+          "ticker": "PLTR",
+          "company": "Palantir Technologies",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$47.12",
+          "change": "+$1.54",
+          "pct": "+3.38%",
+          "catalyst": "Extended its weekly winning streak on news of expanding commercial defense and public sector intelligence allocations."
+        },
+        {
+          "ticker": "PATH",
+          "company": "UiPath Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$12.75",
+          "change": "+$0.40",
+          "pct": "+3.24%",
+          "catalyst": "Carved a definitive technical bounce after finding near-term support lines during the morning index flush."
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon.com, Inc.",
+          "sector": "Consumer Cyclical / Internet Retail",
+          "price": "$181.10",
+          "change": "+$5.30",
+          "pct": "+3.01%",
+          "catalyst": "Supported broader market index metrics on multi-million share institutional buy inflows targeting retail cloud ecosystems."
+        },
+        {
+          "ticker": "META",
+          "company": "Meta Platforms, Inc.",
+          "sector": "Communication Services / Internet Content",
+          "price": "$721.15",
+          "change": "+$18.03",
+          "pct": "+2.56%",
+          "catalyst": "Drew continuous accumulation as elite trading desks continue to project high monetisation for its newly deployed chat agents."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "DVN",
+          "company": "Devon Energy Corp.",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$34.12",
+          "change": "-$2.18",
+          "pct": "-6.00%",
+          "catalyst": "Slumped heavily as institutional capital completely abandoned commodity spaces to fund the tech software growth rotation."
+        },
+        {
+          "ticker": "MRO",
+          "company": "Marathon Oil Corp.",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$24.80",
+          "change": "-$1.45",
+          "pct": "-5.52%",
+          "catalyst": "Faced aggressive liquidations under heavy volume as paper crude specs backed off local overhead targets."
+        },
+        {
+          "ticker": "APA",
+          "company": "APA Corporation",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$23.02",
+          "change": "-$1.23",
+          "pct": "-5.07%",
+          "catalyst": "Dragged down past intermediate moving averages as sector-wide de-risking penalized upstream producers."
+        },
+        {
+          "ticker": "FANG",
+          "company": "Diamondback Energy Inc.",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$185.10",
+          "change": "-$9.44",
+          "pct": "-4.85%",
+          "catalyst": "Continued to slide past near-term support frameworks as energy funds paused their global macro allocations."
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corp.",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$115.10",
+          "change": "-$3.72",
+          "pct": "-3.13%",
+          "catalyst": "Weighed on blue-chip averages as institutional energy paring accelerated in line with softening crude contract floors."
+        },
+        {
+          "ticker": "PCG",
+          "company": "PG&E Corporation",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$12.15",
+          "change": "-$0.37",
+          "pct": "-2.96%",
+          "catalyst": "Underperformed significantly as capital completely exited defensive utility buffers to target high-beta sectors."
+        },
+        {
+          "ticker": "NEM",
+          "company": "Newmont Corporation",
+          "sector": "Basic Materials / Gold Mining",
+          "price": "$41.10",
+          "change": "-$1.15",
+          "pct": "-2.72%",
+          "catalyst": "Eased lower as safe-haven flight into physical hard assets took a back seat to the broad equity relief rally."
+        },
+        {
+          "ticker": "WM",
+          "company": "Waste Management, Inc.",
+          "sector": "Industrials / Waste Management",
+          "price": "$208.50",
+          "change": "-$5.70",
+          "pct": "-2.66%",
+          "catalyst": "Parred yesterday's defensive outperformance as institutional asset allocations returned to cyclical nodes."
+        },
+        {
+          "ticker": "ED",
+          "company": "Consolidated Edison, Inc.",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$89.40",
+          "change": "-$2.15",
+          "pct": "-2.35%",
+          "catalyst": "Slid lower past technical chart floors as rising rate alternatives compress standard high-yield utility profiles."
+        },
+        {
+          "ticker": "HAL",
+          "company": "Halliburton Company",
+          "sector": "Energy / Oil & Gas Equipment",
+          "price": "$34.90",
+          "change": "-$0.77",
+          "pct": "-2.16%",
+          "catalyst": "Suffered broad sector-wide distribution as short-term energy squeeze anxieties cooled relative to tech software bids."
+        }
+      ],
+      "catalysts": [
+        "The Macro Growth Rotation Pivot: The defining market catalyst centered entirely on institutional sector rotation. After parsing Fed Chair Kevin Warsh's economic cushion commentary alongside stable retail and initial jobless claims datasets, Wall Street desks determined that corporate earnings remain resilient enough to weather the 25bps hike. This triggered a powerful wave of algorithmic cash moving out of commodity/defensive shields and straight into oversold technology arrays.",
+        "The Continued Crude Softening: Energy matrices experienced continuous profit paring as Brent crude futures fell another 2.1% to settle near $103.60 a barrel. The continuous correction from multi-month highs effectively mitigated immediate market fears of an unanchored global consumer energy squeeze, providing major breathing room for high-multiple retail growth companies."
+      ]
+    },
+    {
       "timestamp": "2026-09-16T20:00:00+00:00",
       "header": "Wednesday, September 16, 2026's Report",
       "headline": "Wall Street plummets in the final hour of trading as the Federal Reserve delivers its first interest rate hike in three years and signals a hawkish outlook with further tightening planned. U.S. stocks sold off sharply on Wednesday afternoon after the Federal Open Market Committee (FOMC) voted unanimously to raise the benchmark federal funds rate by 25 basis points to a new target range of 3.75% to 4.00%. While the immediate rate increase was widely expected by futures markets, stocks collapsed from their midday highs during Fed Chairman Kevin Warsh's press conference. The central bank took a decisively aggressive stance, upwardly revising economic growth projections while confirming that inflation remains elevated enough to justify one or two additional rate hikes before the end of the year.",
@@ -849,7 +1063,9 @@
         "The Copart / ACV Auctions Buyout: Copart's acquisition of ACV Auctions for $1.9 billion in cash served as a major transaction catalyst [Shares of ACV Auctions (ACVA.N) , opens new tab soared 44% after online vehicle auctioneer Copart (CPRT.O) , opens new tab agreed to buy it in a nearly $1.9 billion deal.], consolidating digital dealer auctions and boosting activity in online transaction sectors.",
         "The Enterprise AI Server Surge: HPE and Oracle highlighted continued robust enterprise demand for AI architecture [Confidence in continued AI infrastructure spending was bolstered by Oracle's (NYSE:ORCL) strong results last night.], with HPE raising its forward fiscal expectations [HPE Surges on AI Infrastructure Demand and Recently Raised Guidance] to ignite the broader tech growth index bounce."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-09-10T20:00:00+00:00",
       "header": "Thursday, September 10, 2026's Report",
@@ -1036,9 +1252,7 @@
         "The Grab Holdings / Atome Deal Rumours: A major corporate catalyst shook international technology circles following reports that everything-app giant Grab Holdings ($GRAB) is in active discussions to fully acquire Singapore-based fintech provider Atome Financial [Stock Market Today, Sept. 10: Grab Holdings Slips on Atome Fintech Acquisition Reports]. The expansion move triggered short-term equity pressure over near-term profitability timelines, despite Grab's recent strong Q2 metrics [Stock Market Today, Sept. 10: Grab Holdings Slips on Atome Fintech Acquisition Reports].",
         "Alphabet's Massive European Infrastructure Deployment: In the cloud computing tier, Alphabet Inc. ($GOOG) disclosed a premier $15.1 billion infrastructure investment in Finland [Company News for Sep 10, 2026 - Yahoo Finance]. The massive data project features an integrated nuclear energy supply framework [Company News for Sep 10, 2026 - Yahoo Finance], cementing Big Tech's strategic shift toward carbon-free nuclear grids to supply processing workloads."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-09-09T20:00:00+00:00",
       "header": "Wednesday, September 9, 2026's Report",
@@ -2617,7 +2831,9 @@
         "The Nvidia Standoff: All eyes were locked on Nvidia’s monumental earnings release scheduled for after the closing bell. Trading volumes thinned across the entire semiconductor sector as investors refused to take massive bets. (Note: In after-hours trading, Nvidia heavily beat expectations with $96.2B in revenue and surged).",
         "Sticky Inflation Tapes: The Federal Reserve's preferred PCE inflation index rose 3.3% year-over-year. The data matched projections but confirmed that inflation remains stubbornly high, which cooled off recent hopes of aggressive interest rate cuts ahead of the Jackson Hole meeting."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-08-25T20:00:00+00:00",
       "header": "Tuesday, August 25, 2026's Report",
@@ -2741,9 +2957,7 @@
         "The Debt & Currency Debasement Trade: Investor fears over the national debt hitting $40 trillion, combined with strategic bond market maneuvers by the Treasury, triggered a major return to gold and digital crypto assets.",
         "Retaliatory Tariffs: Trade friction escalated as Canada placed $20 billion in duties on American steel, dairy, and farm equipment, though energy commodities remained untouched, buffering wider infrastructure equities."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-08-24T20:00:00+00:00",
       "header": "Monday, August 24, 2026's Report",
