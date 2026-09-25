@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-09-25T20:00:00+00:00",
+    "header": "Friday, September 25, 2026's Report",
+    "headline": "📅 September 25, 4:55 PM EST.",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,828.40",
+        "change": "+46.24 pts",
+        "pct": "+0.59%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "27,458.10",
+        "change": "+220.15 pts",
+        "pct": "+0.81%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "52,382.12",
+        "change": "+271.59 pts",
+        "pct": "+0.52%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Cyclical / Discount Stores",
+        "price": "$986.30",
+        "change": "+$42.40",
+        "pct": "+4.49%",
+        "catalyst": "Exploded over 4.4% on heavy institutional volume after soundly beating fiscal Q4 earnings and global comparable-store revenue marks last night."
+      },
+      {
+        "ticker": "SRPT",
+        "company": "Sarepta Therapeutics",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$133.10",
+        "change": "+$8.60",
+        "pct": "+6.91%",
+        "catalyst": "Extended yesterday's technical advance past multi-week resistance shelves on heavy clinical block buying."
+      },
+      {
+        "ticker": "BSY",
+        "company": "Bentley Systems, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$55.40",
+        "change": "+$3.25",
+        "pct": "+6.23%",
+        "catalyst": "Maintained strong upside momentum as institutional software allocations continue to target industrial infrastructure SaaS nodes."
+      },
+      {
+        "ticker": "SHOP",
+        "company": "Shopify Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$166.45",
+        "change": "+$8.05",
+        "pct": "+5.08%",
+        "catalyst": "Caught strong programmatic buy inflows as global e-commerce payment tracking points expand following recent AI integrations."
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir Technologies",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$54.90",
+        "change": "+$2.55",
+        "pct": "+4.87%",
+        "catalyst": "Rocketed to fresh near-term highs as enterprise and public sector multi-year cloud data contracts draw safe-haven growth capital."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$164.50",
+        "change": "+$5.80",
+        "pct": "+3.65%",
+        "catalyst": "Led the broader semiconductor advance as fundamental demand flags for high-performance computational clusters hold."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$118.82",
+        "change": "+$2.98",
+        "pct": "+2.57%",
+        "catalyst": "Supported the record tech index close securely as large growth funds return to high-density GPU layers post-PCE cooling."
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$155.84",
+        "change": "+$2.64",
+        "pct": "+1.72%",
+        "catalyst": "Advanced steadily tracking active institutional enterprise hardware data server refresh loops."
+      },
+      {
+        "ticker": "MDB",
+        "company": "MongoDB, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$269.80",
+        "change": "+$4.00",
+        "pct": "+1.50%",
+        "catalyst": "Found strong structural chart support floors as lower bond yields ease multi-asset pressures on growth software."
+      },
+      {
+        "ticker": "META",
+        "company": "Meta Platforms, Inc.",
+        "sector": "Communication Services / Internet Content",
+        "price": "$741.25",
+        "change": "+$10.10",
+        "pct": "+1.38%",
+        "catalyst": "Drew continuous accumulation as elite trading desks continue to heavily project high monetization across its e-commerce footprints."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NKE",
+        "company": "NIKE, Inc.",
+        "sector": "Consumer Cyclical / Footwear & Accessories",
+        "price": "$74.60",
+        "change": "-$6.11",
+        "pct": "-7.57%",
+        "catalyst": "Slumped sharply after a collection of retail tracking sheets warned of slowing near-term premium discretionary consumer apparel demand."
+      },
+      {
+        "ticker": "ALGN",
+        "company": "Align Technology, Inc.",
+        "sector": "Healthcare / Medical Devices",
+        "price": "$211.45",
+        "change": "-$6.95",
+        "pct": "-3.18%",
+        "catalyst": "Ground lower under continued volume following analyst down-market model modifications for cosmetic medical treatments."
+      },
+      {
+        "ticker": "XENE",
+        "company": "Xenon Pharmaceuticals",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$15.54",
+        "change": "-$0.81",
+        "pct": "-4.95%",
+        "catalyst": "Faced sustained pressure past previous support floors as institutional liquidations refuse to stabilize post-trial pause."
+      },
+      {
+        "ticker": "MPC",
+        "company": "Marathon Petroleum",
+        "sector": "Energy / Oil & Gas Refining",
+        "price": "$151.10",
+        "change": "-$4.30",
+        "pct": "-2.77%",
+        "catalyst": "Continued to shed points as West Texas Intermediate crude futures fell past near-term shelves to settle near $94.10."
+      },
+      {
+        "ticker": "VLO",
+        "company": "Valero Energy Corp.",
+        "sector": "Energy / Oil & Gas Refining",
+        "price": "$128.40",
+        "change": "-$2.75",
+        "pct": "-2.09%",
+        "catalyst": "Faced technical sell pressure as localized refining margin indicators contract along with the global energy roll."
+      },
+      {
+        "ticker": "OXY",
+        "company": "Occidental Petroleum",
+        "sector": "Energy / Oil & Gas Exploration",
+        "price": "$52.15",
+        "change": "-$0.95",
+        "pct": "-1.79%",
+        "catalyst": "Suffered systemic downside past moving averages as multi-asset capital extraction favors high-multiple technology nodes."
+      },
+      {
+        "ticker": "WM",
+        "company": "Waste Management, Inc.",
+        "sector": "Industrials / Waste Management",
+        "price": "$205.80",
+        "change": "-$2.70",
+        "pct": "-1.29%",
+        "catalyst": "Eased lower as managers quickly extracted funds from low-beta industrial utilities to pursue outperforming growth proxies."
+      },
+      {
+        "ticker": "PCG",
+        "company": "PG&E Corporation",
+        "sector": "Utilities / Regulated Electric",
+        "price": "$11.71",
+        "change": "-$0.13",
+        "pct": "-1.10%",
+        "catalyst": "Underperformed on volume as persistent interest rate path configurations compress traditional utility yield cushions."
+      },
+      {
+        "ticker": "SN",
+        "company": "SharkNinja, Inc.",
+        "sector": "Consumer Cyclical / Product Design",
+        "price": "$82.15",
+        "change": "-$0.97",
+        "pct": "-1.17%",
+        "catalyst": "Remained soft past intermediate structural chart shelves as post-earnings profit execution loops hold into the weekend."
+      },
+      {
+        "ticker": "DDOG",
+        "company": "Datadog, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$109.84",
+        "change": "-$1.00",
+        "pct": "-0.90%",
+        "catalyst": "Retrenched slightly as active multi-asset desks prioritize hardware device layers over premium application SaaS metrics."
+      }
+    ],
+    "catalysts": [
+      "The Costco Post-Earnings Surge: The dominant corporate catalyst driving consumer indices centered on Costco Wholesale Corp. ($COST), which rocketed over 4.4% during active trading. Wall Street analysts aggressively raised equity price targets following last night's stellar fiscal Q4 earnings beat, noting that the warehouse giant's robust membership conversion patterns are proving completely impervious to near-term macroeconomic shifts.",
+      "The Soft 0.1% Core PCE Print: On the macroeconomic layer, the macro tape turned decisively risk-on following the cooling Commerce Department PCE report. Fixed-income desks highlighted that the steady deceleration in core consumption price metrics effectively reduces the near-term necessity for any subsequent emergency rate hikes by the Federal Reserve, stabilizing the 10-year Treasury yield below 4.88% and unblocking high-volume equity accumulation."
+    ]
+  },
+  {
     "timestamp": "2026-09-24T20:00:00+00:00",
     "header": "Thursday, September 24, 2026's Report",
     "headline": "Wall Street posts definitive gains as soft labor market data cools aggressive interest rate hike fears, setting a strong backdrop for Costco’s robust post-market corporate earnings delivery. U.S. stock indices rallied on Thursday as the Labor Department reported that weekly initial jobless claims advanced to 221,000, missing consensus economic forecasts. While a softening jobs market typically signals economic cooling, algorithmic trading desks eagerly interpreted the numbers as a clear sign that the Federal Reserve's recent interest rate tightening is successfully moderating domestic growth parameters. This immediately prompted a sharp retreat across sovereign debt curves, pulling the benchmark 10-year U.S. Treasury yield down to 4.92% and unblocking a wave of high-volume institutional capital that flooded back into mega-cap technology and consumer discretionary nodes.",
