@@ -1,6 +1,220 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-09-18T20:00:00+00:00",
+      "header": "Friday, September 18, 2026's Report",
+      "headline": "Wall Street closes a highly volatile week on a mixed note as tech-driven dip-buying lifts the S&P 500 and NASDAQ, offsetting a drop in the blue-chip Dow amid a fresh spike in Treasury yields [Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end ...]. U.S. markets navigated mixed vectors on Friday as investors continued to digest the Federal Reserve's landmark mid-week interest rate hike [Dow falls Friday and posts worst week since March as ..., Stock Market Today (Sept. 18, 2026): Nasdaq, S&P 500 edges lower after Fed rate hike lifts stocks]. While international oil prices eased slightly around the $100 a barrel mark following geopolitical reports of China pressuring Iran to rein in regional shipping attacks [Financial Markets Daily Report 18 septiembre 2026, Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end ...], fixed-income markets flashed fresh warnings. The 2-year Treasury yield surged to 4.741%—its highest point since July 2024—while the benchmark 10-year Treasury yield edged right back up to close at 4.995% [Stock Market on Sept. 18, 2026: S&P 500, Nasdaq end ..., Stock Market News, Sept. 18, 2026 - WSJ]. This yield momentum triggered aggressive sector rotation, with high-multiple tech growth sectors finding defensive buyers while blue-chip banking and industrial indices limped into the weekend [Stock Market Today (Sept. 18, 2026): Nasdaq, S&P 500 edges lower after Fed rate hike lifts stocks, Stock Market News, Sept. 18, 2026 - WSJ].",
+      "market_direction": "UP",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,650.50",
+          "change": "+12.74 pts",
+          "pct": "+0.20%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,522.55",
+          "change": "+104.25 pts",
+          "pct": "+0.40%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "51,682.64",
+          "change": "-95.40 pts",
+          "pct": "-0.18%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "KALU",
+          "company": "Kaiser Aluminum Corp.",
+          "sector": "Basic Materials / Aluminum Extrusion",
+          "price": "$74.60",
+          "change": "+$6.37",
+          "pct": "+9.33%",
+          "catalyst": "Rocketed over 9%(https://simplywall.st/stocks/us/materials/nasdaq-kalu/kaiser-aluminum/news/strong-buy-upgrade-could-be-a-catalyst-for-kaiser-aluminum-s) following a premier upgrade to a Zacks Rank #1, reflecting upgraded aerospace market demand projections."
+        },
+        {
+          "ticker": "SN",
+          "company": "SharkNinja, Inc.",
+          "sector": "Consumer Cyclical / Product Design",
+          "price": "$92.40",
+          "change": "+$3.15",
+          "pct": "+3.53%",
+          "catalyst": "Hit multi-month highs [Jon Erlichman: 6 growth stocks ready to launch?] as institutional desks piled into high-growth consumer appliance product rollouts isolated from AI software dependency."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$112.50",
+          "change": "+$2.35",
+          "pct": "+2.13%",
+          "catalyst": "Maintained solid counter-cyclical upside tracking [Stock Market Today (Sept. 18, 2026): Nasdaq, S&P 500 edges lower after Fed rate hike lifts stocks] as large-scale growth funds continued yesterday's chip sector short-squeeze."
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices",
+          "sector": "Technology / Semiconductors",
+          "price": "$143.90",
+          "change": "+$2.45",
+          "pct": "+1.73%",
+          "catalyst": "Caught strong programmatic buy inflows as computing hardware demand patterns re-anchored baseline targets."
+        },
+        {
+          "ticker": "PLTR",
+          "company": "Palantir Technologies",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$47.92",
+          "change": "+$0.80",
+          "pct": "+1.70%",
+          "catalyst": "Extended weekly gains on high volume as public sector analytics frameworks draw safe-haven growth capital."
+        },
+        {
+          "ticker": "COST",
+          "company": "Costco Wholesale Corp.",
+          "sector": "Consumer Cyclical / Discount Stores",
+          "price": "$915.10",
+          "change": "+$14.25",
+          "pct": "+1.58%",
+          "catalyst": "Accumulated heavily by institutions [1 Incredible Reason to Buy Costco Stock Before It Reports Earnings on Sept. ...] ahead of its upcoming fiscal earnings release next week."
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$155.40",
+          "change": "+$2.20",
+          "pct": "+1.45%",
+          "catalyst": "Cleared near-term resistance ranges comfortably as software and infrastructure computing demand holds firm."
+        },
+        {
+          "ticker": "MDB",
+          "company": "MongoDB, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$268.45",
+          "change": "+$2.65",
+          "pct": "+1.00%",
+          "catalyst": "Supported solidly by software portfolio rebalancing as active growth desks defend database nodes."
+        },
+        {
+          "ticker": "DDOG",
+          "company": "Datadog, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$112.45",
+          "change": "+$1.00",
+          "pct": "+0.90%",
+          "catalyst": "Logged a fractional daily gain tracking generalized cloud infrastructure tracking metrics into the weekend."
+        },
+        {
+          "ticker": "NET",
+          "company": "Cloudflare, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$326.10",
+          "change": "+$2.00",
+          "pct": "+0.62%",
+          "catalyst": "Maintained minor chart support patterns as enterprise cybersecurity nodes pull selective capital."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "XENE",
+          "company": "Xenon Pharmaceuticals",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$24.50",
+          "change": "-$10.50",
+          "pct": "-30.00%",
+          "catalyst": "Cratered 30% on massive volume(https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09182026-12127251) after announcing a sudden voluntary enrollment pause in its ongoing major depressive disorder trials."
+        },
+        {
+          "ticker": "NFLX",
+          "company": "Netflix, Inc.",
+          "sector": "Consumer Cyclical / Entertainment",
+          "price": "$71.85",
+          "change": "-$3.75",
+          "pct": "-4.96%",
+          "catalyst": "Plunged nearly 5% after Wells Fargo cut its rating to \"underweight\" and slashed its price target to a Street-low $57, citing worrying viewership engagement."
+        },
+        {
+          "ticker": "SPCX",
+          "company": "Space Exploration Tech",
+          "sector": "Industrials / Aerospace & Defense",
+          "price": "$150.85",
+          "change": "-$3.87",
+          "pct": "-2.50%",
+          "catalyst": "Slipped 2.5% to halt its multi-day rally after the company officially delayed the 14th flight window of its Starship program to Sept 28."
+        },
+        {
+          "ticker": "DVN",
+          "company": "Devon Energy Corp.",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$33.50",
+          "change": "-$0.62",
+          "pct": "-1.82%",
+          "catalyst": "Continued to shed points as institutional managers trimmed fossil commodity exposure to clear sovereign yield weights."
+        },
+        {
+          "ticker": "MRO",
+          "company": "Marathon Oil Corp.",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$24.40",
+          "change": "-$0.40",
+          "pct": "-1.61%",
+          "catalyst": "Faced technical chart pressure as international paper crude specifications backed off intermediate targets."
+        },
+        {
+          "ticker": "APA",
+          "company": "APA Corporation",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$22.65",
+          "change": "-$0.37",
+          "pct": "-1.61%",
+          "catalyst": "Ground lower past near-term shelves as energy space capital allocations paused before the weekend."
+        },
+        {
+          "ticker": "PCG",
+          "company": "PG&E Corporation",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$12.01",
+          "change": "-$0.14",
+          "pct": "-1.15%",
+          "catalyst": "Underperformed on volume as persistent interest rate path projections compress conventional utility models."
+        },
+        {
+          "ticker": "PATH",
+          "company": "UiPath Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$12.62",
+          "change": "-$0.13",
+          "pct": "-1.02%",
+          "catalyst": "Faced minor liquidations as high-multiple enterprise automation applications continue to experience consolidation."
+        },
+        {
+          "ticker": "LULU",
+          "company": "Lululemon Athletica Inc.",
+          "sector": "Consumer Cyclical / Apparel Retail",
+          "price": "$95.50",
+          "change": "-$0.95",
+          "pct": "-0.98%",
+          "catalyst": "Eased lower as traders balanced yesterday's retail bounce against a tightening credit environment."
+        },
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sector": "Financial Services / Diversified Banks",
+          "price": "$202.90",
+          "change": "-$1.60",
+          "pct": "-0.78%",
+          "catalyst": "Weighed down blue-chip matrices as bank balance sheets navigate the shifting Treasury yield curve."
+        }
+      ],
+      "catalysts": [
+        "The Netflix Engagement Downgrade: A powerful consumer discretionary catalyst centered on Netflix ($NFLX), which suffered heavy liquidations after Wells Fargo analysts published a scathing research document [Markets News, Sep. 18, 2026: Dow, S&P 500 End Lower for ...]. The bank noted an 8% drop in subscriber viewership time per day alongside a lack of major original \"watercooler\" television hits, warning that extensive capital spend on expanding alternative gaming lines could threaten core entertainment profit margins [Markets News, Sep. 18, 2026: Dow, S&P 500 End Lower for ...].",
+        "Xenon's Clinical Trial Setback: In the healthcare landscape, Xenon Pharmaceuticals ($XENE) wiped out its entire annual equity gain in a single session [Markets News, Sep. 18, 2026: Dow, S&P 500 End Lower for ...]. The massive 30% drop was triggered by corporate filings revealing a temporary enrollment freeze for new patients in both major depressive disorder and bipolar depression trials following severe, adverse neuropsychiatric complications [Markets News, Sep. 18, 2026: Dow, S&P 500 End Lower for ...]."
+      ]
+    },
+    {
       "timestamp": "2026-09-17T20:00:00+00:00",
       "header": "Thursday, September 17, 2026's Report",
       "headline": "Wall Street stages a spectacular late-afternoon turnaround, ending its deep multi-session losing streak as investor panic over the Federal Reserve’s interest rate hike shifts into an aggressive dip-buying rally. U.S. benchmark indices bounced sharply off multi-month lows on Thursday, reversing steep morning losses that were triggered by lingering hawkish anxiety from Wednesday’s Fed rate hike. Sentiment flipped dramatically following a collection of economic data points showing resilient retail activity and a decline in weekly jobless claims, which helped ease immediate recessionary fears. Lowering bond yields offered an additional tailwind to tech valuations, prompting aggressive, computerized short-covering across mega-cap growth and consumer discretionary sectors into the closing bell.",
@@ -849,7 +1063,9 @@
         "The AI Safety Coordinated Shockwaves: The entire technology layer faced profound disruption after CEOs from Anthropic and OpenAI issued highly coordinated statements warning that the extreme pace of AI hardware scaling must be slowed down immediately to navigate advanced software safety vectors [Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning ...]. The unprecedented corporate warning instantly prompted OpenAI to officially delay its highly anticipated initial public offering until 2027 [Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning ...], causing Wall Street portfolios to aggressively scale back near-term semiconductor demand models [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ...].",
         "The Saudi Pipeline Drone Strike: Energy infrastructure metrics fractured globally on Monday following highly targeted drone strikes that damaged Saudi Arabia's critical East-West Pipeline pumping stations [Stocks slide to begin week as 10-year yield briefly touches 5%, oil rises: Live updates]. The kingdom immediately closed the major transit route—which serves as the primary corridor bypassing the volatile Strait of Hormuz—sending International Brent crude contracts surging near $110 a barrel before settling up 1% at $105.68 [Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield ..., Stocks slide to begin week as 10-year yield briefly touches 5%, oil rises: Live updates]."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-09-11T20:00:00+00:00",
       "header": "Friday, September 11, 2026's Report",
@@ -1063,9 +1279,7 @@
         "The Copart / ACV Auctions Buyout: Copart's acquisition of ACV Auctions for $1.9 billion in cash served as a major transaction catalyst [Shares of ACV Auctions (ACVA.N) , opens new tab soared 44% after online vehicle auctioneer Copart (CPRT.O) , opens new tab agreed to buy it in a nearly $1.9 billion deal.], consolidating digital dealer auctions and boosting activity in online transaction sectors.",
         "The Enterprise AI Server Surge: HPE and Oracle highlighted continued robust enterprise demand for AI architecture [Confidence in continued AI infrastructure spending was bolstered by Oracle's (NYSE:ORCL) strong results last night.], with HPE raising its forward fiscal expectations [HPE Surges on AI Infrastructure Demand and Recently Raised Guidance] to ignite the broader tech growth index bounce."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-09-10T20:00:00+00:00",
       "header": "Thursday, September 10, 2026's Report",
@@ -2734,7 +2948,9 @@
         "The AI Wave is Real: Blockbuster earnings from NVIDIA and enterprise tech giants proved that software, infrastructure, and chip buildouts are operating at maximum capacity, pulling the wider market along with them.",
         "Jackson Hole Caution: Despite a slight drop in initial weekly jobless claims to 203,000, market participants kept a careful eye on the impending Federal Reserve address for clues on incoming autumn policy stances."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-08-26T20:00:00+00:00",
       "header": "Wednesday, August 26, 2026's Report",
@@ -2831,9 +3047,7 @@
         "The Nvidia Standoff: All eyes were locked on Nvidia’s monumental earnings release scheduled for after the closing bell. Trading volumes thinned across the entire semiconductor sector as investors refused to take massive bets. (Note: In after-hours trading, Nvidia heavily beat expectations with $96.2B in revenue and surged).",
         "Sticky Inflation Tapes: The Federal Reserve's preferred PCE inflation index rose 3.3% year-over-year. The data matched projections but confirmed that inflation remains stubbornly high, which cooled off recent hopes of aggressive interest rate cuts ahead of the Jackson Hole meeting."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-08-25T20:00:00+00:00",
       "header": "Tuesday, August 25, 2026's Report",
