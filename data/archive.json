@@ -2797,7 +2797,9 @@
         "The Hawkish Warsh Effect: Bond yields climbed decisively as Fed Chair Kevin Warsh signaled that interest rates may need to remain elevated for longer to anchor long-term structural expectations. Short-dated 2-year Treasury yields surged 12 basis points to 4.35%, introducing significant headwind risks for high-multiple growth equities.",
         "Corporate Actions Cut Deep: The macro correction was compounded by massive localized micro adjustments—namely the abandonment of the private PayPal deal and strict forward capacity boundaries set by hardware leaders like Marvell."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-08-27T20:00:00+00:00",
       "header": "Thursday, August 27, 2026's Report",
@@ -2948,9 +2950,7 @@
         "The AI Wave is Real: Blockbuster earnings from NVIDIA and enterprise tech giants proved that software, infrastructure, and chip buildouts are operating at maximum capacity, pulling the wider market along with them.",
         "Jackson Hole Caution: Despite a slight drop in initial weekly jobless claims to 203,000, market participants kept a careful eye on the impending Federal Reserve address for clues on incoming autumn policy stances."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-08-26T20:00:00+00:00",
       "header": "Wednesday, August 26, 2026's Report",
