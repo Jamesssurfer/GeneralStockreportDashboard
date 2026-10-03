@@ -3115,7 +3115,9 @@
         "The Enterprise AI Purchase Delay: The major catalyst hitting the software industry was UiPath ($PATH), which warned that clients are purposefully pausing standard enterprise software migrations [UiPath collapsed 17% after Q3 revenue guidance]. This structural buying delay to evaluate new generative-AI alternatives is actively punishing immediate SaaS billing metrics [UiPath collapsed 17% after Q3 revenue guidance].",
         "Lululemon's Consumer Pullback: In consumer retail, Lululemon ($LULU) noted that shifting global core demand and slowing foot traffic metrics forced a sudden curtailment of their fiscal 2026 projection tape, fanning consumer discretionary anxieties [Lululemon plummeted over 17%]."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-09-03T20:00:00+00:00",
       "header": "Thursday, September 3, 2026's Report",
@@ -3329,9 +3331,7 @@
         "NVIDIA's Hugging Face Acquisition: Adding a massive corporate catalyst to the tech landscape, NVIDIA ($NVDA) officially announced a definitive $12.93 billion acquisition of the popular open-source AI platform Hugging Face. The massive capital commitment heavily reinforced institutional confidence in long-term artificial intelligence software infrastructure and computing demand.",
         "The Broadcom AI Guidance Miss: Conversely, chip giant Broadcom ($AVGO) fell completely onto the defensive after its quarterly report missed lofty AI revenue benchmarks [The major catalyst hitting the software industry was UiPath ($PATH)]. The negative guidance created a stark internal division within the semiconductor space, highlighting that institutions are becoming hyper-selective regarding real AI execution loops."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-09-02T20:00:00+00:00",
       "header": "Wednesday, September 2, 2026's Report",
