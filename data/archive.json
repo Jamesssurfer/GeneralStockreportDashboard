@@ -1,6 +1,220 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-09-30T20:00:00+00:00",
+      "header": "Wednesday, September 30, 2026's Report",
+      "headline": "Wall Street closes out a highly volatile September on a mixed note as a relentless surge in long-dated Treasury yields shadows a cooler-than-expected inflation print and drops the Dow by over 440 points [Stock market today: Dow, S&P 500 post monthly losses in ..., How major US stock indexes fared Wednesday 9/30/2026]. U.S. stock benchmarks gyrated through the final session of the quarter on Wednesday [Shrugging off a volatile September, markets shuffle into Q4]. The day kicked off with an encouraging Commerce Department PCE report showing inflation cooling more than expected alongside stable private payroll additions from the ADP report [Stock Market Today (Sept. 30, 2026): S&P 500 futures rise as ...]. However, the economic resilience proved to be a double-edged sword [How major US stock indexes fared Wednesday 9/30/2026]. Fixed-income desks aggressively sold off bonds on the data, sending the benchmark 10-year U.S. Treasury yield spiking to 5.29%. The relentless pressure from yields prompted massive late-day institutional profit-taking across value and cyclical groups, though mega-cap tech emerged as an isolated green haven [Stock market today: Dow, S&P 500 post monthly losses in ...].",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,861.06",
+          "change": "+63.52 pts",
+          "pct": "+0.24%"
+        },
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,647.71",
+          "change": "-23.13 pts",
+          "pct": "-0.30%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "50,906.05",
+          "change": "-443.87 pts",
+          "pct": "-0.86%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$169.20",
+          "change": "+$15.20",
+          "pct": "+9.87%",
+          "catalyst": "Surged nearly 10% after reporting blockbuster fiscal Q4 results(https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx) that blew past consensus expectations, fueled by robust global high-capacity AI memory chips [Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results, Earnings: Micron Technology fiscal 2026 Q4 results reporting September 30; Wall Street expects $50.8 billion revenue (up 350% year-over-year) and non-GAAP earnings of $31.28 per share (up 932%).]."
+        },
+        {
+          "ticker": "SNDK",
+          "company": "SanDisk Corporation",
+          "sector": "Technology / Computer Hardware",
+          "price": "$1,855.10",
+          "change": "+$137.00",
+          "pct": "+7.97%",
+          "catalyst": "Advanced heavily alongside sector momentum [Earnings: Micron Technology fiscal 2026 Q4 results reporting September 30; Wall Street expects $50.8 billion revenue (up 350% year-over-year) and non-GAAP earnings of $31.28 per share (up 932%).] as memory pricing indicators firm globally following the Micron earnings catalyst."
+        },
+        {
+          "ticker": "PLTR",
+          "company": "Palantir Technologies",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$57.15",
+          "change": "+$2.00",
+          "pct": "+3.63%",
+          "catalyst": "Caught strong programmatic buying momentum [Stock Market Today (Sept. 30, 2026): S&P 500 futures rise as ...] on fresh multi-year public sector contract wins, anchoring its position as a defensive tech play."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$123.10",
+          "change": "+$2.26",
+          "pct": "+1.87%",
+          "catalyst": "Supported the broader NASDAQ close cleanly as big growth funds returned to top-tier chip nodes following the sector clearout."
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices",
+          "sector": "Technology / Semiconductors",
+          "price": "$161.20",
+          "change": "+$2.62",
+          "pct": "+1.65%",
+          "catalyst": "Cleared short-term chart consolidation ranges comfortably tracking broad data center enterprise compute architecture setups."
+        },
+        {
+          "ticker": "SHOP",
+          "company": "Shopify Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$163.95",
+          "change": "+$2.50",
+          "pct": "+1.55%",
+          "catalyst": "Expanded minor chart support ranges as multi-channel merchant checkout transaction indicators remain fundamentally strong."
+        },
+        {
+          "ticker": "NET",
+          "company": "Cloudflare, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$329.80",
+          "change": "+$3.70",
+          "pct": "+1.13%",
+          "catalyst": "Maintained steady upward tracking as enterprise cloud network security spend stays insulated from yield swings."
+        },
+        {
+          "ticker": "MDB",
+          "company": "MongoDB, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$265.80",
+          "change": "+$2.70",
+          "pct": "+1.03%",
+          "catalyst": "Found modest structural chart support shelves via technical software layer portfolio rebalancing."
+        },
+        {
+          "ticker": "DDOG",
+          "company": "Datadog, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$108.12",
+          "change": "+$1.02",
+          "pct": "+0.95%",
+          "catalyst": "Logged a fractional daily gain as active multi-asset managers balanced tech exposure at the turn of the quarter."
+        },
+        {
+          "ticker": "KR",
+          "company": "The Kroger Co.",
+          "sector": "Consumer Defensive / Grocery Stores",
+          "price": "$59.10",
+          "change": "+$0.51",
+          "pct": "+0.87%",
+          "catalyst": "Supported defensive consumer metrics cleanly on continuous institutional allocations targeting grocery retail."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "MRNA",
+          "company": "Moderna, Inc.",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$55.40",
+          "change": "-$6.15",
+          "pct": "-10.00%",
+          "catalyst": "Cratered 10% after Citigroup downgraded the stock to 'Sell'(https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/), citing intensifying near-term pricing headwinds and slower commercial pipeline conversions [August PCE index cooler than expected; S&P 500, Nasdaq record second straight quarterly gains; Moderna falls after Citigroup downgrades to 'sell'; Indexes: Dow off 0.86%, S&P off 0.25%, Nasdaq up 0.24%.]."
+        },
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sector": "Financial Services / Diversified Banks",
+          "price": "$329.10",
+          "change": "-$11.45",
+          "pct": "-3.36%",
+          "catalyst": "Led major blue-chip declines on the Dow Jones Index as a relentlessly steepening long-end yield curve triggers portfolio rebalancing."
+        },
+        {
+          "ticker": "GS",
+          "company": "Goldman Sachs Group",
+          "sector": "Financial Services / Capital Markets",
+          "price": "$471.10",
+          "change": "-$11.00",
+          "pct": "-2.28%",
+          "catalyst": "Faced harsh institutional distribution as rising long-term yields immediately pressure macro financing and debt underwriting lines."
+        },
+        {
+          "ticker": "FICO",
+          "company": "Fair Isaac Corporation",
+          "sector": "Technology / Software—Application",
+          "price": "$671.45",
+          "change": "-$17.47",
+          "pct": "-2.53%",
+          "catalyst": "Continued to slide past near-term shelves under sustained distribution following the FHFA’s competitive credit scoring changes."
+        },
+        {
+          "ticker": "TSLA",
+          "company": "Tesla, Inc.",
+          "sector": "Consumer Cyclical / Auto Manufacturers",
+          "price": "$191.10",
+          "change": "-$3.10",
+          "pct": "-1.60%",
+          "catalyst": "Ground lower past technical support floors as auto segment momentum tracks end-of-quarter volume adjustments."
+        },
+        {
+          "ticker": "MPC",
+          "company": "Marathon Petroleum",
+          "sector": "Energy / Oil & Gas Refining",
+          "price": "$149.80",
+          "change": "-$1.30",
+          "pct": "-0.86%",
+          "catalyst": "Slipped on volume past near-term support lines as West Texas Intermediate crude pulled back back toward $93.50."
+        },
+        {
+          "ticker": "VLO",
+          "company": "Valero Energy Corp.",
+          "sector": "Energy / Oil & Gas Refining",
+          "price": "$127.45",
+          "change": "-$0.95",
+          "pct": "-0.74%",
+          "catalyst": "Suffered broad sector-wide de-risking as macro capital trimmed fossil and downstream refining exposure."
+        },
+        {
+          "ticker": "OXY",
+          "company": "Occidental Petroleum",
+          "sector": "Energy / Oil & Gas Exploration",
+          "price": "$51.85",
+          "change": "-$0.30",
+          "pct": "-0.58%",
+          "catalyst": "Retrenched slightly as upstream commodity tracking metrics consolidate underneath short-term moving targets."
+        },
+        {
+          "ticker": "WM",
+          "company": "Waste Management, Inc.",
+          "sector": "Industrials / Waste Management",
+          "price": "$204.90",
+          "change": "-$0.90",
+          "pct": "-0.44%",
+          "catalyst": "Eased lower into the final print as multi-asset desks balanced cyclical vs defensive utility weightings."
+        },
+        {
+          "ticker": "PCG",
+          "company": "PG&E Corporation",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$11.66",
+          "change": "-$0.05",
+          "pct": "-0.43%",
+          "catalyst": "Underperformed on light volume as persistent interest rate path projections compress traditional utility cushions."
+        }
+      ],
+      "catalysts": [
+        "Micron's Blockbuster Financial Deliverables: Giving the technology layer a major fundamental boost, Micron Technology ($MU) reported record fiscal Q4 results with revenue scaling to an incredible $54.23 billion [Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results]. Operating profit parameters dramatically beat consensus estimates, powered entirely by massive global data center demand for advanced artificial intelligence high-bandwidth memory architecture [Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results, Earnings: Micron Technology fiscal 2026 Q4 results reporting September 30; Wall Street expects $50.8 billion revenue (up 350% year-over-year) and non-GAAP earnings of $31.28 per share (up 932%).].",
+        "The Citigroup Moderna Downgrade: In the healthcare space, Moderna Inc. ($MRNA) fell completely onto the defensive after Citigroup analysts slashed its rating to \"Sell\" [August PCE index cooler than expected; S&P 500, Nasdaq record second straight quarterly gains; Moderna falls after Citigroup downgrades to 'sell'; Indexes: Dow off 0.86%, S&P off 0.25%, Nasdaq up 0.24%.]. The research update warned that slowing product transitions and commercial execution bottlenecks pose material risks to intermediate free cash flow targets, sparking sharp institutional exit [August PCE index cooler than expected; S&P 500, Nasdaq record second straight quarterly gains; Moderna falls after Citigroup downgrades to 'sell'; Indexes: Dow off 0.86%, S&P off 0.25%, Nasdaq up 0.24%.]."
+      ]
+    },
+    {
       "timestamp": "2026-09-29T20:00:00+00:00",
       "header": "Tuesday, September 29, 2026's Report",
       "headline": "Wall Street posts modest back-to-back losses as long-term sovereign bond yields soar to multi-decade peaks, completely offsetting a sharp decline in international crude oil and dovish commentary from Federal Reserve officials. U.S. stock benchmarks drifted lower on Tuesday as the fixed-income market continued to exert a tight grip on equity valuations. Investors faced an intensifying duration squeeze as the 30-year U.S. bond yield rocketed to 5.594%—its highest point since 2002—while the benchmark 10-year Treasury yield climbed to 5.293%, matching levels not seen since June 2007. The spike in long-term yields overshadowed a welcoming 2.6% slide in Brent crude futures to $102.59 a barrel alongside a drop in August JOLTS job openings to 7.079 million. Equities managed to pare their steepest intraday losses after New York Fed President John Williams cooled aggressive near-term rate hike expectations, prompting a pullback in the short-duration 2-year yield.",
@@ -855,7 +1069,9 @@
         "Costco’s Post-Market Earnings Victory: In a massive corporate milestone right after the closing bell, Costco Wholesale Corp. ($COST) officially delivered stellar fiscal fourth-quarter earnings metrics. The wholesale retail giant generated total revenue of $79.80 billion, soundly beating consensus Wall Street marks, backed by an impressive 6.4% leap in global comparable-store sales. Furthermore, Costco's net income expanded to $2.41 billion, completely erasing luxury spending slowdown worries and reinforcing powerful post-market institutional bids.",
         "The Jobless Claims Rate Reliever: On the macroeconomic layer, the macro tape turned decisively positive following the 221,000 weekly jobless claims print. Fixed-income managers noted that this soft, incremental expansion in labor slack significantly lowers the near-term risk of structural wage inflation, effectively stabilizing the 10-year Treasury yield at 4.92% and giving software equities a clean runaway window."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-09-23T20:00:00+00:00",
       "header": "Wednesday, September 23, 2026's Report",
@@ -1069,9 +1285,7 @@
         "Cintas' Blockbuster Corporate Demand: A monumental earnings catalyst hit industrial metrics after Cintas Corporation ($CTAS) reported stellar fiscal Q1 deliverables [Cintas Corporation reports fiscal Q1 results]. Operating margins expanded sharply on the back of rising corporate facilities volume and optimized service-route deployment, prompting management to decisively raise its full-year revenue guidance tape [Cintas Corporation reports fiscal Q1 results].",
         "The Soft 20-Year Treasury Bond Auction: On the macro layer, fixed-income markets added pressure to equity structures following a soft execution on the U.S. Treasury's $24 billion 20-year bond sale. The auction produced a high yield of 5.01%, tailing the pre-sale baseline by over two basis points. The weak demand metrics from foreign institutional buyers immediately pushed the 10-year Treasury yield back toward 4.995%, sparking programmatic tech hardware paring."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-09-22T20:00:00+00:00",
       "header": "Tuesday, September 22, 2026's Report",
