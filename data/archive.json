@@ -1,6 +1,220 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-10-01T20:00:00+00:00",
+      "header": "Thursday, October 1, 2026's Report",
+      "headline": "Wall Street embarks on the new trading quarter with nominal gains as a sharp afternoon rebound in government bonds pulls Treasury yields from multi-decade peaks [Trading Day: Stocks find footing as Treasury yields ease, Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]. U.S. benchmark indices closed slightly higher on Thursday, shaking off an early session slide to snap the S&P 500's three-day losing streak [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ..., Equities turn higher as Treasury yields drop from highs]. Early trading faced heavy pressure after upbeat manufacturing indicators highlighted persistent price variables [Equities turn higher as Treasury yields drop from highs]. However, the global bond rout sharply reversed course in the afternoon, pulling the 10-year U.S. Treasury yield down to 5.233% from its intraday 2002 milestone peak of 5.34% Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ..., [Stock Market Today: Thursday, October 1]. This fixed-income relief triggered instant short-covering across high-beta technology clusters and digital assets, while futures traders lowered expectations for a near-term Federal Reserve rate hike this month [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ..., Equities turn higher as Treasury yields drop from highs].",
+      "market_direction": "UP",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,666.45",
+          "change": "+14.91 pts",
+          "pct": "+0.20%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,871.60",
+          "change": "+10.53 pts",
+          "pct": "+0.04%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "50,926.56",
+          "change": "+20.51 pts",
+          "pct": "+0.04%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "CEG",
+          "company": "Constellation Energy Corp.",
+          "sector": "Utilities / Independent Power",
+          "price": "$278.40",
+          "change": "+$28.45",
+          "pct": "+11.38%",
+          "catalyst": "Rocketed double digits(https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html) after officially signing a landmark 20-year power purchase agreement with Amazon to fuel digital computing frameworks [Equities turn higher as Treasury yields drop from highs]."
+        },
+        {
+          "ticker": "AMAT",
+          "company": "Applied Materials, Inc.",
+          "sector": "Technology / Semiconductor Equipment",
+          "price": "$529.30",
+          "change": "+$17.92",
+          "pct": "+3.50%",
+          "catalyst": "Advanced heavily past multi-week resistance shelves(https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-fears-further-fed-rate-hikes-ease-micron-stock-earnings) as semiconductor tooling lines drew intense sector momentum bids [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]."
+        },
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$1,097.39",
+          "change": "+$32.28",
+          "pct": "+3.03%",
+          "catalyst": "Skyrocketed to add to its massive 280% annual return, rebounding from early morning lows as AI architecture demand patterns remain completely dominant [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]."
+        },
+        {
+          "ticker": "MRVL",
+          "company": "Marvell Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$268.08",
+          "change": "+$3.87",
+          "pct": "+1.46%",
+          "catalyst": "Caught strong programmatic buying momentum [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...] tracking broad high-speed optical hardware cloud infrastructure expansion loops [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$230.86",
+          "change": "+$2.48",
+          "pct": "+1.09%",
+          "catalyst": "Supported the S&P 500 snapback securely [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...] as the primary PHLX Semiconductor Index climbed 1.5% post-yield cooling [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]."
+        },
+        {
+          "ticker": "ACN",
+          "company": "Accenture plc",
+          "sector": "Technology / Information Technology Services",
+          "price": "$352.10",
+          "change": "+$3.15",
+          "pct": "+0.90%",
+          "catalyst": "Surged to a 7.5-month intraday chart high as enterprise digital migration consulting contracts continue to scale up [Equities turn higher as Treasury yields drop from highs]."
+        },
+        {
+          "ticker": "PLTR",
+          "company": "Palantir Technologies",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$57.65",
+          "change": "+$0.50",
+          "pct": "+0.87%",
+          "catalyst": "Maintained steady multi-week upside bidding tracking expanding public sector data system telemetry awards."
+        },
+        {
+          "ticker": "NET",
+          "company": "Cloudflare, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$331.10",
+          "change": "+$1.30",
+          "pct": "+0.39%",
+          "catalyst": "Found modest structural support floors as lower short-duration yields stabilize high-multiple growth matrices."
+        },
+        {
+          "ticker": "SHOP",
+          "company": "Shopify Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$164.25",
+          "change": "+$0.30",
+          "pct": "+0.18%",
+          "catalyst": "Expanded minor chart support ranges as e-commerce checkout integration matrices hold stable."
+        },
+        {
+          "ticker": "XLE",
+          "company": "Energy Select Sector SPDR",
+          "sector": "Financial Services / Exchange Traded Funds",
+          "price": "$84.20",
+          "change": "+$0.76",
+          "pct": "+0.91%",
+          "catalyst": "Captured upside points as the energy tracking block directly tracked international crude's climb back past $100 [Stock Market Today: Thursday, October 1, Stocks Fall After Manufacturing Data as Oil Climbs: Markets Wrap]."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "HSBC",
+          "company": "HSBC Holdings plc",
+          "sector": "Financial Services / Diversified Banks",
+          "price": "$41.10",
+          "change": "-$1.75",
+          "pct": "-4.08%",
+          "catalyst": "Cratered over 4% in parallel with European financial nodes(https://www.reuters.com/markets/europe/european-stocks-start-quarter-lower-global-yields-hit-multi-year-highs-2026-10-01/) as extreme fixed-income volatility pressures long-duration banking sheets [European stocks close at three-month lows as surging bond yields hammer banks]."
+        },
+        {
+          "ticker": "LYG",
+          "company": "Lloyds Banking Group plc",
+          "sector": "Financial Services / Regional Banks",
+          "price": "$7.15",
+          "change": "-$0.34",
+          "pct": "-4.53%",
+          "catalyst": "Faced harsh institutional distribution under heavy volume amid broad international credit anxiety leading into upcoming domestic sovereign budget reveals [European stocks close at three-month lows as surging bond yields hammer banks]."
+        },
+        {
+          "ticker": "BCS",
+          "company": "Barclays PLC",
+          "sector": "Financial Services / Diversified Banks",
+          "price": "$24.50",
+          "change": "-$1.05",
+          "pct": "-4.11%",
+          "catalyst": "Slumped past technical support shelves [European stocks close at three-month lows as surging bond yields hammer banks] as global capital rebalancing trimmed diversified credit and investment banking lines [European stocks close at three-month lows as surging bond yields hammer banks]."
+        },
+        {
+          "ticker": "FICO",
+          "company": "Fair Isaac Corporation",
+          "sector": "Technology / Software—Application",
+          "price": "$655.40",
+          "change": "-$16.05",
+          "pct": "-2.39%",
+          "catalyst": "Ground lower past intermediate shelves as algorithmic model paring continues post-underwriting regulatory adjustments."
+        },
+        {
+          "ticker": "TSLA",
+          "company": "Tesla, Inc.",
+          "sector": "Consumer Cyclical / Auto Manufacturers",
+          "price": "$188.20",
+          "change": "-$2.90",
+          "pct": "-1.52%",
+          "catalyst": "Sold off past near-term chart ceilings tracking macro automotive segment factory metrics and pricing reviews."
+        },
+        {
+          "ticker": "MRNA",
+          "company": "Moderna, Inc.",
+          "sector": "Healthcare / Biotechnology",
+          "price": "$54.67",
+          "change": "-$0.73",
+          "pct": "-1.32%",
+          "catalyst": "Remained soft past near-term support frameworks as residual post-downgrade volume adjustments hold."
+        },
+        {
+          "ticker": "MPC",
+          "company": "Marathon Petroleum",
+          "sector": "Energy / Oil & Gas Refining",
+          "price": "$148.50",
+          "change": "-$1.30",
+          "pct": "-0.87%",
+          "catalyst": "Suffered light downstream refining paring despite baseline crude ticks clearing intermediate thresholds."
+        },
+        {
+          "ticker": "VLO",
+          "company": "Valero Energy Corp.",
+          "sector": "Energy / Oil & Gas Refining",
+          "price": "$126.50",
+          "change": "-$0.95",
+          "pct": "-0.75%",
+          "catalyst": "Retrenched on light volume tracking localized fuel inventory builds and sector margin frameworks."
+        },
+        {
+          "ticker": "WM",
+          "company": "Waste Management, Inc.",
+          "sector": "Industrials / Waste Management",
+          "price": "$204.10",
+          "change": "-$0.80",
+          "pct": "-0.39%",
+          "catalyst": "Underperformed slightly as active multi-asset desks prioritize chip hardware positions over low-beta anchors [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ..., Stock Market News for Thursday Oct. 1, 2026: Dow, Nasdaq ...]."
+        },
+        {
+          "ticker": "PCG",
+          "company": "PG&E Corporation",
+          "sector": "Utilities / Regulated Electric",
+          "price": "$11.61",
+          "change": "-$0.05",
+          "pct": "-0.43%",
+          "catalyst": "Eased lower as persistent long-term yield baselines compress standard utility structural profiles [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ..., Stock market today: Dow, S&P 500 post monthly losses in ...]."
+        }
+      ],
+      "catalysts": [
+        "The Amazon-Constellation Power Pact: A major fundamental utility catalyst reshaped the industrial sector after Constellation Energy ($CEG) finalized a premier 20-year nuclear power distribution agreement with Amazon ($AMZN) [Equities turn higher as Treasury yields drop from highs]. The direct clean-energy grid commitment ensures long-term power generation capacity specifically allocated to support Amazon's massive AI data center operations [Equities turn higher as Treasury yields drop from highs], sending Constellation equity up over 11% [Equities turn higher as Treasury yields drop from highs].",
+        "The Semiconductor Post-Micron Drift: On the hardware layer, the technology matrix found firm ground post-close following Micron Technology's ($MU) massive forward metrics report [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]. While the stock opened soft, aggressive block institutional buying drove its annual AI-cycle performance past a landmark 280% tier [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...], carrying equipment nodes like Applied Materials ($AMAT) higher [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]."
+      ]
+    },
+    {
       "timestamp": "2026-09-30T20:00:00+00:00",
       "header": "Wednesday, September 30, 2026's Report",
       "headline": "Wall Street closes out a highly volatile September on a mixed note as a relentless surge in long-dated Treasury yields shadows a cooler-than-expected inflation print and drops the Dow by over 440 points [Stock market today: Dow, S&P 500 post monthly losses in ..., How major US stock indexes fared Wednesday 9/30/2026]. U.S. stock benchmarks gyrated through the final session of the quarter on Wednesday [Shrugging off a volatile September, markets shuffle into Q4]. The day kicked off with an encouraging Commerce Department PCE report showing inflation cooling more than expected alongside stable private payroll additions from the ADP report [Stock Market Today (Sept. 30, 2026): S&P 500 futures rise as ...]. However, the economic resilience proved to be a double-edged sword [How major US stock indexes fared Wednesday 9/30/2026]. Fixed-income desks aggressively sold off bonds on the data, sending the benchmark 10-year U.S. Treasury yield spiking to 5.29%. The relentless pressure from yields prompted massive late-day institutional profit-taking across value and cyclical groups, though mega-cap tech emerged as an isolated green haven [Stock market today: Dow, S&P 500 post monthly losses in ...].",
@@ -855,7 +1069,9 @@
         "The Costco Post-Earnings Surge: The dominant corporate catalyst driving consumer indices centered on Costco Wholesale Corp. ($COST), which rocketed over 4.4% during active trading. Wall Street analysts aggressively raised equity price targets following last night's stellar fiscal Q4 earnings beat, noting that the warehouse giant's robust membership conversion patterns are proving completely impervious to near-term macroeconomic shifts.",
         "The Soft 0.1% Core PCE Print: On the macroeconomic layer, the macro tape turned decisively risk-on following the cooling Commerce Department PCE report. Fixed-income desks highlighted that the steady deceleration in core consumption price metrics effectively reduces the near-term necessity for any subsequent emergency rate hikes by the Federal Reserve, stabilizing the 10-year Treasury yield below 4.88% and unblocking high-volume equity accumulation."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-09-24T20:00:00+00:00",
       "header": "Thursday, September 24, 2026's Report",
@@ -1069,9 +1285,7 @@
         "Costco’s Post-Market Earnings Victory: In a massive corporate milestone right after the closing bell, Costco Wholesale Corp. ($COST) officially delivered stellar fiscal fourth-quarter earnings metrics. The wholesale retail giant generated total revenue of $79.80 billion, soundly beating consensus Wall Street marks, backed by an impressive 6.4% leap in global comparable-store sales. Furthermore, Costco's net income expanded to $2.41 billion, completely erasing luxury spending slowdown worries and reinforcing powerful post-market institutional bids.",
         "The Jobless Claims Rate Reliever: On the macroeconomic layer, the macro tape turned decisively positive following the 221,000 weekly jobless claims print. Fixed-income managers noted that this soft, incremental expansion in labor slack significantly lowers the near-term risk of structural wage inflation, effectively stabilizing the 10-year Treasury yield at 4.92% and giving software equities a clean runaway window."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-09-23T20:00:00+00:00",
       "header": "Wednesday, September 23, 2026's Report",
@@ -3392,7 +3606,9 @@
         "Meta's Chatbot Muse Deployment: The premier corporate catalyst focused on Meta Platforms ($META), which successfully countered the index downturn after launching its standalone AI chatbot agent, Muse. Wall Street firms immediately issued highly bullish research updates, stating that the consumer-facing AI messaging lifecycle is fundamentally underpriced inside current baseline equity estimates.",
         "The Disappointment of the Bond Buyback Extension: Geopolitically and macroeconomically, the market turned defensive following statements from Treasury Secretary Scott Bessent detailing the expansion parameters of the sovereign debt buyback operation. The programmatic setup fell short of the larger interventions expected by institutions, sparking a sharp bond liquidation that pushed the 10-year Treasury yield up past 4.83%."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-09-08T20:00:00+00:00",
       "header": "Tuesday, September 8, 2026's Report",
@@ -3606,9 +3822,7 @@
         "The Qualcomm-Amazon AI Partnership: Adding a high-profile corporate catalyst, Qualcomm ($QCOM) officially secured a massive artificial intelligence chip agreement with Amazon ($AMZN). The multi-billion-dollar framework enables Qualcomm to structurally diversify beyond cellular phone modems, giving Amazon the explicit option to buy up to $60 billion in next-generation AI data center hardware.",
         "The Activation of the Retaliatory Tariff Wall: On the geopolitical front, Canada legally enacted its $27.6 billion counter-tariff program at midnight [September 3, 3:39 PM]. Surcharges ranging up to 50% are now actively processing across northern border lines on U.S. dairy, steel, and wood products [1.3.2, September 6, 1:15 PM], inducing significant cross-border supply chain bottlenecks for industrial manufacturers."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-09-04T20:00:00+00:00",
       "header": "Friday, September 4, 2026's Report",
