@@ -1,5 +1,207 @@
 [
   {
+    "timestamp": "2026-10-09T20:00:00+00:00",
+    "header": "Friday, October 9, 2026's Report",
+    "headline": "The S&P 500 and Dow Jones Industrial Average advance to cap off a record-setting week as stabilizing macro indicators and an artificial intelligence sentiment bounce spark broad dip-buying loops [Wall Street finishes its record-setting week with gains, Weekly Market Update: Stocks Gain 1.03% as Utilities Rise ...]. U.S. stock benchmarks closed comfortably in the green on Friday, reversing Thursday's sharp technology rout as algorithmic portfolios reacted to updated tech telemetry [Weekly Market Update: Stocks Gain 1.03% as Utilities Rise ..., Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...]. Global Brent crude oil futures moderated slightly to settle near $104.00 a barrel, providing near-term price floor relief after executive comments eased immediate geopolitical concerns ahead of upcoming election blocks [Stocks move higher even as Treasury yields, oil prices tick up, Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...]. Meanwhile, fixed-income desks recorded an orderly session as the benchmark 10-year U.S. Treasury yield stabilized around 5.24%, pausing its multi-week run higher and allowing interest-rate-sensitive matrices to form a technical baseline before next week's banking earnings cycle kicks off [Update: Nasdaq Rises to Notch Fourth Weekly Gain, Markets News, Oct. 9, 2026: Stocks Rise as Oil Prices ...].",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "27,366.00",
+        "change": "+172.66 pts",
+        "pct": "+0.64%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "FSLY",
+        "company": "Fastly, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$29.30",
+        "change": "+$4.01",
+        "pct": "+15.86%",
+        "catalyst": "Surged over 15% to pace infrastructure networks(https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201628920.html) as active portfolios aggressively covered short configurations past chart floors."
+      },
+      {
+        "ticker": "NVAX",
+        "company": "Novavax, Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$12.75",
+        "change": "+$1.74",
+        "pct": "+15.80%",
+        "catalyst": "Rocketed on massive volume filters tracking speculative portfolio reallocation flows inside late-session clinical blocks."
+      },
+      {
+        "ticker": "CCI",
+        "company": "Crown Castle Inc.",
+        "sector": "Real Estate / REIT—Specialty",
+        "price": "$79.64",
+        "change": "+$10.75",
+        "pct": "+15.60%",
+        "catalyst": "Exploded out of a primary base structure as cell tower networks caught strong institutional tailwinds."
+      },
+      {
+        "ticker": "MRNA",
+        "company": "Moderna, Inc.",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$225.00",
+        "change": "+$28.00",
+        "pct": "+14.21%",
+        "catalyst": "Staged a prominent technical breakout as biotech growth pools re-aligned capital back into mRNA development spaces."
+      },
+      {
+        "ticker": "HUM",
+        "company": "Humana Inc.",
+        "sector": "Healthcare / Healthcare Plans",
+        "price": "$431.87",
+        "change": "+$44.75",
+        "pct": "+11.56%",
+        "catalyst": "Vaulted higher under heavy volume tracking after receiving upgraded quality ratings for its key Medicare Advantage plan framework."
+      },
+      {
+        "ticker": "NN",
+        "company": "NextNav Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$12.87",
+        "change": "+$1.27",
+        "pct": "+10.95%",
+        "catalyst": "Extended its near-term price limits cleanly(https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-9-135834993.html) as automated geolocation network scale configurations attract speculative flow."
+      },
+      {
+        "ticker": "PLTR",
+        "company": "Palantir Technologies Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$45.60",
+        "change": "+$1.45",
+        "pct": "+3.28%",
+        "catalyst": "Maintained upward tracking velocity, defending yesterday's Goldman Sachs upgrade tier to lock in strong relative strength metrics."
+      },
+      {
+        "ticker": "PGE",
+        "company": "PG&E Corporation",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$20.25",
+        "change": "+$0.60",
+        "pct": "+3.05%",
+        "catalyst": "Caught heavy utility sector inflows as investors anticipate its upcoming Q3 wildfire-liability capital guidance updates."
+      },
+      {
+        "ticker": "EIX",
+        "company": "Edison International",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$55.30",
+        "change": "+$1.00",
+        "pct": "+1.84%",
+        "catalyst": "Anchored positive price movement across defensive grids [Stock Market Today, Oct. 9: PG&E Gains on Earnings Call ...] as low-beta value blocks capture ongoing multi-asset risk-off buffers [Weekly Market Update: Stocks Gain 1.03% as Utilities Rise ...]."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$124.95",
+        "change": "+$1.55",
+        "pct": "+1.26%",
+        "catalyst": "Rebounded off short-term support baselines after secondary market data countered the prior session's revenue overstatement calculations."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "TMUS",
+        "company": "T-Mobile US, Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$148.58",
+        "change": "-$22.73",
+        "pct": "-13.27%",
+        "catalyst": "Cratered over 13% to lead large-cap distribution on rising carrier market share anxieties linked to competing direct-to-cell spectrum updates."
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile, Inc.",
+        "sector": "Technology / Telecom Services",
+        "price": "$52.11",
+        "change": "-$4.82",
+        "pct": "-8.47%",
+        "catalyst": "Faced fierce algorithmic cash extraction as active desks rotated out of satellite-to-cellular infrastructure nodes."
+      },
+      {
+        "ticker": "AVNT",
+        "company": "Avient Corporation",
+        "sector": "Basic Materials / Specialty Chemicals",
+        "price": "$37.96",
+        "change": "-$3.02",
+        "pct": "-7.38%",
+        "catalyst": "Slipped forcefully under expanded volume as specialized corporate material procurement assumptions were adjusted lower."
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$22.82",
+        "change": "-$1.77",
+        "pct": "-7.20%",
+        "catalyst": "Ground past horizontal chart support lines via systematic communication sector de-risking loops tracking mobile competition headlines."
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon Communications",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$42.89",
+        "change": "-$2.75",
+        "pct": "-6.03%",
+        "catalyst": "Underperformed significantly as large institutional portfolios trimmed standard telecom asset groups down the stretch [Stock Market Today (Oct. 9, 2026): S&P 500 rises as tech ...]."
+      },
+      {
+        "ticker": "BKD",
+        "company": "Brookdale Senior Living",
+        "sector": "Healthcare / Long-Term Care Facilities",
+        "price": "$9.96",
+        "change": "-$0.94",
+        "pct": "-8.59%",
+        "catalyst": "Retrenched beneath near-term averages [Stock Market Today (Oct. 9, 2026): S&P 500 rises as tech ...] as healthcare facility metrics faced isolated operational margin re-allocations."
+      },
+      {
+        "ticker": "AAPL",
+        "company": "Apple Inc.",
+        "sector": "Technology / Consumer Electronics",
+        "price": "$332.52",
+        "change": "-$7.90",
+        "pct": "-2.32%",
+        "catalyst": "Faced direct pre-market paring data following supply chain updates showing minor component reductions for its upcoming hardware series."
+      },
+      {
+        "ticker": "DAL",
+        "company": "Delta Air Lines, Inc.",
+        "sector": "Industrials / Airlines",
+        "price": "$80.94",
+        "change": "-$1.20",
+        "pct": "-1.46%",
+        "catalyst": "Absorbed mild post-earnings distribution pressure [Stock Market Today (Oct. 9, 2026): S&P 500 rises as tech ...] as higher localized fuel price assumptions offset premium passenger metric gains [Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...]."
+      },
+      {
+        "ticker": "DUK",
+        "company": "Duke Energy Corporation",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$116.65",
+        "change": "-$0.17",
+        "pct": "-0.15%",
+        "catalyst": "Underperformed its utilities peers slightly [Stock Market Today, Oct. 9: PG&E Gains on Earnings Call ...] as managers adjusted localized electric grids before upcoming regional infrastructure cycles."
+      },
+      {
+        "ticker": "DUK",
+        "company": "Service Properties Trust",
+        "sector": "Real Estate / REIT—Hospitality",
+        "price": "$7.15",
+        "change": "-$0.00",
+        "pct": "-0.00%",
+        "catalyst": "Attracted historic tape volume after rejecting a high-profile $2 billion all-cash portfolio acquisition bid from TKO LLC [S&P 500, Nasdaq reach record closing highs as focus pivots ...]."
+      }
+    ],
+    "catalysts": [
+      "The Telecom Spectrum Friction Wave: The communication services sector experienced heavy tracking damage after a high-profile aerospace direct-to-phone spectrum agreement injected competitive risk into standard infrastructure networks [Stock Market Today, Oct. 9: Stocks Edge Higher, Humana ..., Stock Market Today (Oct. 9, 2026): S&P 500 rises as tech ...]. The update triggered severe institutional block liquidations across carrier networks, forcing T-Mobile ($TMUS) down 13.2% and dragging down bellwethers AT&T ($T) and Verizon ($VZ) along parallel paths [How major US stock indexes fared Friday 10/9/2026, Stock Market Today (Oct. 9, 2026): S&P 500 rises as tech ...].",
+      "OpenAI's Forward Run-Rate Recalibration: Technology and artificial intelligence hardware matrices caught a strong relief cushion after subsequent financial reports clarified that OpenAI expects its annualized revenue path to expand to $70 billion by the end of 2026, driven by scaling commercial enterprise loops [Daily Market Outlook, October 9, 2026 - Tickmill, Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...]. The data completely offset the previous session's $20 billion revenue deficit scare [Daily Market Outlook, October 9, 2026 - Tickmill, Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...], prompting short-covering flows back into top-tier computational hardware hubs like NVIDIA ($NVDA) [Stock Market Today, Oct. 9: Stocks Edge Higher, Humana ...]."
+    ]
+  },
+  {
     "timestamp": "2026-10-08T20:00:00+00:00",
     "header": "Thursday, October 8, 2026's Report",
     "headline": "The NASDAQ Composite tumbles as a sharp technology sell-off combines with volatile crude oil price spikes to challenge near-term structural charts. Wall Street stepped deeper into a short-term correction phase on Thursday as the artificial intelligence trade took a prominent hit following an authoritative financial report revealing that a core private AI leader's annualized revenue path was overstated by $20 billion. The news triggered heavy programmatic institutional distribution across top-tier computational semiconductor chips and high-multiple hardware networks. Concurrently, global energy supply premium anxieties spiked aggressively as geopolitical tensions pushed Brent crude oil prices over $104 a barrel intraday before settling near $104.87, reigniting broader macro inflation concerns. Meanwhile, fixed-income desks endured an unsettled session; the benchmark 10-year U.S. Treasury yield spiked to 5.35% early before falling to close at 5.23% following a solid $22 billion 30-year bond auction.",
