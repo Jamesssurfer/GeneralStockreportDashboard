@@ -34,7 +34,8 @@ MONTHS = {
 
 def _strip_refs(text):
     """Remove markdown links (keep link text), footnote brackets like
-    [1, 2, 3] or [[1.2.1](url)], and collapse extra whitespace."""
+    [1, 2, 3] or [[1.2.1](url)], long bare [citation text] blocks,
+    and collapse extra whitespace."""
     if not text:
         return ""
     t = text
@@ -42,6 +43,8 @@ def _strip_refs(text):
     t = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'\1', t)
     # leftover bracket groups that are just numbers/refs, e.g. [1, 2, 3] or [1.1.4]
     t = re.sub(r'\[[\d,\.\s]+\]', '', t)
+    # long bare [citation / source title] blocks the agent leaves behind
+    t = re.sub(r'\[[^\]]{8,}\]', '', t)
     # leftover empty double-bracket remnants like [[]]
     t = re.sub(r'\[\s*\]', '', t)
     t = re.sub(r'\s{2,}', ' ', t).strip()
