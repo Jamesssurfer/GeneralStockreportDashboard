@@ -10,7 +10,7 @@
 <style>
   :root{
     --bg:#0B0D10; --panel:#12151A; --line:#242830;
-    --text:#E6E8EB; --muted:#8B93A1; --amber:#FF7A29; --teal:#3DDC97; --red:#FF5C5C;
+    --text:#FFFFFF; --muted:#FFFFFF; --amber:#FF7A29; --teal:#3DDC97; --red:#FF5C5C;
   }
   *{box-sizing:border-box}
   body{background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;}
@@ -180,6 +180,22 @@
       </div>`;
   }
 
+  // Split long headline prose into readable paragraphs (by sentence groups)
+  function headlineHTML(headline) {
+    if (!headline) return '';
+    // Split on sentence-ending punctuation followed by space + capital, keep the punctuation
+    const sentences = headline.match(/[^.!?]+[.!?]+(?:\s+|$)|[^.!?]+$/g) || [headline];
+    // Group into short paragraphs of ~2 sentences for easier scanning
+    const paras = [];
+    for (let i = 0; i < sentences.length; i += 2) {
+      const chunk = sentences.slice(i, i + 2).join(' ').trim();
+      if (chunk) paras.push(chunk);
+    }
+    return `<div class="mt-2 space-y-2">` +
+      paras.map(p => `<p class="text-[14px] text-[var(--text)] leading-relaxed">${escapeHtml(p)}</p>`).join('') +
+      `</div>`;
+  }
+
   function rowHTML(item, animate) {
     const color = directionColor(item.market_direction);
     return `
@@ -191,8 +207,8 @@
             <span class="mono text-[13px] uppercase tracking-wide">Daily Close</span>
             <span class="mono text-[13px] uppercase tracking-wide px-1.5 py-0.5 rounded" style="color:${color}; border:1px solid ${color}">${escapeHtml(item.market_direction) || '—'}</span>
           </div>
-          <div class="text-[19px] font-semibold leading-snug">${escapeHtml(item.header)}</div>
-          ${item.headline ? `<div class="text-[14px] text-[var(--muted)] mt-1 leading-relaxed">${escapeHtml(item.headline)}</div>` : ''}
+          <div class="text-[19px] font-semibold leading-snug text-[var(--text)]">${escapeHtml(item.header)}</div>
+          ${headlineHTML(item.headline)}
           ${indexesHTML(item.indexes)}
           <details class="mt-3">
             <summary class="mono text-[13px] uppercase tracking-wide text-[var(--muted)] hover:text-[var(--text)]">
