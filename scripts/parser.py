@@ -22,6 +22,14 @@
 # it. If a future report renames a column to something with none of
 # the keywords below, that field will come back empty rather than
 # invented — check the keyword lists in _parse_table first.
+#
+# Format tolerance (Oct 2026 update):
+#   - Accepts both Markdown '##' headings and emoji-prefixed plain
+#     headings (📊 / 📈 / 📉 / 💡 / 🗒 …).
+#   - Accepts both '*' and '•' (Unicode bullet) as list markers.
+#   - Parses both Markdown '|' tables and tab-separated (TSV) tables.
+#   - Section boundaries stop at the next major heading even when the
+#     report has no '-----' horizontal rules.
 
 import re
 from datetime import datetime, timezone
@@ -30,6 +38,32 @@ MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
 }
+
+# Match either '*' or the Unicode bullet '•', optionally preceded by
+# whitespace/tabs.
+BULLET_RE = re.compile(r'^[\t ]*[•*]\s*(.*)$')
+
+# Shared “next major section” boundaries so sections do not bleed when
+# the report has no ----- dividers.
+# Headings are required to look like real section titles (emoji or ##,
+# or a short line that starts with Top/Major/Catalyst), so we do not
+# match table column headers such as "Primary Catalyst & …".
+_HEADING = (
+    r'(?:'
+    r'#{1,3}\s*'                                    # markdown ##
+    r'|[📊📈📉💡🗒📁]\s*'                            # emoji prefix
+    r')'
+)
+_END_AT_NEXT_MAJOR = (
+    r'\n' + _HEADING + r'?Major Market (?:Indexes|Indices)[^\n]*\n'
+    r'|\n' + _HEADING + r'?(?:Top\s+)?(?:\d+\s+)?Gainers?[^\n]*\n'
+    r'|\n' + _HEADING + r'?(?:Top\s+)?(?:\d+\s+)?Losers?[^\n]*\n'
+    # Catalyst end-boundary requires a heading marker so the table
+    # column "Primary Catalyst & …" is not treated as a section break.
+    r'|\n' + _HEADING + r'Catalyst[^\n]*\n'
+    r'|\n-{5,}\n'
+    r'|\Z'
+)
 
 
 def _strip_refs(text):
@@ -76,6 +110,8 @@ def _find_header_and_date(text):
             return header, (int(year), month, int(day))
 
     # Pattern B: "... report for Monday, August 24, 2026" (prose fallback)
+    # Also matches bare "Tuesday, October 13, 2026's Report" lines
+    # (with or without a leading emoji on the same line).
     m = re.search(r"(\w+),\s*(\w+)\s+(\d{1,2}),\s*(\d{4})", text)
     if m:
         weekday, month_name, day, year = m.groups()
@@ -102,20 +138,52 @@ def _find_header_and_date(text):
     return None, None
 
 
-def _section(text, start_patterns, end_pattern=r'\n-{5,}\n|\Z'):
+def _section(text, start_patterns, end_pattern=None):
     """Grab the text between the first line matching any of
-    start_patterns and the next horizontal rule (or end of text)."""
+    start_patterns and the next major section (or horizontal rule / EOF)."""
+    if end_pattern is None:
+        end_pattern = _END_AT_NEXT_MAJOR
     for sp in start_patterns:
-        m = re.search(sp, text)
+        m = re.search(sp, text, re.IGNORECASE)
         if m:
             rest = text[m.end():]
-            end_m = re.search(end_pattern, rest)
+            end_m = re.search(end_pattern, rest, re.IGNORECASE)
             return rest[:end_m.start()] if end_m else rest
     return ""
 
 
+def _is_bullet(line):
+    return bool(BULLET_RE.match(line))
+
+
+def _bullet_content(line):
+    m = BULLET_RE.match(line)
+    return m.group(1).strip() if m else ""
+
+
 def _parse_indexes(section_text):
+    """Parse index lines of the form:
+        • S&P 500 Index (.INX): 7,805.45 (-1.79 pts / -0.02%)
+        * S&P 500: 4500.12 (+12.3 pts / +0.27%)
+    """
     indexes = []
+    # Prefer structured bullet lines
+    bullet_pat = re.compile(
+        r'^\s*[•*]\s+([^:\n]+?):\s+(\$?[\d,]+\.?\d*)\s*\(([+-][\d,\.]+\s*pts)\s*/\s*([+-][\d.]+%)\)',
+        re.MULTILINE
+    )
+    for m in bullet_pat.finditer(section_text):
+        name, value, change, pct = m.groups()
+        indexes.append({
+            "name": name.strip(),
+            "value": value.strip(),
+            "change": change.strip(),
+            "pct": pct.strip(),
+        })
+    if indexes:
+        return indexes
+
+    # Fallback: original * -only pattern (no bullet required)
     pattern = re.compile(
         r'^\*\s+([^:*\n][^:\n]*?):\s+(\$?[\d,]+\.?\d*)\s*\(([+-][\d,\.]+\s*pts)\s*/\s*([+-][\d.]+%)\)',
         re.MULTILINE
@@ -142,34 +210,72 @@ def _find_col(header_cells_lower, *predicates):
     return None
 
 
+def _split_table_line(line):
+    """Split a table row into cells. Supports Markdown '|' tables and
+    tab-separated (or multi-space) TSV-style tables."""
+    line = line.strip()
+    if not line:
+        return []
+    # Markdown pipe table
+    if line.startswith("|") or "|" in line:
+        return [c.strip() for c in line.strip().strip("|").split("|")]
+    # Tab-separated
+    if "\t" in line:
+        return [c.strip() for c in line.split("\t")]
+    # Fallback: 2+ spaces as delimiter (fragile, but better than nothing)
+    return [c.strip() for c in re.split(r'\s{2,}', line) if c.strip()]
+
+
 def _parse_table(section_text):
-    """Parse a markdown table by reading the header row and matching
-    columns by keyword, not by position or column count. This survives
-    the agent reordering columns, adding/dropping Sector/Industry, or
-    splitting a combined "Ticker (Company)" cell into separate Ticker
-    and Company columns — all of which have already happened across
-    the sample reports this parser was built against."""
-    lines = [l for l in section_text.split("\n") if l.strip().startswith("|")]
-    if not lines:
+    """Parse a table by reading the header row and matching columns by
+    keyword, not by position or column count. Supports both Markdown
+    '|' tables and tab-separated tables used in the emoji-style reports.
+    """
+    raw_lines = [l for l in section_text.split("\n") if l.strip()]
+    if not raw_lines:
         return []
 
-    sep_idx = next(
-        (i for i, l in enumerate(lines) if re.match(r'^\|[\s\-:|]+\|\s*$', l)),
-        None
-    )
-    # Need a header row before the separator, and at least one data row after.
-    if sep_idx is None or sep_idx == 0 or sep_idx == len(lines) - 1:
+    # Locate header + optional separator + data rows.
+    # For Markdown: look for a |---| separator.
+    # For TSV: the first line that contains "Ticker" (or similar) is the header.
+    header_idx = None
+    sep_idx = None
+    for i, line in enumerate(raw_lines):
+        stripped = line.strip()
+        # Markdown separator
+        if re.match(r'^\|[\s\-:|]+\|\s*$', stripped):
+            sep_idx = i
+            if i > 0:
+                header_idx = i - 1
+            break
+        # TSV / plain header: line that looks like a header row
+        lower = stripped.lower()
+        if header_idx is None and (
+            ("ticker" in lower and ("company" in lower or "price" in lower or "change" in lower))
+            or (lower.startswith("ticker") and "\t" in stripped)
+        ):
+            header_idx = i
+            # No separator in TSV; data starts on the next line
+            break
+
+    if header_idx is None:
         return []
 
-    header_cells = [c.strip() for c in lines[0].strip().strip("|").split("|")]
+    header_cells = _split_table_line(raw_lines[header_idx])
+    if not header_cells:
+        return []
     header_lower = [h.lower() for h in header_cells]
-    data_lines = lines[sep_idx + 1:]
+
+    # Data starts after separator (Markdown) or immediately after header (TSV)
+    if sep_idx is not None:
+        data_lines = raw_lines[sep_idx + 1:]
+    else:
+        data_lines = raw_lines[header_idx + 1:]
 
     idx_ticker = _find_col(header_lower, lambda h: "ticker" in h)
     idx_company = _find_col(header_lower, lambda h: "company" in h)
     # If "ticker" and "company" both land on the SAME header cell (e.g.
-    # "Ticker / Company"), it's one combined column, not two — the
-    # combined-cell regex below handles splitting it.
+    # "Ticker / Company"), it's one combined column, not two.
     combined_ticker_company = (
         idx_ticker is not None and idx_ticker == idx_company
     )
@@ -183,11 +289,9 @@ def _parse_table(section_text):
         lambda h: "change" in h and "%" not in h and "percent" not in h
     )
     idx_pct = _find_col(header_lower, lambda h: "%" in h or "percent" in h)
-    idx_catalyst = _find_col(header_lower, lambda h: "catalyst" in h or "reason" in h)
+    idx_catalyst = _find_col(header_lower, lambda h: "catalyst" in h or "reason" in h or "focus" in h)
 
     if idx_ticker is None:
-        # Can't identify which column is even the ticker — nothing
-        # reliable to extract from this table.
         return []
 
     def cell(cells, idx):
@@ -195,20 +299,25 @@ def _parse_table(section_text):
 
     rows = []
     for line in data_lines:
-        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        # Stop if we hit a new section-looking line
+        if re.match(r'^(?:#{1,3}\s*)?(?:📊|📈|📉|💡)', line.strip()):
+            break
+        cells = _split_table_line(line)
         if len(cells) < 2:
             continue
 
         ticker_cell = cell(cells, idx_ticker)
         if not ticker_cell:
             continue
+        # Skip accidental re-parsing of a header-like row
+        if ticker_cell.lower() in ("ticker", "symbol"):
+            continue
 
         if idx_company is not None and not combined_ticker_company:
             ticker = ticker_cell
             company = cell(cells, idx_company)
         else:
-            # Combined cell, e.g. "NASDAQ: MRNA (Moderna)" or a bare
-            # "SNOW" with no company at all.
+            # Combined cell, e.g. "NASDAQ: MRNA (Moderna)" or a bare "SNOW"
             tm = re.match(r'^(.*?)\s*\(([^)]+)\)\s*$', ticker_cell)
             if tm:
                 ticker, company = tm.groups()
@@ -230,11 +339,17 @@ def _parse_table(section_text):
 def _parse_catalysts(section_text):
     catalysts = []
     for line in section_text.split("\n"):
-        line = line.strip()
-        if line.startswith("*"):
-            content = line.lstrip("*").strip()
-            if len(content) > 3:
-                catalysts.append(_strip_refs(content))
+        if not _is_bullet(line):
+            # also accept plain "* " that might have been missed
+            stripped = line.strip()
+            if stripped.startswith("*"):
+                content = stripped.lstrip("*").strip()
+            else:
+                continue
+        else:
+            content = _bullet_content(line)
+        if len(content) > 3:
+            catalysts.append(_strip_refs(content))
     return catalysts
 
 
@@ -250,7 +365,7 @@ def _market_direction(indexes, headline):
     hl = (headline or "").lower()
     if any(w in hl for w in ["rally", "surge", "soar", "gain", "jump", "climb"]):
         return "UP"
-    if any(w in hl for w in ["pull back", "pullback", "slip", "fall", "drop", "decline", "lower"]):
+    if any(w in hl for w in ["pull back", "pullback", "slip", "fall", "drop", "decline", "lower", "flatline", "muted"]):
         return "DOWN"
     return "MIXED"
 
@@ -259,11 +374,18 @@ def _headline(text):
     """First substantial prose paragraph before the first section
     boundary — skips the date/agent-name/header metadata lines."""
     body = text
-    # Cut off anything from the first "------" divider onward — headline
-    # only ever lives before it.
-    div = re.search(r'\n-{5,}\n', body)
-    if div:
-        body = body[:div.start()]
+    # Cut off anything from the first major section or "------" divider
+    cut = re.search(
+        r'\n(?:#{1,3}\s*)?(?:📊|📈|📉|💡)?\s*(?:Major Market (?:Indexes|Indices)|(?:Top\s+)?(?:\d+\s+)?Gainers?|(?:Top\s+)?(?:\d+\s+)?Losers?|Catalyst)',
+        body, re.IGNORECASE
+    )
+    if cut:
+        body = body[:cut.start()]
+    else:
+        div = re.search(r'\n-{5,}\n', body)
+        if div:
+            body = body[:div.start()]
+
     lines = [l for l in body.split("\n") if l.strip()]
     for line in lines:
         stripped = line.strip()
@@ -273,7 +395,17 @@ def _headline(text):
             continue  # agent name line
         if stripped.startswith("##"):
             continue  # the "'s Report" header itself
-        if len(stripped) > 20:
+        # Skip emoji + date header lines
+        if re.search(r"\d{4}'s Report$", stripped):
+            continue
+        if re.match(r'^[🗒📁📊📈📉💡].{0,80}$', stripped) and len(stripped) < 90:
+            continue
+        if len(stripped) > 40:
+            return _strip_refs(stripped)
+    # Fallback
+    for line in lines:
+        stripped = line.strip()
+        if len(stripped) > 20 and not re.search(r"\d{4}'s Report$", stripped):
             return _strip_refs(stripped)
     return ""
 
@@ -292,22 +424,33 @@ def parse_story(text):
     headline = _headline(text)
 
     idx_section = _section(text, [
-        r'##[^\n]*Major Market (?:Indexes|Indices)[^\n]*\n',
+        _HEADING + r'?Major Market (?:Indexes|Indices)[^\n]*\n',
+        _HEADING + r'?Major U\.?S\.? stock indexes[^\n]*\n',
     ])
     indexes = _parse_indexes(idx_section)
 
     # Match on the stable keyword only ("Gainers"/"Losers"), not the
     # exact phrase — headings have varied between "Top Gainers",
     # "Top 10 Gainers", "Top Gainers (NYSE & NASDAQ)", etc.
-    gainers_section = _section(text, [r'##[^\n]*Gainers[^\n]*\n'])
+    # Require a real heading marker so we don't match table body text.
+    gainers_section = _section(text, [
+        _HEADING + r'?(?:Top\s+)?(?:\d+\s+)?Gainers?[^\n]*\n',
+    ])
     gainers = _parse_table(gainers_section)
 
-    losers_section = _section(text, [r'##[^\n]*Losers[^\n]*\n'])
+    losers_section = _section(text, [
+        _HEADING + r'?(?:Top\s+)?(?:\d+\s+)?Losers?[^\n]*\n',
+    ])
     losers = _parse_table(losers_section)
 
     # Same idea: "Catalyst" alone catches both "Core Underlying
-    # Catalysts" and "Catalyst & Earnings Focus".
-    catalysts_section = _section(text, [r'##[^\n]*Catalyst[^\n]*\n'])
+    # Catalysts" and "Catalyst & Earnings Focus". Require a real
+    # heading marker (emoji or ##) so the table column
+    # "Primary Catalyst & …" is never matched as a section start.
+    catalysts_section = _section(text, [
+        _HEADING + r'Catalyst[^\n]*\n',
+        r'(?m)^Catalyst(?:s|&|\s)[^\n]{0,40}\n',  # bare short heading fallback
+    ])
     catalysts = _parse_catalysts(catalysts_section)
 
     return {
