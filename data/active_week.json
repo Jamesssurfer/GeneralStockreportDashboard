@@ -2,12 +2,216 @@
   {
     "timestamp": "2026-10-13T20:00:00+00:00",
     "header": "Tuesday, October 13, 2026's Report",
-    "headline": "🗒 Tuesday, October 13, 2026's Report.",
-    "market_direction": "MIXED",
-    "indexes": [],
-    "gainers": [],
-    "losers": [],
-    "catalysts": []
+    "headline": "Major U.S. stock indexes conclude a tightly contained session near flatlines as mixed tier-1 bank earnings cancel out a prolonged structural liquidation program across the semiconductor landscape . Wall Street absorbed complex institutional crosscurrents to kick off the third-quarter corporate earnings cycle, leaving indices static even as aggressive internal thematic rotations unspooled beneath the surface . Macro index pressure was partially alleviated as fixed-income desks paused their markdown cycle, allowing the benchmark 10-year U.S. Treasury yield to ease to 5.21% on a minor stabilization of international energy baselines. Global energy desks experienced an aimless positioning shift, leaving Brent crude oil futures marginally lower to settle at $106.05 a barrel as market participants balanced persistent Middle East supply chokepoint vulnerabilities against increased global diesel availability projections.",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,805.45",
+        "change": "-1.79 pts",
+        "pct": "-0.02%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "27,210.55",
+        "change": "-35.35 pts",
+        "pct": "-0.13%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "51,805.10",
+        "change": "-45.45 pts",
+        "pct": "-0.09%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc.",
+        "sector": "Healthcare / Healthcare Plans",
+        "price": "$602.15",
+        "change": "+$24.81",
+        "pct": "+4.30%",
+        "catalyst": "Uncoupled powerfully from the flat indexes to lead gainers after publishing a massive Q3 earnings beat that raised forward outlook allocations."
+      },
+      {
+        "ticker": "AXON",
+        "company": "Axon Enterprise, Inc.",
+        "sector": "Industrials / Aerospace & Defense",
+        "price": "$443.50",
+        "change": "+$16.70",
+        "pct": "+3.92%",
+        "catalyst": "Staged a definitive technical chart baseline recovery on heavy volume as defense desks tighten control over circulating float."
+      },
+      {
+        "ticker": "RTX",
+        "company": "RTX Corporation",
+        "sector": "Industrials / Aerospace & Defense",
+        "price": "$124.20",
+        "change": "+$3.20",
+        "pct": "+2.64%",
+        "catalyst": "Caught strong programmatic buy inflows as multi-asset portfolios re-aligned exposure toward large-scale aerospace nodes."
+      },
+      {
+        "ticker": "PEP",
+        "company": "PepsiCo, Inc.",
+        "sector": "Consumer Defensive / Beverages",
+        "price": "$174.50",
+        "change": "+$3.48",
+        "pct": "+2.03%",
+        "catalyst": "Advanced past near-term chart ceilings under heavy accumulation as capital structures search for defensive consumer yield shields."
+      },
+      {
+        "ticker": "PG",
+        "company": "The Procter & Gamble Co.",
+        "sector": "Consumer Defensive / Household Products",
+        "price": "$168.12",
+        "change": "+$3.26",
+        "pct": "+1.98%",
+        "catalyst": "Found steady institutional rebalancing bids, acting as a value buffer against ongoing technical semiconductor paring loops."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$82.40",
+        "change": "+$1.37",
+        "pct": "+1.69%",
+        "catalyst": "Preserved tight structural insulation, extending its multi-week tracking high on stable programmatic enterprise commerce inflows."
+      },
+      {
+        "ticker": "MCD",
+        "company": "McDonald's Corporation",
+        "sector": "Consumer Cyclical / Restaurants",
+        "price": "$298.50",
+        "change": "+$4.15",
+        "pct": "+1.41%",
+        "catalyst": "Ground out steady gains as large-cap portfolio algorithms execute rotating defensive purchases back into domestic food brands."
+      },
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$894.12",
+        "change": "+$11.80",
+        "pct": "+1.34%",
+        "catalyst": "Maintained positive tracking velocity past moving averages, supported cleanly by stable consumer spending traffic indicators."
+      },
+      {
+        "ticker": "AEP",
+        "company": "American Electric Power",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$94.50",
+        "change": "+$1.12",
+        "pct": "+1.20%",
+        "catalyst": "Captured mild defensive allocations as fixed-income managers rotate cash into low-beta utility infrastructure frameworks."
+      },
+      {
+        "ticker": "JPM",
+        "company": "JPMorgan Chase & Co.",
+        "sector": "Financial Services / Diversified Banks",
+        "price": "$216.50",
+        "change": "+$1.40",
+        "pct": "+0.65%",
+        "catalyst": "Rebounded fractionally post-bell as institutional matrices digest initial Q3 fee metrics and capital management commentary."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "ASML",
+        "company": "ASML Holding N.V.",
+        "sector": "Technology / Semiconductor Equipment",
+        "price": "$751.20",
+        "change": "-$33.30",
+        "pct": "-4.24%",
+        "catalyst": "Cratered to lead semiconductor declines as programmatic baskets aggressively pare tools exposure before tomorrow's critical print."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$119.80",
+        "change": "-$4.32",
+        "pct": "-3.48%",
+        "catalyst": "Faced intense distribution pressure under heavy volume after macro tech executives publicly flagged custom AI silicon supply anomalies."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$157.10",
+        "change": "-$5.00",
+        "pct": "-3.08%",
+        "catalyst": "Faced an aggressive technical breakdown past near-term support lines following systematic silicon architecture sector paring."
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$83.95",
+        "change": "-$2.45",
+        "pct": "-2.84%",
+        "catalyst": "Absorbed severe automated hardware layer markdowns as computerized portfolios trim recent custom data center computing gains."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$151.40",
+        "change": "-$4.20",
+        "pct": "-2.70%",
+        "catalyst": "Slipped forcefully under expanded volume via programmatic semiconductor index liquidation loops down the stretch."
+      },
+      {
+        "ticker": "ARM",
+        "company": "Arm Holdings plc",
+        "sector": "Technology / Semiconductors",
+        "price": "$130.60",
+        "change": "-$3.50",
+        "pct": "-2.61%",
+        "catalyst": "Underperformed significantly as multi-asset portfolios dump high-multiple processing architectures past horizontal chart support floors."
+      },
+      {
+        "ticker": "CRM",
+        "company": "Salesforce, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$276.12",
+        "change": "-$7.94",
+        "pct": "-2.79%",
+        "catalyst": "Retrenched beneath yesterday's double-upgrade parameters as algorithmic enterprise application blocks execute profit trims."
+      },
+      {
+        "ticker": "ADBE",
+        "company": "Adobe Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$495.20",
+        "change": "-$9.80",
+        "pct": "-1.94%",
+        "catalyst": "Ground lower past technical chart floors via systematic generative software configuration de-risking cycles."
+      },
+      {
+        "ticker": "ANET",
+        "company": "Arista Networks, Inc.",
+        "sector": "Technology / Computer Networking",
+        "price": "$374.50",
+        "change": "-$5.70",
+        "pct": "-1.50%",
+        "catalyst": "Eased lower as active growth managers trim cloud infrastructure connections to hedge against global chip equipment volatility."
+      },
+      {
+        "ticker": "MSFT",
+        "company": "Microsoft Corporation",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$410.15",
+        "change": "-$4.35",
+        "pct": "-1.05%",
+        "catalyst": "Underperformed its hyperscaler peers slightly as corporate tech grids face broad rotation out of high-multiple application software blocks."
+      }
+    ],
+    "catalysts": [
+      "The Big Bank Q3 Openers: Institutional financial clearing loops parsed a massive wave of pre-bell banking reports from JPMorgan Chase ($JPM), Goldman Sachs ($GS), and Citigroup ($C). While top-line capital markets fees and net interest metrics generally cleared Wall Street's consensus thresholds, the aggregate market reaction was highly muted as management commentary highlighted lingering caution regarding commercial credit provisions and shifting net interest margin trajectories.",
+      "The Semiconductor Structural Markdown: The PHLX Semiconductor Index (.SOX) logged its fifth consecutive losing session as systematic distribution hit computational silicon corridors. Momentum was severely impacted by public commentary from prominent technology infrastructure executives likening some recent speculative capital flows inside custom AI silicon networks to \"casino gambling,\" triggering broad programmatic de-risking ahead of tomorrow's critical ASML earnings disclosure."
+    ]
   },
   {
     "timestamp": "2026-10-12T20:00:00+00:00",
