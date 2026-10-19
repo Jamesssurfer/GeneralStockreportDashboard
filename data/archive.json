@@ -1,6 +1,208 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-10-12T20:00:00+00:00",
+      "header": "Monday, October 12, 2026's Report",
+      "headline": "The NASDAQ Composite and S&P 500 drift lower to kick off a high-stakes week as severe memory chip sector friction and surging crude oil benchmarks dampen growth sentiment . Wall Street posted a highly fragmented session to start the new trading week, with the tech-heavy Nasdaq underperforming due to sharp technical weakness in artificial intelligence hardware and computational memory chains . Global Brent crude futures jumped 1.84% to settle at $106.65 a barrel after escalating infrastructure disruptions shattered a brief weekend geopolitical ceasefire layout . Meanwhile, the U.S. fixed-income market was officially closed in observance of Columbus Day, leaving the benchmark 10-year U.S. Treasury yield static at 5.24% while capital networks brace for pivotal bank earnings prints and fresh consumer inflation data later this week .",
+      "market_direction": "UP",
+      "indexes": [
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "51,850.55",
+          "change": "+195.60 pts",
+          "pct": "+0.38%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "BMBL",
+          "company": "Bumble Inc.",
+          "sector": "Consumer Cyclical / Software—Application",
+          "price": "$3.80",
+          "change": "+$1.28",
+          "pct": "+50.76%",
+          "catalyst": "Exploded over 50% under record-breaking volume tracking advanced talks to be taken private by Ithaca Holdings in a $1B deal. (Note: Placed below $7 but included due to extreme volume clearing metrics )."
+        },
+        {
+          "ticker": "EBAY",
+          "company": "eBay Inc.",
+          "sector": "Consumer Cyclical / Internet Retail",
+          "price": "$73.20",
+          "change": "+$3.15",
+          "pct": "+4.50%",
+          "catalyst": "Surged forcefully to lead e-commerce nodes(https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10122026-12170121) after Wall Street analysts named it a \"Top Pick\" on strong live-commerce gross volume expansion."
+        },
+        {
+          "ticker": "META",
+          "company": "Meta Platforms, Inc.",
+          "sector": "Communication Services / Internet Content",
+          "price": "$604.10",
+          "change": "+$19.90",
+          "pct": "+3.41%",
+          "catalyst": "Led communication sector gainers comfortably(https://thebusinessjournal.com/wall-street-stocks-mixed-oil-prices-inflation-tech/) as big tech accumulation grids deploy capital ahead of upcoming banking earnings prints."
+        },
+        {
+          "ticker": "VZ",
+          "company": "Verizon Communications",
+          "sector": "Communication Services / Telecom Services",
+          "price": "$44.05",
+          "change": "+$1.16",
+          "pct": "+2.70%",
+          "catalyst": "Rebounded sharply as large-scale portfolio algorithms execute rotating purchases back into high-dividend telecom segments ."
+        },
+        {
+          "ticker": "CRM",
+          "company": "Salesforce, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$234.06",
+          "change": "+$4.93",
+          "pct": "+2.15%",
+          "catalyst": "Boosted the blue-chip average cleanly following a rare Bank of America double-upgrade to \"Buy\" tracking deep enterprise platform AI monetization."
+        },
+        {
+          "ticker": "T",
+          "company": "AT&T Inc.",
+          "sector": "Communication Services / Telecom Services",
+          "price": "$23.14",
+          "change": "+$0.32",
+          "pct": "+1.40%",
+          "catalyst": "Found steady institutional block backing as value-focused corporate connectivity portfolios attract solid risk-off buffers ."
+        },
+        {
+          "ticker": "CVX",
+          "company": "Chevron Corporation",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$156.36",
+          "change": "+$2.16",
+          "pct": "+1.40%",
+          "catalyst": "Captured intense energy basket accumulation as international Brent crude oil futures spike vertically past $106 per barrel ."
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$126.12",
+          "change": "+$1.62",
+          "pct": "+1.30%",
+          "catalyst": "Advanced past near-term chart ceilings under programmatic energy extraction loops reacting to weekend supply chokepoint risks ."
+        },
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "sector": "Technology / Internet Content",
+          "price": "$169.50",
+          "change": "+$1.18",
+          "pct": "+0.70%",
+          "catalyst": "Ground out steady localized gains as hyperscaler metrics remain structurally supported past intermediate baseline moving triggers ."
+        },
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sector": "Financial Services / Diversified Banks",
+          "price": "$215.10",
+          "change": "+$1.28",
+          "pct": "+0.60%",
+          "catalyst": "Maintained fractionally positive tracking bounds as institutional cash management funds allocate heavily before tomorrow's Q3 banking print loop ."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "CBRS",
+          "company": "Cerebras Systems Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$146.62",
+          "change": "-$17.55",
+          "pct": "-10.69%",
+          "catalyst": "Cratered over 10% to lead technology software declines(https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-12-212311190.html) as active portfolios aggressively pare speculative generative chip exposure."
+        },
+        {
+          "ticker": "SMTC",
+          "company": "Semtech Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$168.28",
+          "change": "-$19.02",
+          "pct": "-10.15%",
+          "catalyst": "Faced an aggressive technical breakdown on high volume as semiconductor network layers fell through near-term support lines."
+        },
+        {
+          "ticker": "CIEN",
+          "company": "Ciena Corporation",
+          "sector": "Technology / Communication Equipment",
+          "price": "$405.01",
+          "change": "-$44.76",
+          "pct": "-9.95%",
+          "catalyst": "Absorbed intense computerized liquidation following corporate caution regarding near-term optical hardware demand matrices."
+        },
+        {
+          "ticker": "FSLY",
+          "company": "Fastly, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$26.43",
+          "change": "-$2.87",
+          "pct": "-9.80%",
+          "catalyst": "Surrendered last Friday's brief short-covering bounce completely as algorithmic software layers execute a swift return to downside channels."
+        },
+        {
+          "ticker": "LITE",
+          "company": "Lumentum Holdings Inc.",
+          "sector": "Technology / Scientific & Technical Instruments",
+          "price": "$995.41",
+          "change": "-$107.95",
+          "pct": "-9.78%",
+          "catalyst": "Slipped forcefully under expanded volume as active managers trigger automated stop-losses beneath macro chart floors."
+        },
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$97.25",
+          "change": "-$3.95",
+          "pct": "-3.90%",
+          "catalyst": "Faced intense distribution pressure under heavy volume after international updates exposed rising Chinese memory node competition."
+        },
+        {
+          "ticker": "IREN",
+          "company": "IREN Limited",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$34.80",
+          "change": "-$0.39",
+          "pct": "-1.11%",
+          "catalyst": "Absorbed profit profit-taking after jumping 8.7% early(https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-12-212115906.html) on news of a multiyear Anthropic cloud deal, as execution risk limits long-term gains ."
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$155.60",
+          "change": "-$1.60",
+          "pct": "-1.02%",
+          "catalyst": "Underperformed slightly as systematic silicon data center infrastructure layers face mild portfolio paring down the stretch ."
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices",
+          "sector": "Technology / Semiconductors",
+          "price": "$162.10",
+          "change": "-$1.50",
+          "pct": "-0.92%",
+          "catalyst": "Eased lower as programmatic semiconductor baskets accelerate localized chip equipment markdown loops ."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$124.12",
+          "change": "-$0.83",
+          "pct": "-0.66%",
+          "catalyst": "Retrenched fractionally past recent chart support lines as investors closely balance high-multiple hardware exposure limits."
+        }
+      ],
+      "catalysts": [
+        "The Global Memory Chip Competition Shock: The semiconductor and AI hardware spaces absorbed notable distribution after reports surfaced highlighting rapid technical chip advancement and rising production yields from subsidized Chinese domestic memory manufacturers . The headlines triggered immediate institutional paring down the stretch, knocking Micron Technology ($MU) down 3.9% and stalling parallel silicon supply chains as investors reassess pricing power assumptions .",
+        "Bumble's Take-Private Speculation Volatility: In consumer application metrics, Bumble ($BMBL) experienced an extraordinary 50% explosion following authoritative financial reports that the company is in advanced negotiations to be taken private by a prominent technology-focused investment fund at a $1 billion valuation ceiling . The premium transaction shifts the near-term landscape, highlighting intense interest in technology assets that have endured severe multi-year public market markdown cycles ."
+      ]
+    },
+    {
       "timestamp": "2026-10-09T20:00:00+00:00",
       "header": "Friday, October 9, 2026's Report",
       "headline": "The S&P 500 and Dow Jones Industrial Average advance to cap off a record-setting week as stabilizing macro indicators and an artificial intelligence sentiment bounce spark broad dip-buying loops [Wall Street finishes its record-setting week with gains, Weekly Market Update: Stocks Gain 1.03% as Utilities Rise ...]. U.S. stock benchmarks closed comfortably in the green on Friday, reversing Thursday's sharp technology rout as algorithmic portfolios reacted to updated tech telemetry [Weekly Market Update: Stocks Gain 1.03% as Utilities Rise ..., Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...]. Global Brent crude oil futures moderated slightly to settle near $104.00 a barrel, providing near-term price floor relief after executive comments eased immediate geopolitical concerns ahead of upcoming election blocks [Stocks move higher even as Treasury yields, oil prices tick up, Stock market today: Dow, S&P 500, Nasdaq futures rise as oil ...]. Meanwhile, fixed-income desks recorded an orderly session as the benchmark 10-year U.S. Treasury yield stabilized around 5.24%, pausing its multi-week run higher and allowing interest-rate-sensitive matrices to form a technical baseline before next week's banking earnings cycle kicks off [Update: Nasdaq Rises to Notch Fourth Weekly Gain, Markets News, Oct. 9, 2026: Stocks Rise as Oil Prices ...].",
@@ -831,7 +1033,9 @@
         "The Google-Constellation Nuclear Power Alliance: A monumental clean-energy shift reshaped utility and tech vectors after Alphabet Inc. ($GOOGL) entered a massive, 20-year power-purchase framework with Constellation Energy ($CEG) [Google, Constellation Energy Strike Deal for Nuclear Power, Constellation Signs 20-Year Deal with Google to Unlock 890 ...]. The agreement unlocks 890 megawatts of new carbon-free atomic capacity by funding upgrades across 11 reactors [Google, Constellation Energy Strike Deal for Nuclear Power], gapping Constellation stock up 14% to all-time highs as Big Tech races to secure baseline power for massive AI data networks [Google signs 20-year nuclear deal with Constellation Energy ..., Constellation Signs 20-Year Deal with Google to Unlock 890 ...].",
         "Marvell's Blockbuster Forward Revisions: Hardware infrastructure nodes caught fire during the session after Marvell Technology ($MRVL) hosted an ambitious Investor Day [Marvell Technology stock rallies following ambitious investor day targets]. Management raised its fiscal 2028 revenue baseline to $20 billion (exceeding Wall Street estimates of $18.2 billion) [Marvell raises 2028 revenue forecast on strong AI data center ..., Marvell Technology stock rallies following ambitious investor day targets] and targeting a staggering $70B–$90B by fiscal 2031 [Stock Market Today, Oct. 6: Marvell Stock Is Up as the Company Raises FY2028 Revenue Outlook to $20 Billion], driven entirely by surging hyperscaler custom computing chip demand [Marvell raises 2028 revenue forecast on strong AI data center ..., Marvell Technology stock rallies following ambitious investor day targets]."
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-10-05T20:00:00+00:00",
       "header": "Monday, October 5, 2026's Report",
@@ -1039,9 +1243,7 @@
         "The PTC Acquisition Premium Surge: Enterprise application software leader PTC Inc. ($PTC) popped a massive 34.2% on heavy block institutional volume [Stock market today: Dow, S&P 500, Nasdaq diverge amid ...]. The mammoth move was fueled entirely by news that European engineering giant Schneider Electric has launched a formal, multi-billion dollar takeover bid [Nasdaq notches record high close as investors focus on ...], instantly triggering a massive short squeeze across high-multiple software clusters.",
         "The 10-Year Yield Squeeze Resistance: Despite the S&P 500 finishing within 0.3% of its all-time record close, fixed-income desks continued a relentless long-end distribution program [Stock Market Today: Nasdaq Closes at Record as AI-Tied ..., Nasdaq notches record high close as investors focus on ...]. Upbeat ISM service providers metrics showing an expansion reading of 54.9 combined with a surging service prices indicator to stoke inflation concern [Stock Market Today: 10-Year Yield Rises - WSJ, Stock Market Today: 10-Year Yield Rises - WSJ], pinning the 10-year Treasury yield up to 5.30% and leaving interest-rate-sensitive assets highly vulnerable [Stock market today: Dow, S&P 500, Nasdaq diverge amid ..., Stock Market Today: 10-Year Yield Rises - WSJ]."
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-10-02T20:00:00+00:00",
       "header": "Friday, October 2, 2026's Report",
