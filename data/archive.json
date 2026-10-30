@@ -1,6 +1,223 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-10-23T20:00:00+00:00",
+      "header": "Friday, October 23, 2026's Report",
+      "headline": "Major U.S. stock indexes close lower to end a rocky week as surging international crude oil benchmarks and sticky macro inflation prints reignite widespread economic concerns ahead of the upcoming Federal Reserve policy meeting . Wall Street gave back ground on Friday under intensifying commodity pressures, with the Dow Jones Industrial Average logging a sharp 653-point drop led by economically sensitive banking and consumer finance weights . Fixed-income desks logged a localized bounce as the benchmark 10-year U.S. Treasury yield rose to finish at 4.987%, creeping back toward the 5% threshold following manufacturing activity updates that accelerated to a 53-month high . Concurrently, global energy indices vaulted to multi-month highs as Brent crude oil futures surged 3.1% to settle at $116.72 a barrel—its absolute highest marks since June 2022—fueled by escalating geopolitical friction lines, additional U.S. troop deployments to the Middle East, and severe Houthi militant infrastructure strikes disrupting vital Red Sea shipping channels .",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,623.68",
+          "change": "-39.75 pts",
+          "pct": "-0.52%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "25,955.34",
+          "change": "-53.52 pts",
+          "pct": "-0.21%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "52,215.16",
+          "change": "-652.82 pts",
+          "pct": "-1.23%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "NET",
+          "company": "Cloudflare, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$360.38",
+          "change": "+$24.50",
+          "pct": "+7.30%",
+          "catalyst": "Skyrocketed over 7% to pace software gainers after a prominent Evercore ISI corporate survey verified accelerating spending targets for data and cloud security loops."
+        },
+        {
+          "ticker": "PANW",
+          "company": "Palo Alto Networks",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$380.12",
+          "change": "+$25.80",
+          "pct": "+7.28%",
+          "catalyst": "Vaulted past multi-session chart ceilings on high volume tracking aggressive corporate budget flows into AI agent risk mitigation tools."
+        },
+        {
+          "ticker": "SAIL",
+          "company": "SailPoint Technologies",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$68.45",
+          "change": "+$4.65",
+          "pct": "+7.25%",
+          "catalyst": "Caught heavy programmatic cybersecurity inflows as multi-asset platforms aggressively deploy cash into data identity protection nodes."
+        },
+        {
+          "ticker": "OKTA",
+          "company": "Okta, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$92.50",
+          "change": "+$4.37",
+          "pct": "+4.96%",
+          "catalyst": "Advanced forcefully through horizontal resistance boundaries after sector channel partners recorded highly robust enterprise sales pipelines."
+        },
+        {
+          "ticker": "FTNT",
+          "company": "Fortinet, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$84.20",
+          "change": "+$3.48",
+          "pct": "+4.31%",
+          "catalyst": "Paced broader system infrastructure expansion cleanly as institutional tech portfolios re-align exposure toward high-moat network shields."
+        },
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$90.76",
+          "change": "+$2.64",
+          "pct": "+3.00%",
+          "catalyst": "Managed a resilient green close in tech columns [WSJ], capturing steady dip-buying support following yesterday's deep structural capital rout."
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$136.21",
+          "change": "+$3.96",
+          "pct": "+2.99%",
+          "catalyst": "Captured intense energy basket accumulation loops as international Brent crude prices accelerate forcefully past $116 a barrel."
+        },
+        {
+          "ticker": "CVX",
+          "company": "Chevron Corporation",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$160.75",
+          "change": "+$4.15",
+          "pct": "+2.65%",
+          "catalyst": "Supported the broader energy sector outperformance cleanly [Reuters], acting as a major index buffer against cyclical blue-chip liquidations."
+        },
+        {
+          "ticker": "OXY",
+          "company": "Occidental Petroleum Corp.",
+          "sector": "Energy / Oil & Gas E&P",
+          "price": "$62.88",
+          "change": "+$1.52",
+          "pct": "+2.48%",
+          "catalyst": "Found steady institutional commodity rebalancing bids [Reuters] as Middle East military updates command immediate extraction premium targets."
+        },
+        {
+          "ticker": "VIXY",
+          "company": "ProShares VIX Short-Term",
+          "sector": "Financials / Volatility Proxy",
+          "price": "$15.42",
+          "change": "+$0.36",
+          "pct": "+2.39%",
+          "catalyst": "Maintained positive tracking velocity past moving averages [WSJ], serving as a tactical hedge option as multi-asset indexes pare down down the stretch."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "AXP",
+          "company": "American Express Co.",
+          "sector": "Financial Services / Credit Services",
+          "price": "$245.50",
+          "change": "-$9.43",
+          "pct": "-3.70%",
+          "catalyst": "Cratered over 3% to drag down the Dow Jones Average after its latest billing layout metrics flagged minor cooling signs in domestic luxury travel allocations."
+        },
+        {
+          "ticker": "T",
+          "company": "AT&T Inc.",
+          "sector": "Communication Services / Telecom Services",
+          "price": "$22.12",
+          "change": "-$0.92",
+          "pct": "-3.99%",
+          "catalyst": "Faced intense institutional block distribution loops after media updates revealed high-stakes private wireless carrier discussions between SpaceX and competing networks."
+        },
+        {
+          "ticker": "VZ",
+          "company": "Verizon Communications",
+          "sector": "Communication Services / Telecom Services",
+          "price": "$40.25",
+          "change": "-$1.50",
+          "pct": "-3.59%",
+          "catalyst": "Slipped forcefully under expanded volume filters as systematic communication sector de-risking cycles accelerate matching mobile competition headlines."
+        },
+        {
+          "ticker": "TMUS",
+          "company": "T-Mobile US, Inc.",
+          "sector": "Communication Services / Telecom Services",
+          "price": "$143.10",
+          "change": "-$4.20",
+          "pct": "-2.85%",
+          "catalyst": "Absorbed heavy automated media cluster adjustments as programmatic algorithms pare legacy carrier spaces to fund defensive energy moves."
+        },
+        {
+          "ticker": "CRWV",
+          "company": "CoreWeave, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$62.50",
+          "change": "-$1.57",
+          "pct": "-2.45%",
+          "catalyst": "Ground lower past intermediate horizontal supports as neocloud infrastructure optimization loops see technical exhaustion in late-day tapes."
+        },
+        {
+          "ticker": "IREN",
+          "company": "IREN Limited",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$26.85",
+          "change": "-$0.65",
+          "pct": "-2.36%",
+          "catalyst": "Underperformed broad infrastructure clusters fractionally [WSJ] as multi-asset desks prune specialized high-leverage data centers."
+        },
+        {
+          "ticker": "JPM",
+          "company": "JPMorgan Chase & Co.",
+          "sector": "Financial Services / Diversified Banks",
+          "price": "$211.50",
+          "change": "-$4.90",
+          "pct": "-2.26%",
+          "catalyst": "Faced direct automated cash extraction loops as banking loop operators reduce cyclical allocations sensitive to macro inflation curves."
+        },
+        {
+          "ticker": "GS",
+          "company": "Goldman Sachs Group Inc.",
+          "sector": "Financial Services / Capital Markets",
+          "price": "$504.12",
+          "change": "-$11.34",
+          "pct": "-2.20%",
+          "catalyst": "Retrenched beneath recent technical moving metrics [WSJ] as macro asset managers prune financial sector weights ahead of next week's interest rate pause."
+        },
+        {
+          "ticker": "CAT",
+          "company": "Caterpillar Inc.",
+          "sector": "Industrials / Farm & Heavy Construction",
+          "price": "$965.40",
+          "change": "-$19.10",
+          "pct": "-1.94%",
+          "catalyst": "Ground lower past intermediate support lines [WSJ] following sustained heavy industrial cap-ex compression tracking parameters."
+        },
+        {
+          "ticker": "ANET",
+          "company": "Arista Networks, Inc.",
+          "sector": "Technology / Computer Networking",
+          "price": "$368.50",
+          "change": "-$5.63",
+          "pct": "-1.50%",
+          "catalyst": "Extended near-term structural consolidation bounds as hardware portfolios trim cloud infrastructure positions to lock open profit targets."
+        }
+      ],
+      "catalysts": [
+        "The SK Hynix IPO Abrupt Cancellation: Technology and memory silicon infrastructure metrics endured significant structural stress after South Korean microchip giant SK Hynix abruptly yanked the highly anticipated U.S. Initial Public Offering (IPO) of its computational memory-chip business unit [WSJ]. The surprise tactical withdrawal injected fresh undercurrents of caution regarding immediate valuation tops inside the artificial intelligence trade, even as core tech large-caps managed to pare early double-digit losses down the stretch [WSJ].",
+        "The SpaceX Wireless Telecom Disruption: Communication services clusters sustained heavy tracking damage following investigative reporting detailing late-stage network architecture discussions between Elon Musk's SpaceX and target corporate providers to establish competitive satellite-to-cellular wireless configurations [Reuters]. The updates triggered immediate, multi-billion dollar institutional block liquidation cascades across legacy carrier pillars, knocking AT&T ($T) and Verizon ($VZ) down over 3.5% along parallel paths [Reuters].",
+        "Run a specialized scan tracking equity breakout layers successfully holding core supports despite the weekly drop?",
+        "Compile a comprehensive watch-matrix mapping the massive hyperscaler earnings flood scheduled for next week (GOOGL, MSFT, AMZN) [Reuters]?",
+        "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
+      ]
+    },
+    {
       "timestamp": "2026-10-22T20:00:00+00:00",
       "header": "Thursday, October 22, 2026's Report",
       "headline": "The NASDAQ Composite craters 2.6% to log its worst single-session wipeout since June as Meta Platforms' aggressive infrastructure restructuring sparks severe capital commitment panic across the artificial intelligence technology landscape . Growth portfolios endured a devastating thematic unwinding session on Thursday after mega-cap hyperscaler earnings disclosures exposed mounting data-network capital expenditures, severely bruising high-multiple speculative tech valuations . Macro index divergence intensified as a massive equity liquidation cycle triggered an abrupt global flight-to-safety bond rally, forcing the benchmark 10-year U.S. Treasury yield down over 19 basis points to close at 4.951%—breaking below the psychological 5% threshold for the first time in a month . Concurrently, severe international commodity supply anxieties flared as Brent crude oil futures vaulted 4% higher to settle at $113.10 a barrel, reaching its absolute highest mark since May following reports of imminent, high-stakes military strikes targeting key Iranian energy corridors .",
@@ -867,7 +1084,9 @@
         "Compile an early watch-matrix mapping institutional block positioning for SpaceX ($SPCX) and Tesla ($TSLA) earnings cycles ?",
         "Adjust the active $7.00 liquidity filter parameters ahead of the incoming closing bell print?"
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-10-16T20:00:00+00:00",
       "header": "Friday, October 16, 2026's Report",
@@ -1084,9 +1303,7 @@
         "Compile a comprehensive watch-matrix mapping the upcoming mega-cap earnings disclosures scheduled for next week?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-10-15T20:00:00+00:00",
       "header": "Thursday, October 15, 2026's Report",
@@ -3404,7 +3621,9 @@
         "The Amazon-Constellation Power Pact: A major fundamental utility catalyst reshaped the industrial sector after Constellation Energy ($CEG) finalized a premier 20-year nuclear power distribution agreement with Amazon ($AMZN) [Equities turn higher as Treasury yields drop from highs]. The direct clean-energy grid commitment ensures long-term power generation capacity specifically allocated to support Amazon's massive AI data center operations [Equities turn higher as Treasury yields drop from highs], sending Constellation equity up over 11% [Equities turn higher as Treasury yields drop from highs].",
         "The Semiconductor Post-Micron Drift: On the hardware layer, the technology matrix found firm ground post-close following Micron Technology's ($MU) massive forward metrics report [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]. While the stock opened soft, aggressive block institutional buying drove its annual AI-cycle performance past a landmark 280% tier [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...], carrying equipment nodes like Applied Materials ($AMAT) higher [Stock Market on Oct. 1, 2026: Dow, S&P 500 and Nasdaq end ...]."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-09-30T20:00:00+00:00",
       "header": "Wednesday, September 30, 2026's Report",
@@ -3618,9 +3837,7 @@
         "Micron's Blockbuster Financial Deliverables: Giving the technology layer a major fundamental boost, Micron Technology ($MU) reported record fiscal Q4 results with revenue scaling to an incredible $54.23 billion [Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results]. Operating profit parameters dramatically beat consensus estimates, powered entirely by massive global data center demand for advanced artificial intelligence high-bandwidth memory architecture [Micron Technology, Inc. Reports Record Fiscal Fourth-Quarter and Full-Year 2026 Results, Earnings: Micron Technology fiscal 2026 Q4 results reporting September 30; Wall Street expects $50.8 billion revenue (up 350% year-over-year) and non-GAAP earnings of $31.28 per share (up 932%).].",
         "The Citigroup Moderna Downgrade: In the healthcare space, Moderna Inc. ($MRNA) fell completely onto the defensive after Citigroup analysts slashed its rating to \"Sell\" [August PCE index cooler than expected; S&P 500, Nasdaq record second straight quarterly gains; Moderna falls after Citigroup downgrades to 'sell'; Indexes: Dow off 0.86%, S&P off 0.25%, Nasdaq up 0.24%.]. The research update warned that slowing product transitions and commercial execution bottlenecks pose material risks to intermediate free cash flow targets, sparking sharp institutional exit [August PCE index cooler than expected; S&P 500, Nasdaq record second straight quarterly gains; Moderna falls after Citigroup downgrades to 'sell'; Indexes: Dow off 0.86%, S&P off 0.25%, Nasdaq up 0.24%.]."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-09-29T20:00:00+00:00",
       "header": "Tuesday, September 29, 2026's Report",
