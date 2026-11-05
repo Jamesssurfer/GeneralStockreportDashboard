@@ -1,6 +1,223 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-10-29T20:00:00+00:00",
+      "header": "Thursday, October 29, 2026's Report",
+      "headline": "The NASDAQ Composite slides 1.4% to lead a broad mega-cap technology sell-off as Alphabet's massive capital expenditure cash burn triggers severe investor anxiety over the artificial intelligence trade . Wall Street's main indices finished under pressure on Thursday as an intense tech-led rout completely overshadowed a broadening session where over 400 components of the S&P 500 managed to close in positive territory . Sovereign fixed-income networks experienced mild accumulation, forcing the benchmark 10-year U.S. Treasury yield down to settle around 4.95% after fresh Personal Consumption Expenditures (PCE) price index metrics came in slightly cooler than economists anticipated . Meanwhile, commodity pricing metrics held structurally flat as international Brent crude oil futures steadied near $114.00 a barrel, keeping geopolitical risk premiums locked in place despite flat immediate transactional demands .",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,720.39",
+          "change": "-23.59 pts",
+          "pct": "-0.30%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,316.15",
+          "change": "-376.71 pts",
+          "pct": "-1.41%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "52,220.15",
+          "change": "-157.42 pts",
+          "pct": "-0.30%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "CVNA",
+          "company": "Carvana Co.",
+          "sector": "Consumer Cyclical / Auto Dealers",
+          "price": "$168.42",
+          "change": "+$23.71",
+          "pct": "+16.38%",
+          "catalyst": "Skyrocketed over 16% to pace mid-cap cyclical clusters as automated retail platform tracking metrics clear multi-week channel baselines."
+        },
+        {
+          "ticker": "TXT",
+          "company": "Textron Inc.",
+          "sector": "Industrials / Aerospace & Defense",
+          "price": "$94.50",
+          "change": "+$11.39",
+          "pct": "+13.72%",
+          "catalyst": "Vaulted past horizontal chart ceilings under high volume following a highly optimized third-quarter military hardware backorder print."
+        },
+        {
+          "ticker": "NCLH",
+          "company": "Norwegian Cruise Line",
+          "sector": "Consumer Cyclical / Travel Services",
+          "price": "$28.12",
+          "change": "+$3.24",
+          "pct": "+13.01%",
+          "catalyst": "Surged forcefully on massive institutional block execution after lifting its full-year group net yield guidance metrics pre-bell."
+        },
+        {
+          "ticker": "CMG",
+          "company": "Chipotle Mexican Grill",
+          "sector": "Consumer Cyclical / Restaurants",
+          "price": "$64.12",
+          "change": "+$5.29",
+          "pct": "+9.00%",
+          "catalyst": "Rocketed nearly 9% to ignite retail food grids after publishing a stellar quarterly digital transactional delivery expansion beat."
+        },
+        {
+          "ticker": "LLY",
+          "company": "Eli Lilly & Co.",
+          "sector": "Healthcare / Drug Manufacturers—General",
+          "price": "$912.45",
+          "change": "+$51.65",
+          "pct": "+6.00%",
+          "catalyst": "Caught heavy programmatic health sector inflows as active managers aggressively deploy technology-pruned cash into tier-1 pharmaceutical growth anchors."
+        },
+        {
+          "ticker": "DASH",
+          "company": "DoorDash, Inc.",
+          "sector": "Consumer Cyclical / Software—Application",
+          "price": "$142.18",
+          "change": "+$7.53",
+          "pct": "+5.60%",
+          "catalyst": "Vaulted higher under intense volume tracking after confirming a milestone $17 billion strategic transaction to absorb grocery rival Instacart."
+        },
+        {
+          "ticker": "MRK",
+          "company": "Merck & Co., Inc.",
+          "sector": "Healthcare / Drug Manufacturers—General",
+          "price": "$114.50",
+          "change": "+$4.40",
+          "pct": "+4.00%",
+          "catalyst": "Advanced forcefully through technical chart resistance layers following highly robust international revenue segments from its core oncology lines."
+        },
+        {
+          "ticker": "EBAY",
+          "company": "eBay Inc.",
+          "sector": "Consumer Cyclical / Internet Retail",
+          "price": "$68.12",
+          "change": "+$1.98",
+          "pct": "+3.00%",
+          "catalyst": "Found steady structural buyer backing pre-bell after delivering an optimized gross merchandise transactional baseline report."
+        },
+        {
+          "ticker": "SHEL",
+          "company": "Shell plc",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$74.50",
+          "change": "+$1.74",
+          "pct": "+2.40%",
+          "catalyst": "Captured intense commodity basket rebalancing bids after initiating a major multi-billion dollar share buyback layout enhancement program."
+        },
+        {
+          "ticker": "LITE",
+          "company": "Lumentum Holdings Inc.",
+          "sector": "Technology / Scientific Instruments",
+          "price": "$84.20",
+          "change": "+$0.83",
+          "pct": "+1.00%",
+          "catalyst": "Managed a fractionally positive green cushion tracking advanced technology sector consolidation discussions involving proxy silicon peers ."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow, Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$895.12",
+          "change": "-$308.20",
+          "pct": "-25.60%",
+          "catalyst": "Cratered over 25% to lead application technology distribution after corporate growth projections missed high-multiple targets down the stretch."
+        },
+        {
+          "ticker": "FTNT",
+          "company": "Fortinet, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$71.20",
+          "change": "-$19.52",
+          "pct": "-21.52%",
+          "catalyst": "Faced fierce computerized liquidation loops as cybersecurity spending telemetry models encountered sharp short-term optimizations."
+        },
+        {
+          "ticker": "MRVL",
+          "company": "Marvell Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$78.20",
+          "change": "-$11.68",
+          "pct": "-13.00%",
+          "catalyst": "Faced devastating capital extraction blocks following public leaks exposing advanced, high-premium corporate procurement discussions for Lumentum."
+        },
+        {
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "sector": "Technology / Internet Content",
+          "price": "$151.10",
+          "change": "-$20.61",
+          "pct": "-12.01%",
+          "catalyst": "Slipped forcefully down the stretch past horizontal moving supports as its massive after-hours AI datacenter capital overexpansion panic unspooled."
+        },
+        {
+          "ticker": "CAT",
+          "company": "Caterpillar Inc.",
+          "sector": "Industrials / Farm & Heavy Construction",
+          "price": "$723.14",
+          "change": "-$71.67",
+          "pct": "-9.01%",
+          "catalyst": "Cratered nearly 9% to completely depress the Dow Average after flagging localized deceleration parameters across heavy machinery backlogs."
+        },
+        {
+          "ticker": "DRAM",
+          "company": "Roundhill Memory ETF",
+          "sector": "Index / Semiconductor Storage",
+          "price": "$21.20",
+          "change": "-$0.88",
+          "pct": "-4.00%",
+          "catalyst": "Underperformed broad technology frames significantly as global computer data memory networks sustain heavy short-term profit-paring."
+        },
+        {
+          "ticker": "CART",
+          "company": "Maplebear Inc. (Instacart)",
+          "sector": "Consumer Cyclical / Grocery Delivery",
+          "price": "$31.50",
+          "change": "-$0.71",
+          "pct": "-2.20%",
+          "catalyst": "Retrenched lower following confirmation of its all-stock acquisition contract terms with DoorDash ."
+        },
+        {
+          "ticker": "SOXX",
+          "company": "iShares Semiconductor ETF",
+          "sector": "Index / Semiconductors",
+          "price": "$412.14",
+          "change": "-$6.28",
+          "pct": "-1.50%",
+          "catalyst": "Ground lower past intermediate technical chart ceilings as computing silicon blocks face index rebalancing pressure ."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$416.50",
+          "change": "-$1.62",
+          "pct": "-0.39%",
+          "catalyst": "Eased lower past support moving systems as investors closely balance high-multiple margins against expanding infrastructure layouts ."
+        },
+        {
+          "ticker": "XLE",
+          "company": "Energy Select Sector SPDR",
+          "sector": "Index / Energy Infrastructure",
+          "price": "$88.40",
+          "change": "-$0.47",
+          "pct": "-0.53%",
+          "catalyst": "Underperformed its utilities peers slightly as automated energy baskets pare baseline positions down the stretch ."
+        }
+      ],
+      "catalysts": [
+        "Alphabet's Datacenter Capital Expansion Shock: High-multiple artificial intelligence software configurations sustained devastating technical damage during regular hours after Google-parent Alphabet ($GOOGL) crashed 12% . The severe distribution wave was triggered by yesterday's late disclosure revealing that intensive computing datacenter infrastructure investments expanded quarterly capital expenditures up 114% to a staggering $51.36 billion, driving corporate free cash flow to negative levels and prompting wide-ranging valuation multiple compressed reviews across the tech landscape .",
+        "The DoorDash-Instacart Strategic Combination: Consumer cyclical and technology applications networks absorbed major asset consolidation after DoorDash ($DASH) confirmed a definitive agreement to acquire digital grocery delivery platform Instacart ($CART) in a cash-and-stock deal valued at $17 billion . The transaction structure significantly shifts the domestic last-mile delivery footprint , instantly driving DoorDash over 5.5% higher as institutional analysts applaud the accelerated path toward structural margin expansion across non-restaurant commerce lines .",
+        "Run a specialized scan tracking equity breakout layers successfully confirming chart base patterns post-tech rotation?",
+        "Compile an early watch-matrix mapping the brutal after-hours earnings slides from Amazon (-6%) and Intel (-21%) dropping late Thursday ?",
+        "Adjust the active $7.00 programmatic liquidity filter configurations ahead of the incoming database injection cycle?"
+      ]
+    },
+    {
       "timestamp": "2026-10-28T20:00:00+00:00",
       "header": "Wednesday, October 28, 2026's Report",
       "headline": "The S&P 500 and Dow Jones Industrial Average advance for a third consecutive session as the Federal Reserve elects to keep interest rates steady, fueling a massive relief rally across artificial intelligence data-center providers. Wall Street main indices finished in positive territory on Wednesday after the Federal Open Market Committee voted 10-2 to hold its benchmark rate flat at 3.75% to 4.00%, momentarily pausing its aggressive campaign to cool macro economic indicators. Fixed-income desks endured mild distribution, forcing the benchmark 10-year U.S. Treasury yield up 5 basis points to close at 5.045% as traders aggressively priced in an 85% probability of a terminal rate hike at the final December meeting. Concurrently, energy supply pressures flared anew as international Brent crude oil futures rose near 1% to settle at $116.25 a barrel following confirmation of a damaging drone attack targeting Saudi Arabia's major Ras Tanura refinery complex. (https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10282026-12198013), (https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html), (https://fortune.com/article/price-of-oil-10-28-2026/), (https://energynow.ca/2026/10/oil-prices-rebound-as-houthi-attack-on-saudi-refinery-renews-supply-fears-wti-climbs-above-101-brent-near-115/).",
@@ -867,7 +1084,9 @@
         "Compile a comprehensive watch-matrix mapping the massive hyperscaler earnings flood scheduled for next week (GOOGL, MSFT, AMZN) [Reuters]?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-10-22T20:00:00+00:00",
       "header": "Thursday, October 22, 2026's Report",
@@ -1084,9 +1303,7 @@
         "Compile a comprehensive watch-matrix mapping the major hyperscaler earnings drops scheduled for next week (GOOGL, MSFT) ?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion?"
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-10-21T20:00:00+00:00",
       "header": "Wednesday, October 21, 2026's Report",
@@ -3428,7 +3645,9 @@
         "Federal Reserve September Minutes Debate: Macro trading models experienced material friction after the Federal Open Market Committee (FOMC) published the minutes from its September policy gathering [Fed Minutes Signal Further Rate Increase This Year, but No Urgency for October Hike., Market faces pullback after S&P 500, Nasdaq records]. The disclosure revealed a much broader and more nuanced debate among central bankers than the initial unanimous quarter-point rate hike implied [Market faces pullback after S&P 500, Nasdaq records, Stock Market Today – U.S. Stock Market Closing Snapshot.], signaling that while a further rate hike is highly probable before year-end, there is zero immediate urgency for an October tightening move [Fed Minutes Signal Further Rate Increase This Year, but No Urgency for October Hike.].",
         "The Industrials Drag & Multi-Decade Yield Pressure: The underlying U.S. market print proved considerably weaker than headline numbers indicated, driven by a sharp 3.34-to-1 declining-to-advancing ratio on the NYSE [Stock Market Today – Market Breadth Was Worse Than the Indexes Suggest., Stock Market Today – Market Breadth Was Worse Than the Indexes Suggest.]. Heavy industrial bellwether Caterpillar ($CAT) plummeted 5.8% to orchestrate a broad sell-off across construction and engineering spaces [Markets News, Oct. 7, 2026: S&P 500, Nasdaq Pull Back From ..., Stock Market Today: Dow Opens Lower, Treasury Yields Hit ...], as corporate procurement desks struggle to balance rising risk-free treasury returns challenging current equity valuation benchmarks [Stock Market Today – Wall Street Pulls Back From Record Highs., Stock Market Today – Wall Street Pulls Back From Record Highs.]."
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-10-06T20:00:00+00:00",
       "header": "Tuesday, October 6, 2026's Report",
@@ -3636,9 +3855,7 @@
         "The Google-Constellation Nuclear Power Alliance: A monumental clean-energy shift reshaped utility and tech vectors after Alphabet Inc. ($GOOGL) entered a massive, 20-year power-purchase framework with Constellation Energy ($CEG) [Google, Constellation Energy Strike Deal for Nuclear Power, Constellation Signs 20-Year Deal with Google to Unlock 890 ...]. The agreement unlocks 890 megawatts of new carbon-free atomic capacity by funding upgrades across 11 reactors [Google, Constellation Energy Strike Deal for Nuclear Power], gapping Constellation stock up 14% to all-time highs as Big Tech races to secure baseline power for massive AI data networks [Google signs 20-year nuclear deal with Constellation Energy ..., Constellation Signs 20-Year Deal with Google to Unlock 890 ...].",
         "Marvell's Blockbuster Forward Revisions: Hardware infrastructure nodes caught fire during the session after Marvell Technology ($MRVL) hosted an ambitious Investor Day [Marvell Technology stock rallies following ambitious investor day targets]. Management raised its fiscal 2028 revenue baseline to $20 billion (exceeding Wall Street estimates of $18.2 billion) [Marvell raises 2028 revenue forecast on strong AI data center ..., Marvell Technology stock rallies following ambitious investor day targets] and targeting a staggering $70B–$90B by fiscal 2031 [Stock Market Today, Oct. 6: Marvell Stock Is Up as the Company Raises FY2028 Revenue Outlook to $20 Billion], driven entirely by surging hyperscaler custom computing chip demand [Marvell raises 2028 revenue forecast on strong AI data center ..., Marvell Technology stock rallies following ambitious investor day targets]."
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-10-05T20:00:00+00:00",
       "header": "Monday, October 5, 2026's Report",
