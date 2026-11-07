@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-11-06T20:00:00+00:00",
+    "header": "Friday, November 6, 2026's Report",
+    "headline": "The NASDAQ Composite and S&P 500 rebound as aggressive institutional dip-buying loops snap the brutal artificial intelligence tech tailspin, though major benchmarks still lock in their worst weekly declines since June. Wall Street staged a highly volatile stabilization print on Friday; tech-focused growth portfolios aggressively accumulated deeply discounted chip grids to halt the global equity rout. Macro index trajectories were severely tested by structural fixed-income metrics, forcing sovereign debt markets higher following an exceptionally robust October nonfarm payrolls report showing 165,000 jobs added (soundly beating Wall Street expectations of 59,000). The hot economic data pinned the benchmark 10-year U.S. Treasury yield higher, maintaining restrictive pricing pressures across long-duration proxies. Meanwhile, international commodity platforms downshifted, allowing Brent crude oil futures to settle slightly lower as energy desks closely balanced the strong economic baseline against temporary steps to cool Middle East shipping chokepoint friction. (https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html), (https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html), (https://sg.finance.yahoo.com/news/stock-market-today-nov-6-144816072.html), (https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html).",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,376.86",
+        "change": "+23.13 pts",
+        "pct": "+0.31%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "24,579.42",
+        "change": "+264.43 pts",
+        "pct": "+1.09%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "51,285.73",
+        "change": "-237.33 pts",
+        "pct": "-0.46%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$448.88",
+        "change": "+$44.48",
+        "pct": "+11.00%",
+        "catalyst": "Rocketed 11% to lead the large-cap chip sector turnaround as institutional funds aggressively bought the post-election regulatory sell-off floor."
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$16.19",
+        "change": "+$1.20",
+        "pct": "+8.00%",
+        "catalyst": "Staged a sharp 8% technical chart recovery on massive volume filters after speculative portfolios absorbed the previous historic fab-meltdown wipeout."
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group N.V.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$34.84",
+        "change": "+$2.58",
+        "pct": "+8.00%",
+        "catalyst": "Vaulted 8% higher past horizontal chart ceilings as programmatic buyers target specialized neocloud infrastructure optimization nodes."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$88.75",
+        "change": "+$4.23",
+        "pct": "+5.00%",
+        "catalyst": "Advanced forcefully off support zones as data center storage desks step in to absorb deeply compressed computational memory weights."
+      },
+      {
+        "ticker": "SNDK",
+        "company": "SanDisk Corporation",
+        "sector": "Technology / Computer Hardware",
+        "price": "$67.09",
+        "change": "+$2.27",
+        "pct": "+3.50%",
+        "catalyst": "Snapped a brutal multi-day structural drop pattern cleanly as active managers cover short configurations past chart baselines."
+      },
+      {
+        "ticker": "SOXX",
+        "company": "iShares Semiconductor ETF",
+        "sector": "Index / Semiconductor Sector",
+        "price": "$433.15",
+        "change": "+$14.65",
+        "pct": "+3.50%",
+        "catalyst": "Bounced forcefully under heavy institutional block execution to stabilize the broader index hardware framework."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$187.05",
+        "change": "+$5.45",
+        "pct": "+3.00%",
+        "catalyst": "Paced blue-chip tech gains on the Dow Jones Index cleanly, drawing strong relative strength bids as global multiple concerns level off."
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$132.10",
+        "change": "+$3.60",
+        "pct": "+2.80%",
+        "catalyst": "Found steady institutional rebalancing block backing as mega-cap computer hardware networks catch parallel silicon scaling flows."
+      },
+      {
+        "ticker": "HPE",
+        "company": "Hewlett Packard Enterprise",
+        "sector": "Technology / Computer Hardware",
+        "price": "$24.80",
+        "change": "+$0.68",
+        "pct": "+2.81%",
+        "catalyst": "Preserved tight structural base insulation, advancing steadily past moving averages on robust AI data center server shipments."
+      },
+      {
+        "ticker": "AMZN",
+        "company": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical / Internet Retail",
+        "price": "$244.12",
+        "change": "+$3.77",
+        "pct": "+1.57%",
+        "catalyst": "Managed a positive green cushion down the stretch as large-scale cloud infrastructure desks absorb trailing capex expansion commentary."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "CAT",
+        "company": "Caterpillar Inc.",
+        "sector": "Industrials / Farm & Heavy Construction",
+        "price": "$670.51",
+        "change": "-$42.80",
+        "pct": "-6.00%",
+        "catalyst": "Cratered to lead blue-chip declines on the Dow as macro funds pare machinery weightings to fund the returning technology rotation."
+      },
+      {
+        "ticker": "XLE",
+        "company": "Energy Select Sector SPDR",
+        "sector": "Index / Energy Infrastructure",
+        "price": "$86.25",
+        "change": "-$3.15",
+        "pct": "-3.52%",
+        "catalyst": "Faced intense distribution pressure under heavy volume as global energy structures lock in a punishing 11% weekly collapse."
+      },
+      {
+        "ticker": "XLRE",
+        "company": "Real Estate SPDR",
+        "sector": "Real Estate / Sector Trust Proxy",
+        "price": "$39.87",
+        "change": "-$1.33",
+        "pct": "-3.23%",
+        "catalyst": "Slipped forcefully down the stretch as stronger-than-expected nonfarm payrolls stoke immediate terminal rate-hike timelines."
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$21.40",
+        "change": "-$0.64",
+        "pct": "-2.90%",
+        "catalyst": "Ground lower past horizontal support baselines via automated communication layer cash extractions down the stretch."
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon Communications",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$38.50",
+        "change": "-$1.10",
+        "pct": "-2.78%",
+        "catalyst": "Underperformed broad currency blocks fractionally as large institutional portfolios pare defensive tracking anchors."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$82.48",
+        "change": "-$1.74",
+        "pct": "-2.07%",
+        "catalyst": "Retrenched past near-term technical support moving averages as systematic growth baskets switch safety capital back into growth."
+      },
+      {
+        "ticker": "PG",
+        "company": "The Procter & Gamble Co.",
+        "sector": "Consumer Defensive / Household Products",
+        "price": "$168.62",
+        "change": "-$3.20",
+        "pct": "-1.86%",
+        "catalyst": "Ground lower past intermediate support bounds as multi-asset platforms shave off low-beta structural consumer filters."
+      },
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$882.15",
+        "change": "-$12.35",
+        "pct": "-1.38%",
+        "catalyst": "Eased lower past horizontal support moving systems as consumer staples networks absorb downstream index rotation flows."
+      },
+      {
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$130.45",
+        "change": "-$1.19",
+        "pct": "-0.90%",
+        "catalyst": "Extended near-term structural consolidation lines lower as crude energy desks recalibrate asset values against regulatory macro blocks."
+      },
+      {
+        "ticker": "CVX",
+        "company": "Chevron Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$158.62",
+        "change": "-$1.25",
+        "pct": "-0.78%",
+        "catalyst": "Absorbed mild post-bell paring pressure as active energy baskets trim integrated commodity weights matching weekly asset shifts."
+      }
+    ],
+    "catalysts": [
+      "The Bumper October Jobs Inflection: Sovereign clearing networks absorbed immense computational friction after the Bureau of Labor Statistics printed a blistering 165,000 nonfarm payrolls gain for October. The hot economic print drastically outpaced Wall Street consensus expectations of a minor 59,000 addition, flashing clear evidence of labor market resilience. While validating the underlying health of corporate cash dynamics, the data immediately forced bond desks to price terminal interest rate boundaries higher, dragging interest-rate-sensitive proxies lower down the stretch. (https://sg.finance.yahoo.com/news/stock-market-today-nov-6-144816072.html), (https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html).",
+      "The S-1 Valuation Re-calibration Matrix: Generative computational software layers absorbed secondary volatility waves amid subsequent updates surrounding private AI developer Anthropic's upcoming initial public offering. The severe technology sector corrections witnessed throughout the week successfully forced institutional block underwriters to explore downward structural revisions to its anticipated public debut market capitalization boundaries, anchoring deep caution across early pre-IPO capital allocation grids. (https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html)."
+    ]
+  },
+  {
     "timestamp": "2026-11-05T20:00:00+00:00",
     "header": "Thursday, November 5, 2026's Report",
     "headline": "The NASDAQ Composite craters 5.5% to lead one of the worst single-session wipeouts in Wall Street history as intensifying regulatory fears over a nationwide artificial intelligence data centre moratorium spark a full-scale panic across tech corridors. Equity benchmarks completely surrendered their historic post-election relief gains on Thursday, with the S&P 500 and Russell 2000 logging their worst daily performances since April 2025 as the massive technology correction officially deepened. Macro index pressure triggered an immediate global flight-to-safety capital rush into fixed-income desks, pulling the benchmark 10-year U.S. Treasury yield down to its lowest levels since early September. Concurrently, energy supply parameters experienced a sharp rebound as international Brent crude oil futures firmed up significantly, driven by renewed skepticism over near-term Middle East diplomatic breakthrough lines as political portfolios recalibrate under the unified congressional makeup. (https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html), (https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html), (https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-212218583.html), (https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026).",
