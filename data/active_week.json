@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-11-09T20:00:00+00:00",
+    "header": "Monday, November 9, 2026's Report",
+    "headline": "The NASDAQ Composite and S&P 500 trigger a massive, high-volume technology relief rally as intense dip-buying loops across the battered semiconductor sector successfully overwrite a severe standalone decline in Nvidia. Wall Street recorded its best single-session performance since April on Monday, aggressively clawing back a significant portion of the post-midterm legislative drag that pushed major stock indexes to multi-week correction lows last week. Macro index momentum was heavily amplified by a steep contraction in international energy pricing benchmarks, as Brent crude oil futures tumbled 5.85% to settle lower at $92.57 a barrel, instantly deflating localized supply chain container inflation fears. Concurrently, sovereign fixed-income parameters paused their relentless markdown cycle, keeping the benchmark 10-year U.S. Treasury yield unchanged to finish at 4.87%, which stabilized credit lending boundaries ahead of tomorrow's crucial consumer inflation data print. (https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409).",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,549.94",
+        "change": "+173.08 pts",
+        "pct": "+2.35%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "25,253.14",
+        "change": "+673.72 pts",
+        "pct": "+2.74%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "52,389.75",
+        "change": "+1,104.02 pts",
+        "pct": "+2.15%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$170.80",
+        "change": "+$19.65",
+        "pct": "+13.00%",
+        "catalyst": "Rocketed 13% to lead all large-cap chip entries as multi-asset growth desks aggressively exploit deeply discounted computing grids."
+      },
+      {
+        "ticker": "CEG",
+        "company": "Constellation Energy Corp.",
+        "sector": "Utilities / Independent Power",
+        "price": "$339.40",
+        "change": "+$30.85",
+        "pct": "+10.00%",
+        "catalyst": "Vaulted 10% forcefully past horizontal chart headers after raising its full-year earnings guidance baseline ceiling."
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research Corp.",
+        "sector": "Technology / Semiconductor Equipment",
+        "price": "$862.15",
+        "change": "+$78.38",
+        "pct": "+10.00%",
+        "catalyst": "Caught heavy programmatic institutional buy flows as equipment desks scramble to rebuild high-multiple silicon layers."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$175.20",
+        "change": "+$14.46",
+        "pct": "+9.00%",
+        "catalyst": "Paced custom AI data center data network architectures cleanly, sparking an extensive sector short squeeze down the stretch."
+      },
+      {
+        "ticker": "MRVL",
+        "company": "Marvell Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$75.24",
+        "change": "+$6.21",
+        "pct": "+9.00%",
+        "catalyst": "Recovered minor technical moving configurations as automated portfolio rebalancing modules rotate cash back into optoelectronics."
+      },
+      {
+        "ticker": "CAT",
+        "company": "Caterpillar Inc.",
+        "sector": "Industrials / Farm & Heavy Construction",
+        "price": "$1,034.90",
+        "change": "+$69.60",
+        "pct": "+7.21%",
+        "catalyst": "Supercharged the industrial segments of the Dow Jones, clearing overhead channel lines on massive block execution metrics."
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$17.15",
+        "change": "+$0.97",
+        "pct": "+6.00%",
+        "catalyst": "Found steady institutional bottom-fishing backing as value-centric computational client tiers draw programmatic relief loops."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$93.82",
+        "change": "+$5.31",
+        "pct": "+6.00%",
+        "catalyst": "Advanced past near-term horizontal support bounds as data center memory storage desks move to rebuild circulating allocations."
+      },
+      {
+        "ticker": "TSLA",
+        "company": "Tesla, Inc.",
+        "sector": "Consumer Cyclical / Auto Manufacturers",
+        "price": "$395.12",
+        "change": "+$20.60",
+        "pct": "+5.50%",
+        "catalyst": "Captured intense programmatic Mag-7 capital injection loops, vaulting cleanly to pace consumer discretionary trackers."
+      },
+      {
+        "ticker": "META",
+        "company": "Meta Platforms, Inc.",
+        "sector": "Communication Services / Internet Content",
+        "price": "$652.88",
+        "change": "+$31.10",
+        "pct": "+5.00%",
+        "catalyst": "Maintained positive tracking velocity past moving systems as high-multiple ad layer allocations catch systemic rotation benefits."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$172.48",
+        "change": "-$9.07",
+        "pct": "-5.00%",
+        "catalyst": "Cratered 5% in direct defiance of the tech sector rally after an explosive weekend disclosure tracking a board probe into its chief executive."
+      },
+      {
+        "ticker": "APPS",
+        "company": "Digital Turbine Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$8.96",
+        "change": "-$2.34",
+        "pct": "-20.71%",
+        "catalyst": "Cratered over 20% in high-volume extended after-hours electronic trading after reporting standard fiscal operational results that triggered sharp trailing paring."
+      },
+      {
+        "ticker": "HRB",
+        "company": "H&R Block, Inc.",
+        "sector": "Consumer Cyclical / Personal Services",
+        "price": "$44.15",
+        "change": "-$3.97",
+        "pct": "-9.20%",
+        "catalyst": "Faced fierce algorithmic after-hours cash extraction loops as specialized portfolio desks recalibrate intermediate targets."
+      },
+      {
+        "ticker": "ACAD",
+        "company": "ACADIA Pharmaceuticals",
+        "sector": "Healthcare / Biotechnology",
+        "price": "$14.92",
+        "change": "-$1.07",
+        "pct": "-6.70%",
+        "catalyst": "Faced devastating post-market technical breakdown metrics as speculative biotechnology segments endure localized block distributions."
+      },
+      {
+        "ticker": "PFE",
+        "company": "Pfizer Inc.",
+        "sector": "Healthcare / Drug Manufacturers—General",
+        "price": "$28.12",
+        "change": "-$0.22",
+        "pct": "-0.78%",
+        "catalyst": "Slid fractionally post-bell due to automated medical cluster re-allocations moving out of low-beta structural defensive shields."
+      },
+      {
+        "ticker": "JNJ",
+        "company": "Johnson & Johnson",
+        "sector": "Healthcare / Drug Manufacturers—General",
+        "price": "$160.10",
+        "change": "-$0.96",
+        "pct": "-0.60%",
+        "catalyst": "Retrenched lower past intermediate chart shelves as multi-asset platforms shave off defensive weights to fund high-growth runs."
+      },
+      {
+        "ticker": "DUK",
+        "company": "Duke Energy Corporation",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$114.50",
+        "change": "-$0.45",
+        "pct": "-0.39%",
+        "catalyst": "Ground down past technical moving metrics slightly as broad utility re-allocations favor cash-rich nuclear operators over regulated names."
+      },
+      {
+        "ticker": "SO",
+        "company": "Southern Company",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$89.12",
+        "change": "-$0.26",
+        "pct": "-0.29%",
+        "catalyst": "Extended near-term structural consolidation bounds lower as computerized low-beta algorithms encounter minor capital outflows."
+      },
+      {
+        "ticker": "NEM",
+        "company": "Newmont Corporation",
+        "sector": "Basic Materials / Gold",
+        "price": "$54.30",
+        "change": "-$0.10",
+        "pct": "-0.18%",
+        "catalyst": "Absorbed brief profit-taking checks during active hours as safe-haven bullion demands pause under returning technological stability."
+      },
+      {
+        "ticker": "USFR",
+        "company": "WisdomTree Floating Rate",
+        "sector": "Financial Services / Ultra-Short Debt",
+        "price": "$50.45",
+        "change": "-$0.00",
+        "pct": "-0.00%",
+        "catalyst": "Attracted static tape activity clearing standard allocations, remaining flat as sovereign yield changes freeze in place."
+      }
+    ],
+    "catalysts": [
+      "The Nvidia CEO Board Investigation Shock: The artificial intelligence hardware landscape sustained severe internal tracking friction after reports confirmed that NVIDIA's ($NVDA) board of directors has officially launched an internal corporate governance investigation into CEO Jensen Huang. The tracking probe centers around an unconfirmed weekend intelligence leak alleging an operational relationship with a female Chinese national suspected of espionage tracking. The corporate shock forced a sharp 5% decoupling markdown that shaved billions off its market cap, entirely unlinking Nvidia from the monumental chip rally plying its adjacent peers. (https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-9-222339218.html), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409).",
+      "The Post-Midterm Data Center Funding Pivot: High-multiple cloud infrastructure networks caught a major wave of structural dip-buying as institutional desks heavily looked past last week's legislative moratorium scare. Reassuring tracking metrics indicating robust intermediate commitments from independent energy providers—highlighted by Constellation Energy ($CEG) executing a blistering earnings beat and forward guidance raise—prompted massive short-covering cascades that vaults the iShares Semiconductor ETF (SOXX) up over 7.5% in its sharpest linear reversal check in months. (https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html), (https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-9-222339218.html), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409)."
+    ]
+  },
+  {
     "timestamp": "2026-11-06T20:00:00+00:00",
     "header": "Friday, November 6, 2026's Report",
     "headline": "The NASDAQ Composite and S&P 500 rebound as aggressive institutional dip-buying loops snap the brutal artificial intelligence tech tailspin, though major benchmarks still lock in their worst weekly declines since June. Wall Street staged a highly volatile stabilization print on Friday; tech-focused growth portfolios aggressively accumulated deeply discounted chip grids to halt the global equity rout. Macro index trajectories were severely tested by structural fixed-income metrics, forcing sovereign debt markets higher following an exceptionally robust October nonfarm payrolls report showing 165,000 jobs added (soundly beating Wall Street expectations of 59,000). The hot economic data pinned the benchmark 10-year U.S. Treasury yield higher, maintaining restrictive pricing pressures across long-duration proxies. Meanwhile, international commodity platforms downshifted, allowing Brent crude oil futures to settle slightly lower as energy desks closely balanced the strong economic baseline against temporary steps to cool Middle East shipping chokepoint friction. (https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html), (https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html), (https://sg.finance.yahoo.com/news/stock-market-today-nov-6-144816072.html), (https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html).",
