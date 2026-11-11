@@ -1,5 +1,222 @@
 [
   {
+    "timestamp": "2026-11-10T20:00:00+00:00",
+    "header": "Tuesday, November 10, 2026's Report",
+    "headline": "Major U.S. stock indexes close lower as a hotter-than-expected October consumer inflation report triggers a sharp spike in U.S. Treasury yields and intensifies rate-hike concerns. Wall Street snapped its massive post-midterm relief rally on Tuesday as market sentiment was weighed down by a 0.4% month-over-month increase in the consumer price index, forcing institutional portfolios to position for a more aggressive Federal Reserve tightening timeline. Sovereign fixed-income desks endured heavy distribution following the report, driving the benchmark 10-year U.S. Treasury yield jumping up 10 basis points to settle at 4.99%—briefly touching the psychological 5.0% ceiling intraday—while the policy-sensitive 2-year yield logged its largest single-session increase in over a year. Concurrently, international commodity parameters firmed near recent floors as Brent crude oil futures edged slightly lower to settle at $92.06 a barrel, maintaining structural multi-week lows as macro traders absorb easing geopolitical strike probabilities in the Middle East. (https://tradingeconomics.com/united-states/government-bond-yield), (https://www.wsj.com/livecoverage/stock-market-cpi-inflation-11-10-2026), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11102026-12246538), (https://tradingeconomics.com/commodity/brent-crude-oil).",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,519.74",
+        "change": "-30.20 pts",
+        "pct": "-0.40%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "25,076.36",
+        "change": "-176.78 pts",
+        "pct": "-0.70%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "52,232.33",
+        "change": "-157.42 pts",
+        "pct": "-0.30%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "TTWO",
+        "company": "Take-Two Interactive",
+        "sector": "Consumer Cyclical / Electronic Gaming",
+        "price": "$185.30",
+        "change": "+$13.72",
+        "pct": "+8.00%",
+        "catalyst": "Rocketed 8% to pace discretionary gainers after revealing massive, record-breaking pre-order velocity matrices for the upcoming Grand Theft Auto VI release."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$182.20",
+        "change": "+$7.00",
+        "pct": "+4.00%",
+        "catalyst": "Vaulted 4% to lead large-cap computing hardware networks as institutional custom AI silicon allocations continue to absorb structural flow."
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$67.12",
+        "change": "+$1.55",
+        "pct": "+2.36%",
+        "catalyst": "Gained more than 2% in after-hours electronic trading after publishing beating third-quarter revenue telemetry that eased political datacenter fears."
+      },
+      {
+        "ticker": "AMZN",
+        "company": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical / Internet Retail",
+        "price": "$247.78",
+        "change": "+$3.66",
+        "pct": "+1.50%",
+        "catalyst": "Advanced forcefully past horizontal chart structures as programmatic commerce baskets deploy cash into liquid retail anchors."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$172.50",
+        "change": "+$1.70",
+        "pct": "+1.00%",
+        "catalyst": "Preserved positive tracking velocity past moving averages, maintaining minor green parameters post-earnings calibration."
+      },
+      {
+        "ticker": "THC",
+        "company": "Tenet Healthcare Corp.",
+        "sector": "Healthcare / Medical Care Facilities",
+        "price": "$157.12",
+        "change": "+$1.41",
+        "pct": "+0.90%",
+        "catalyst": "Found steady institutional buyer backing as multi-asset platforms protect capital via insulated hospital infrastructure segments."
+      },
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$904.50",
+        "change": "+$7.14",
+        "pct": "+0.80%",
+        "catalyst": "Maintained fractional structural gains as value-seeking consumer traffic indexes keep low-beta retail blocks supported."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$85.30",
+        "change": "+$0.51",
+        "pct": "+0.60%",
+        "catalyst": "Ground out steady localized consolidation, acting as a defensive blue-chip buffer against duration drops."
+      },
+      {
+        "ticker": "PG",
+        "company": "The Procter & Gamble Co.",
+        "sector": "Consumer Defensive / Household Products",
+        "price": "$172.50",
+        "change": "+$0.68",
+        "pct": "+0.40%",
+        "catalyst": "Anchored positive sector reallocation parameters cleanly, drawing minor risk-off capital buffers down the stretch."
+      },
+      {
+        "ticker": "KO",
+        "company": "The Coca-Cola Company",
+        "sector": "Consumer Defensive / Beverages",
+        "price": "$64.50",
+        "change": "+$0.19",
+        "pct": "+0.30%",
+        "catalyst": "Maintained positive tracking parameters slightly, capturing safe-haven buffer shifts as growth tech layers cool."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "SKYD",
+        "company": "Skydance Corporation",
+        "sector": "Communication Services / Entertainment",
+        "price": "$7.24",
+        "change": "-$0.63",
+        "pct": "-8.00%",
+        "catalyst": "Cratered 8% to lead S&P 500 distributions after releasing an unoptimized debut earnings ledger following the landmark Warner Bros. Discovery merger."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$167.31",
+        "change": "-$5.17",
+        "pct": "-3.00%",
+        "catalyst": "Cratered past horizontal moving boundaries as its chief executive spy scandal investigation continues to trigger heavy institutional paring."
+      },
+      {
+        "ticker": "SNDK",
+        "company": "SanDisk Corporation",
+        "sector": "Technology / Computer Hardware",
+        "price": "$72.26",
+        "change": "-$2.24",
+        "pct": "-3.00%",
+        "catalyst": "Faced fierce programmatic capital paring loops as automated storage device architecture blocks fell through near-term support lines."
+      },
+      {
+        "ticker": "INTC",
+        "company": "Intel Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$16.81",
+        "change": "-$0.34",
+        "pct": "-2.00%",
+        "catalyst": "Slipped forcefully under expanded volume filters as active portfolios trim exposed hardware nodes sensitive to high risk-free returns."
+      },
+      {
+        "ticker": "MSFT",
+        "company": "Microsoft Corporation",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$410.12",
+        "change": "-$8.00",
+        "pct": "-1.91%",
+        "catalyst": "Ground lower past technical chart floors via algorithmic enterprise application software layer paring blocks down the stretch."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$92.88",
+        "change": "-$0.94",
+        "pct": "-1.00%",
+        "catalyst": "Retrenched beneath intermediate moving metrics as computational storage networks absorb localized inflation adjustments."
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$21.68",
+        "change": "-$0.22",
+        "pct": "-1.00%",
+        "catalyst": "Ground lower past key intermediate support moving channels matching communication sector de-risking cycles."
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon Communications",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$39.45",
+        "change": "-$0.40",
+        "pct": "-1.01%",
+        "catalyst": "Extended near-term structural consolidation lines lower as multi-asset platforms adjust weights to mirror expanding duration risk."
+      },
+      {
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$134.42",
+        "change": "-$0.68",
+        "pct": "-0.50%",
+        "catalyst": "Absorbed profit-taking distributions under heavy volume as WTI crude pricing models retreat back down past $86.50."
+      },
+      {
+        "ticker": "CVX",
+        "company": "Chevron Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$158.87",
+        "change": "-$0.63",
+        "pct": "-0.40%",
+        "catalyst": "Eased lower past intermediate support systems as raw commodity pricing tools adjust to cooling transactional demands."
+      }
+    ],
+    "catalysts": [
+      "The October CPI Inflation Overshoot: High-multiple growth parameters sustained severe structural duration friction after the Bureau of Labor Statistics printed a hot 0.4% month-over-month consumer price index expand. The data instantly ignited macro rate-hike worries, sparking an intense global bond sell-off that vaulted the 10-year Treasury yield up to 4.99% and forced automated multiple compressions across tech giants like Microsoft ($MSFT). (https://www.wsj.com/livecoverage/stock-market-cpi-inflation-11-10-2026), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11102026-12246538), (https://tradingeconomics.com/united-states/government-bond-yield).",
+      "The Skydance Post-Merger Earnings Debut: Institutional communication networks absorbed significant volatility after Skydance ($SKYD) published its highly anticipated debut corporate earnings ledger following its historic multi-billion dollar merger with Paramount and Warner Bros. Discovery. The numbers significantly missed consensus targets, triggering an immediate 8% liquidation wipeout that led all S&P 500 decliners. (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11102026-12246538).",
+      "Run a specialized scan tracking equity breakout layers successfully reclaiming chart base patterns after this inflation drop?",
+      "Compile an early watchlist mapping out institutional block positions ahead of the upcoming central bank commentary rounds?",
+      "Adjust the active $7.00 programmatic filter parameters before the next closing print ingestion cycle?"
+    ]
+  },
+  {
     "timestamp": "2026-11-09T20:00:00+00:00",
     "header": "Monday, November 9, 2026's Report",
     "headline": "The NASDAQ Composite and S&P 500 trigger a massive, high-volume technology relief rally as intense dip-buying loops across the battered semiconductor sector successfully overwrite a severe standalone decline in Nvidia. Wall Street recorded its best single-session performance since April on Monday, aggressively clawing back a significant portion of the post-midterm legislative drag that pushed major stock indexes to multi-week correction lows last week. Macro index momentum was heavily amplified by a steep contraction in international energy pricing benchmarks, as Brent crude oil futures tumbled 5.85% to settle lower at $92.57 a barrel, instantly deflating localized supply chain container inflation fears. Concurrently, sovereign fixed-income parameters paused their relentless markdown cycle, keeping the benchmark 10-year U.S. Treasury yield unchanged to finish at 4.87%, which stabilized credit lending boundaries ahead of tomorrow's crucial consumer inflation data print. (https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html), (https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11092026-12244409).",
