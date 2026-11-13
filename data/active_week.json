@@ -1,5 +1,222 @@
 [
   {
+    "timestamp": "2026-11-12T20:00:00+00:00",
+    "header": "Thursday, November 12, 2026's Report",
+    "headline": "The NASDAQ Composite and S&P 500 extend their recovery as technology and semiconductor momentum carries forward alongside stabilizing macro indicators. Wall Street built on Wednesday's relief rally during Thursday's session, with institutional portfolios continuing to rotate back into artificial intelligence hardware, neocloud infrastructure, and mega-cap software following Anthropic's oversubscribed IPO demand and CoreWeave's upbeat revenue guidance. Sovereign fixed-income markets reopened from the Veterans Day holiday with steady demand, keeping the benchmark 10-year U.S. Treasury yield anchored near 4.96% as bond desks digested cooler producer price inflation metrics. Meanwhile, international energy markets absorbed ongoing Middle East maritime friction, holding Brent crude oil futures steady around $92.80 a barrel as traders balanced Strait of Hormuz tanker strikes against rising U.S. crude inventories.",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,618.45",
+        "change": "+34.33 pts",
+        "pct": "+0.45%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "25,745.20",
+        "change": "+216.75 pts",
+        "pct": "+0.85%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "52,520.40",
+        "change": "+104.80 pts",
+        "pct": "+0.20%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$84.10",
+        "change": "+$6.24",
+        "pct": "+8.01%",
+        "catalyst": "Extended Wednesday's post-earnings breakout on heavy institutional block volume following its GPU-backed debt financing roadmap."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$108.75",
+        "change": "+$5.65",
+        "pct": "+5.48%",
+        "catalyst": "Maintained strong upside momentum as memory storage desks built positions after Morgan Stanley's sector valuation upgrade."
+      },
+      {
+        "ticker": "LRCX",
+        "company": "Lam Research Corp.",
+        "sector": "Technology / Semiconductor Equipment",
+        "price": "$901.20",
+        "change": "+$39.05",
+        "pct": "+4.53%",
+        "catalyst": "Advanced past intermediate chart resistance as wafer fabrication equipment names tracked broader semiconductor strength."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$189.80",
+        "change": "+$6.95",
+        "pct": "+3.80%",
+        "catalyst": "Captured sustained institutional buy programs as data-center GPU procurement expectations firmed across hyperscaler networks."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$196.10",
+        "change": "+$6.61",
+        "pct": "+3.49%",
+        "catalyst": "Paced custom AI networking silicon gains as easing infrastructure financing pressures lifted forward order confidence."
+      },
+      {
+        "ticker": "SNDK",
+        "company": "SanDisk Corporation",
+        "sector": "Technology / Computer Hardware",
+        "price": "$79.50",
+        "change": "+$2.54",
+        "pct": "+3.30%",
+        "catalyst": "Climbed steadily alongside memory storage peers on continued programmatic accumulation across discounted hardware layers."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$179.15",
+        "change": "+$5.15",
+        "pct": "+2.96%",
+        "catalyst": "Reclaimed overhead technical levels as value-oriented funds continued accumulating shares near multi-year forward P/E lows."
+      },
+      {
+        "ticker": "ORCL",
+        "company": "Oracle Corporation",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$141.05",
+        "change": "+$3.93",
+        "pct": "+2.87%",
+        "catalyst": "Extended its technical recovery as cloud infrastructure peers benefited from improving neocloud capital availability."
+      },
+      {
+        "ticker": "NET",
+        "company": "Cloudflare, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$378.90",
+        "change": "+$9.10",
+        "pct": "+2.46%",
+        "catalyst": "Outperformed software benchmarks as enterprise network security budgets remained resilient heading into year-end."
+      },
+      {
+        "ticker": "MSFT",
+        "company": "Microsoft Corporation",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$421.80",
+        "change": "+$6.35",
+        "pct": "+1.53%",
+        "catalyst": "Anchored mega-cap software gains as institutional portfolios rotated capital back into core enterprise cloud platforms."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "SOXS",
+        "company": "Direxion Semiconductor Bear",
+        "sector": "Financials / Inverse Industry",
+        "price": "$14.95",
+        "change": "-$2.15",
+        "pct": "-12.57%",
+        "catalyst": "Slid double digits as consecutive sessions of broad semiconductor accumulation forced continued bear-fund liquidation."
+      },
+      {
+        "ticker": "VIXY",
+        "company": "ProShares VIX Short-Term",
+        "sector": "Financials / Volatility Proxy",
+        "price": "$13.30",
+        "change": "-$0.95",
+        "pct": "-6.67%",
+        "catalyst": "Dropped sharply as back-to-back equity gains compressed near-term implied market volatility premiums."
+      },
+      {
+        "ticker": "SQQQ",
+        "company": "ProShares UltraPro Short QQQ",
+        "sector": "Financials / Inverse Index",
+        "price": "$9.35",
+        "change": "-$0.50",
+        "pct": "-5.08%",
+        "catalyst": "Retrenched beneath near-term moving averages as Nasdaq-100 index components extended their multi-day rebound."
+      },
+      {
+        "ticker": "NEM",
+        "company": "Newmont Corporation",
+        "sector": "Basic Materials / Gold",
+        "price": "$53.20",
+        "change": "-$1.10",
+        "pct": "-2.03%",
+        "catalyst": "Pulled back as easing immediate equity market panic reduced short-term safe-haven bullion allocations."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$82.85",
+        "change": "-$1.25",
+        "pct": "-1.49%",
+        "catalyst": "Faced routine capital rotation as portfolio managers reallocated defensive staples funds back into high-beta growth equities."
+      },
+      {
+        "ticker": "PG",
+        "company": "The Procter & Gamble Co.",
+        "sector": "Consumer Defensive / Household Products",
+        "price": "$168.10",
+        "change": "-$2.15",
+        "pct": "-1.26%",
+        "catalyst": "Eased lower past horizontal support lines on algorithmic risk-on rebalancing flows down the stretch."
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$21.42",
+        "change": "-$0.26",
+        "pct": "-1.20%",
+        "catalyst": "Drifted lower alongside legacy telecom carriers as institutional desks favored higher-growth technology exposures."
+      },
+      {
+        "ticker": "VZ",
+        "company": "Verizon Communications",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$39.00",
+        "change": "-$0.45",
+        "pct": "-1.14%",
+        "catalyst": "Underperformed broader benchmarks slightly on minor defensive sector outflows."
+      },
+      {
+        "ticker": "KO",
+        "company": "The Coca-Cola Company",
+        "sector": "Consumer Defensive / Beverages",
+        "price": "$63.10",
+        "change": "-$0.65",
+        "pct": "-1.02%",
+        "catalyst": "Ground lower as low-beta consumer defensive holdings experienced mild profit-taking during the tech advance."
+      },
+      {
+        "ticker": "DUK",
+        "company": "Duke Energy Corporation",
+        "sector": "Utilities / Utilities—Regulated Electric",
+        "price": "$112.45",
+        "change": "-$0.95",
+        "pct": "-0.84%",
+        "catalyst": "Slipped modestly as bond markets reopened with steady yields and investors rotated toward cyclical and tech sectors."
+      }
+    ],
+    "catalysts": [
+      "Post-Holiday Bond Market Stabilization & PPI Relief: As U.S. Treasury markets resumed cash trading following Wednesday's Veterans Day closure, fixed-income desks absorbed softer-than-feared producer price data that helped stabilize the 10-year yield below 5.00%. The orderly rate backdrop removed immediate valuation pressure from long-duration growth stocks and allowed institutional buyers to press their advantage in beaten-down semiconductor and software leaders.",
+      "Institutional Capital Rotation Back Into AI Infrastructure: Follow-through buying across CoreWeave ($CRWV), Micron ($MU), and NVIDIA ($NVDA) confirmed a decisive shift in near-term market leadership away from defensive staples and volatility hedges. Investors continued to digest Anthropic's oversubscribed IPO demand and CoreWeave's GPU-backed debt financing structure as evidence that hyperscaler and neocloud capital expenditure pipelines remain intact despite post-midterm regulatory rhetoric.",
+      "Run a specialized scan tracking semiconductor and neocloud stocks approaching key technical resistance levels ahead of Friday's close?",
+      "Compile a watch-matrix mapping upcoming retail and enterprise software earnings scheduled for next week?",
+      "Adjust the active $7.00 programmatic filter parameters before the next scheduled closing broadcast?"
+    ]
+  },
+  {
     "timestamp": "2026-11-11T20:00:00+00:00",
     "header": "Wednesday, November 11, 2026's Report",
     "headline": "The NASDAQ Composite surges as a powerful rebound in artificial intelligence infrastructure and memory semiconductor networks ignites a broad Wall Street recovery. Following Tuesday's inflation-driven pullback, technology and growth portfolios aggressively accumulated deeply discounted compute and storage names after CoreWeave delivered upbeat financial results and raised forward revenue guidance. Institutional enthusiasm across the AI ecosystem was further amplified by reports that Anthropic's upcoming initial public offering is multiple times oversubscribed ahead of its planned $90.4 billion capital raise, driving the Philadelphia Semiconductor Index up over 6%. Meanwhile, sovereign fixed-income trading remained orderly due to the U.S. Veterans Day bond market holiday, keeping the benchmark 10-year Treasury yield anchored near 4.99% as international Brent crude oil futures held steady around $92.53 a barrel. (https://www.tradingkey.com/analysis/stocks/us-stocks/262300663-coreweave-nvda-mu-amd-sndk-tradingkey).",
