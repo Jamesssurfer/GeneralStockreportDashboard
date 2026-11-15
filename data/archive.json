@@ -3250,7 +3250,9 @@
         "Compile an early watch-matrix mapping institutional block positioning for SpaceX ($SPCX) and Tesla ($TSLA) earnings cycles ?",
         "Adjust the active $7.00 liquidity filter parameters ahead of the incoming closing bell print?"
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-10-16T20:00:00+00:00",
       "header": "Friday, October 16, 2026's Report",
@@ -3467,9 +3469,7 @@
         "Compile a comprehensive watch-matrix mapping the upcoming mega-cap earnings disclosures scheduled for next week?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-10-15T20:00:00+00:00",
       "header": "Thursday, October 15, 2026's Report",
