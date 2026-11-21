@@ -3464,7 +3464,9 @@
         "Compile a comprehensive watch-matrix mapping the massive hyperscaler earnings flood scheduled for next week (GOOGL, MSFT, AMZN) [Reuters]?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-10-22T20:00:00+00:00",
       "header": "Thursday, October 22, 2026's Report",
@@ -3681,9 +3683,7 @@
         "Compile a comprehensive watch-matrix mapping the major hyperscaler earnings drops scheduled for next week (GOOGL, MSFT) ?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion?"
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-10-21T20:00:00+00:00",
       "header": "Wednesday, October 21, 2026's Report",
