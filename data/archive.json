@@ -3247,7 +3247,9 @@
         "Compile a comprehensive watch-matrix mapping the impending tech mega-cap earnings drops (GOOGL, MSFT) slated for this week ?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-10-23T20:00:00+00:00",
       "header": "Friday, October 23, 2026's Report",
@@ -3464,9 +3466,7 @@
         "Compile a comprehensive watch-matrix mapping the massive hyperscaler earnings flood scheduled for next week (GOOGL, MSFT, AMZN) [Reuters]?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-10-22T20:00:00+00:00",
       "header": "Thursday, October 22, 2026's Report",
@@ -11749,7 +11749,9 @@
         "The Debt & Currency Debasement Trade: Investor fears over the national debt hitting $40 trillion, combined with strategic bond market maneuvers by the Treasury, triggered a major return to gold and digital crypto assets.",
         "Retaliatory Tariffs: Trade friction escalated as Canada placed $20 billion in duties on American steel, dairy, and farm equipment, though energy commodities remained untouched, buffering wider infrastructure equities."
       ]
-    },
+    }
+  ],
+  "past_6_months": [
     {
       "timestamp": "2026-08-24T20:00:00+00:00",
       "header": "Monday, August 24, 2026's Report",
@@ -11965,7 +11967,6 @@
       ]
     }
   ],
-  "past_6_months": [],
   "past_1_year": [],
   "historical": []
 }
