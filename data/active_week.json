@@ -1,5 +1,222 @@
 [
   {
+    "timestamp": "2026-11-23T20:00:00+00:00",
+    "header": "Monday, November 23, 2026's Report",
+    "headline": "The S&P 500 and NASDAQ Composite open the Thanksgiving holiday-shortened trading week on a cautious footing as light pre-holiday institutional volume and profit-taking across mega-cap semiconductors temper recent momentum. Wall Street consolidated last week's NVIDIA-fueled breakout gains on Monday, with multi-asset portfolios trimming extended chip and neocloud positions ahead of Wednesday's dense cluster of macroeconomic releases, including FOMC minutes and core Personal Consumption Expenditures (PCE) inflation data. Sovereign fixed-income markets traded quietly within narrow ranges, nudging the benchmark 10-year U.S. Treasury yield slightly higher toward 4.94% as bond desks positioned ahead of mid-week Treasury auctions and inflation prints. Concurrently, international energy markets edged modestly lower as Brent crude oil futures settled near $93.45 a barrel, with traders weighing steady U.S. supply output against ongoing Persian Gulf maritime transit monitoring.",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,721.40",
+        "change": "-14.40 pts",
+        "pct": "-0.19%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,258.60",
+        "change": "-83.55 pts",
+        "pct": "-0.32%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "53,115.20",
+        "change": "+46.30 pts",
+        "pct": "+0.09%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "BBY",
+        "company": "Best Buy Co., Inc.",
+        "sector": "Consumer Cyclical / Specialty Retail",
+        "price": "$94.80",
+        "change": "+$4.15",
+        "pct": "+4.58%",
+        "catalyst": "Rallied ahead of Tuesday morning's Q3 earnings print as analysts highlighted holiday consumer electronics replacement cycles and AI PC upgrades."
+      },
+      {
+        "ticker": "VIXY",
+        "company": "ProShares VIX Short-Term",
+        "sector": "Financials / Volatility Proxy",
+        "price": "$11.65",
+        "change": "+$0.45",
+        "pct": "+4.02%",
+        "catalyst": "Bounced off multi-week lows as institutional desks added short-term portfolio protection ahead of Wednesday's PCE inflation and FOMC minutes drop."
+      },
+      {
+        "ticker": "CRM",
+        "company": "Salesforce, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$289.40",
+        "change": "+$9.85",
+        "pct": "+3.52%",
+        "catalyst": "Advanced on heavy institutional block volume following positive Wall Street channel checks around enterprise AI agent adoption."
+      },
+      {
+        "ticker": "ROST",
+        "company": "Ross Stores, Inc.",
+        "sector": "Consumer Cyclical / Apparel Retail",
+        "price": "$159.10",
+        "change": "+$4.90",
+        "pct": "+3.18%",
+        "catalyst": "Extended Friday's post-earnings breakout to fresh highs as off-price retail remained a favored holiday-quarter overweight."
+      },
+      {
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc.",
+        "sector": "Healthcare / Healthcare Plans",
+        "price": "$649.50",
+        "change": "+$16.70",
+        "pct": "+2.64%",
+        "catalyst": "Paced Dow Jones gainers as portfolio managers rotated defensive capital into large-cap managed care anchors."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$93.60",
+        "change": "+$2.05",
+        "pct": "+2.24%",
+        "catalyst": "Climbed steadily ahead of Black Friday week as institutional buyers favored grocery and omnichannel retail scale."
+      },
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$926.80",
+        "change": "+$18.40",
+        "pct": "+2.03%",
+        "catalyst": "Captured defensive retail inflows as value-seeking holiday traffic trends supported membership warehouse operators."
+      },
+      {
+        "ticker": "SOXS",
+        "company": "Direxion Semiconductor Bear",
+        "sector": "Financials / Inverse Industry",
+        "price": "$10.62",
+        "change": "+$0.20",
+        "pct": "+1.92%",
+        "catalyst": "Rebounded modestly as short-term traders hedged semiconductor exposure following last week's rapid multi-session surge."
+      },
+      {
+        "ticker": "LLY",
+        "company": "Eli Lilly & Co.",
+        "sector": "Healthcare / Drug Manufacturers—General",
+        "price": "$954.20",
+        "change": "+$16.80",
+        "pct": "+1.79%",
+        "catalyst": "Attracted steady healthcare sector allocations as growth funds balanced high-beta chip exposure ahead of macro data."
+      },
+      {
+        "ticker": "HD",
+        "company": "Home Depot, Inc.",
+        "sector": "Consumer Cyclical / Home Improvement Retail",
+        "price": "$424.90",
+        "change": "+$6.70",
+        "pct": "+1.60%",
+        "catalyst": "Supported the Dow Jones Industrial Average's marginal green close on continued post-earnings institutional accumulation."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$93.40",
+        "change": "-$4.40",
+        "pct": "-4.50%",
+        "catalyst": "Pulled back on routine profit-taking after surging to multi-month highs last week following NVIDIA's Q3 earnings print."
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Super Micro Computer Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$39.55",
+        "change": "-$1.50",
+        "pct": "-3.65%",
+        "catalyst": "Eased lower on light pre-holiday volume as traders locked in short-term server hardware gains."
+      },
+      {
+        "ticker": "NBIS",
+        "company": "Nebius Group N.V.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$39.65",
+        "change": "-$1.20",
+        "pct": "-2.94%",
+        "catalyst": "Traded lower alongside neocloud compute peers on mild consolidation following multi-session advances."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$195.80",
+        "change": "-$4.80",
+        "pct": "-2.39%",
+        "catalyst": "Slipped back beneath the $200 threshold on routine institutional rebalancing ahead of mid-week inflation data."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$114.90",
+        "change": "-$2.60",
+        "pct": "-2.21%",
+        "catalyst": "Pulled back modestly after extending its multi-week memory recovery into Friday's close."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$197.85",
+        "change": "-$4.05",
+        "pct": "-2.01%",
+        "catalyst": "Consolidated below the $200 mark on light volume profit-taking after rallying more than 12% across Thursday and Friday."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$210.90",
+        "change": "-$3.95",
+        "pct": "-1.84%",
+        "catalyst": "Eased lower alongside custom AI silicon peers as technology desks trimmed extended positions before Thanksgiving."
+      },
+      {
+        "ticker": "OXY",
+        "company": "Occidental Petroleum Corp.",
+        "sector": "Energy / Oil & Gas E&P",
+        "price": "$62.10",
+        "change": "-$1.05",
+        "pct": "-1.66%",
+        "catalyst": "Softened as Brent crude futures dipped toward $93.45/bbl on tempered near-term supply disruption headlines."
+      },
+      {
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$136.85",
+        "change": "-$1.75",
+        "pct": "-1.26%",
+        "catalyst": "Drifted lower alongside integrated oil majors as energy sector ETFs saw minor outflows."
+      },
+      {
+        "ticker": "AAL",
+        "company": "American Airlines",
+        "sector": "Consumer Cyclical / Airlines",
+        "price": "$13.70",
+        "change": "-$0.16",
+        "pct": "-1.15%",
+        "catalyst": "Pulled back slightly on muted volume ahead of peak Thanksgiving holiday air travel volume tracking."
+      }
+    ],
+    "catalysts": [
+      "Semiconductors & Neoclouds Consolidate Ahead of Mid-Week Macro Cluster: Following last week's sharp post-NVIDIA breakout, institutional desks pared extended positions across CoreWeave ($CRWV -4.50%), Advanced Micro Devices ($AMD -2.39%), and NVIDIA ($NVDA -2.01%). With U.S. equity markets closed Thursday for Thanksgiving and operating on a half-day schedule Friday, traders rotated into defensive healthcare ($UNH, $LLY) and short-term volatility hedges ($VIXY +4.02%) ahead of Wednesday's FOMC minutes and October PCE inflation release.",
+      "Holiday Retail Momentum Builds Entering Black Friday Week: Consumer discretionary and defensive retail networks captured steady institutional inflows as Wall Street positioned for peak holiday shopping traffic. Off-price leader Ross Stores ($ROST +3.18%) extended its post-earnings rally alongside Walmart ($WMT +2.24%), while Best Buy ($BBY +4.58%) climbed ahead of Tuesday morning's quarterly earnings report on optimism around holiday consumer electronics demand.",
+      "Compile a pre-market earnings watch-matrix tracking Best Buy ($BBY), Dick's Sporting Goods ($DKS), and Zoom ($ZM) ahead of today's session?",
+      "Run a specialized scan on retail and consumer staples breakouts leading into Black Friday?",
+      "Adjust the active $7.00 programmatic filter parameters before today's session close?"
+    ]
+  },
+  {
     "timestamp": "2026-11-20T20:00:00+00:00",
     "header": "Friday, November 20, 2026's Report",
     "headline": "The S&P 500 and NASDAQ Composite wrap up a strong rebound week in positive territory as continued institutional accumulation in artificial intelligence infrastructure and consumer software outweighs routine pre-weekend profit-taking. Wall Street held onto Thursday's NVIDIA-fueled breakout gains during Friday's session, with mega-cap technology and semiconductor platforms locking in solid weekly advances despite light end-of-week portfolio rebalancing. Sovereign fixed-income markets traded steadily within a tight consolidation range, holding the benchmark 10-year U.S. Treasury yield anchored near 4.92% as bond desks positioned ahead of next week's Thanksgiving holiday-shortened trading schedule. Concurrently, international energy markets traded slightly firmer into the weekend as Brent crude oil futures edged up to settle near $94.10 a barrel, supported by ongoing Persian Gulf maritime monitoring and steady winter distillate demand.",
