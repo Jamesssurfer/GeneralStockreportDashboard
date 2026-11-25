@@ -1,5 +1,222 @@
 [
   {
+    "timestamp": "2026-11-24T20:00:00+00:00",
+    "header": "Tuesday, November 24, 2026's Report",
+    "headline": "The S&P 500 and NASDAQ Composite rebound cleanly as upbeat quarterly earnings from Best Buy, Dick's Sporting Goods, and Zoom Video Communications restore pre-holiday momentum across consumer discretionary and enterprise software networks. Wall Street shook off Monday's light consolidation on Tuesday, with institutional desks rotating back into retail and artificial intelligence hardware leaders ahead of Wednesday's dense cluster of pre-Thanksgiving economic releases. Sovereign fixed-income markets traded steadily within a tight range as bond traders positioned ahead of the October Personal Consumption Expenditures (PCE) inflation print and FOMC minutes, holding the benchmark 10-year U.S. Treasury yield anchored near 4.91%. Concurrently, international energy markets edged modestly lower as Brent crude oil futures slipped toward $92.85 a barrel, with traders weighing steady domestic fuel production against ongoing Persian Gulf maritime transit monitoring.",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,758.90",
+        "change": "+37.50 pts",
+        "pct": "+0.49%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,445.10",
+        "change": "+186.50 pts",
+        "pct": "+0.71%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "53,248.75",
+        "change": "+133.55 pts",
+        "pct": "+0.25%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "DKS",
+        "company": "Dick's Sporting Goods",
+        "sector": "Consumer Cyclical / Specialty Retail",
+        "price": "$234.60",
+        "change": "+$16.40",
+        "pct": "+7.52%",
+        "catalyst": "Surged over 7.5% after posting a Q3 earnings and comparable sales beat and raising full-year guidance on strong athletic footwear and apparel traffic."
+      },
+      {
+        "ticker": "ZM",
+        "company": "Zoom Video Communications",
+        "sector": "Technology / Software—Application",
+        "price": "$88.90",
+        "change": "+$5.65",
+        "pct": "+6.79%",
+        "catalyst": "Rallied forcefully after topping Q3 profit estimates and lifting forward revenue outlook on accelerating enterprise AI Companion adoption."
+      },
+      {
+        "ticker": "BBY",
+        "company": "Best Buy Co., Inc.",
+        "sector": "Consumer Cyclical / Specialty Retail",
+        "price": "$100.45",
+        "change": "+$5.65",
+        "pct": "+5.96%",
+        "catalyst": "Cleared the $100 threshold after beating Q3 earnings expectations and highlighting strong holiday demand for AI-enabled PCs and home theater upgrades."
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$97.15",
+        "change": "+$3.75",
+        "pct": "+4.01%",
+        "catalyst": "Rebounded cleanly from Monday's profit-taking dip on strong institutional block volume across neocloud compute providers."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$203.80",
+        "change": "+$5.95",
+        "pct": "+3.01%",
+        "catalyst": "Reclaimed the psychological $200 level as institutional buyers stepped back in ahead of the holiday-shortened trading week."
+      },
+      {
+        "ticker": "ANF",
+        "company": "Abercrombie & Fitch Co.",
+        "sector": "Consumer Cyclical / Apparel Retail",
+        "price": "$158.20",
+        "change": "+$4.45",
+        "pct": "+2.89%",
+        "catalyst": "Climbed after delivering another quarterly comparable sales beat and raising holiday-quarter operating margin projections."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$201.10",
+        "change": "+$5.30",
+        "pct": "+2.71%",
+        "catalyst": "Reclaimed $200 alongside large-cap semiconductor peers as easing Treasury yields supported high-multiple compute valuations."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$216.40",
+        "change": "+$5.50",
+        "pct": "+2.61%",
+        "catalyst": "Advanced steadily past near-term resistance on continued custom AI networking silicon accumulation."
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Super Micro Computer Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$40.50",
+        "change": "+$0.95",
+        "pct": "+2.40%",
+        "catalyst": "Recovered Monday's pullback as server hardware desks maintained constructive positioning heading into year-end."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$95.10",
+        "change": "+$1.50",
+        "pct": "+1.60%",
+        "catalyst": "Extended its post-earnings advance to fresh highs as institutional buyers favored omnichannel retail scale entering Black Friday."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "KSS",
+        "company": "Kohl's Corporation",
+        "sector": "Consumer Cyclical / Department Stores",
+        "price": "$16.40",
+        "change": "-$2.15",
+        "pct": "-11.59%",
+        "catalyst": "Cratered double digits after reporting weaker-than-expected Q3 comparable sales and cutting full-year profit guidance due to soft apparel traffic."
+      },
+      {
+        "ticker": "M",
+        "company": "Macy's, Inc.",
+        "sector": "Consumer Cyclical / Department Stores",
+        "price": "$15.85",
+        "change": "-$1.10",
+        "pct": "-6.49%",
+        "catalyst": "Slipped in sympathy with Kohl's cautious department store commentary as shoppers favored specialty and off-price retail chains."
+      },
+      {
+        "ticker": "VIXY",
+        "company": "ProShares VIX Short-Term",
+        "sector": "Financials / Volatility Proxy",
+        "price": "$10.95",
+        "change": "-$0.70",
+        "pct": "-6.01%",
+        "catalyst": "Dropped sharply as upbeat retail prints and pre-Thanksgiving liquidity conditions compressed implied equity volatility premiums."
+      },
+      {
+        "ticker": "SOXS",
+        "company": "Direxion Semiconductor Bear",
+        "sector": "Financials / Inverse Industry",
+        "price": "$10.05",
+        "change": "-$0.57",
+        "pct": "-5.37%",
+        "catalyst": "Retrenched beneath near-term moving averages as NVIDIA and AMD reclaimed the $200 level."
+      },
+      {
+        "ticker": "SQQQ",
+        "company": "ProShares UltraPro Short QQQ",
+        "sector": "Financials / Inverse Index",
+        "price": "$7.88",
+        "change": "-$0.22",
+        "pct": "-2.72%",
+        "catalyst": "Ground lower as the NASDAQ Composite advanced 0.71% on broad technology and retail leadership."
+      },
+      {
+        "ticker": "OXY",
+        "company": "Occidental Petroleum Corp.",
+        "sector": "Energy / Oil & Gas E&P",
+        "price": "$60.85",
+        "change": "-$1.25",
+        "pct": "-2.01%",
+        "catalyst": "Pulled back as Brent crude futures dipped toward $92.85/bbl on tempered near-term supply disruption headlines."
+      },
+      {
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$134.90",
+        "change": "-$1.95",
+        "pct": "-1.42%",
+        "catalyst": "Drifted lower alongside integrated oil majors as energy sector ETFs saw mild pre-holiday outflows."
+      },
+      {
+        "ticker": "CVX",
+        "company": "Chevron Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$158.95",
+        "change": "-$1.45",
+        "pct": "-0.90%",
+        "catalyst": "Eased lower in tandem with softer international crude benchmarks and broader rotation into consumer cyclicals."
+      },
+      {
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc.",
+        "sector": "Healthcare / Healthcare Plans",
+        "price": "$644.10",
+        "change": "-$5.40",
+        "pct": "-0.83%",
+        "catalyst": "Experienced mild profit-taking after pacing Dow Jones gainers during Monday's defensive rotation."
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$20.55",
+        "change": "-$0.17",
+        "pct": "-0.82%",
+        "catalyst": "Underperformed broader benchmarks slightly as legacy telecom carriers saw minor outflows during the risk-on advance."
+      }
+    ],
+    "catalysts": [
+      "Specialty Retail Outperforms Department Stores Entering Black Friday: Tuesday's pre-market earnings slate reinforced widening consumer divergence ahead of the peak holiday shopping weekend. Dick's Sporting Goods ($DKS +7.52%), Best Buy ($BBY +5.96%), and Abercrombie & Fitch ($ANF +2.89%) all rallied after raising full-year guidance on strong category demand, whereas traditional department store operators Kohl's ($KSS -11.59%) and Macy's ($M -6.49%) tumbled on sluggish store traffic and margin pressure.",
+      "Semiconductors & Enterprise Software Reclaim Leadership Before Macro Data: Technology benchmarks shook off Monday's light consolidation as Zoom Video Communications ($ZM +6.79%) topped Q3 estimates on enterprise AI adoption, while NVIDIA ($NVDA +3.01%) and Advanced Micro Devices ($AMD +2.71%) both reclaimed $200.00. Market focus now shifts to Wednesday's pre-holiday economic cluster—including October core PCE inflation, weekly jobless claims, and FOMC minutes—ahead of Thursday's Thanksgiving market closure.",
+      "Compile a watch-matrix mapping today's pre-Thanksgiving economic data releases (October PCE inflation, durable goods, and FOMC minutes)?",
+      "Run a specialized scan tracking retail and software stocks breaking out to 52-week highs ahead of Black Friday?",
+      "Adjust the active $7.00 programmatic filter parameters before today's session close?"
+    ]
+  },
+  {
     "timestamp": "2026-11-23T20:00:00+00:00",
     "header": "Monday, November 23, 2026's Report",
     "headline": "The S&P 500 and NASDAQ Composite open the Thanksgiving holiday-shortened trading week on a cautious footing as light pre-holiday institutional volume and profit-taking across mega-cap semiconductors temper recent momentum. Wall Street consolidated last week's NVIDIA-fueled breakout gains on Monday, with multi-asset portfolios trimming extended chip and neocloud positions ahead of Wednesday's dense cluster of macroeconomic releases, including FOMC minutes and core Personal Consumption Expenditures (PCE) inflation data. Sovereign fixed-income markets traded quietly within narrow ranges, nudging the benchmark 10-year U.S. Treasury yield slightly higher toward 4.94% as bond desks positioned ahead of mid-week Treasury auctions and inflation prints. Concurrently, international energy markets edged modestly lower as Brent crude oil futures settled near $93.45 a barrel, with traders weighing steady U.S. supply output against ongoing Persian Gulf maritime transit monitoring.",
