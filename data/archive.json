@@ -1,6 +1,223 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-11-18T20:00:00+00:00",
+      "header": "Wednesday, November 18, 2026's Report",
+      "headline": "The S&P 500 and NASDAQ Composite edge lower in a cautious, range-bound session as mixed big-box retail prints and positioning ahead of NVIDIA's third-quarter earnings trigger selective profit-taking. Wall Street paused its recent rebound on Wednesday, with institutional desks trimming risk across high-multiple semiconductors and discretionary retailers while digesting Federal Reserve commentary on persistent service-sector inflation. Sovereign fixed-income markets saw modest selling pressure, nudging the benchmark 10-year U.S. Treasury yield up 3 basis points to settle near 4.97% as bond traders weighed resilient retail sales data against terminal rate expectations. Concurrently, international energy markets traded slightly firmer as Brent crude oil futures edged up to settle near $94.85 a barrel, supported by ongoing Persian Gulf maritime security patrols and tightening U.S. distillate inventories.",
+      "market_direction": "DOWN",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,638.90",
+          "change": "-15.30 pts",
+          "pct": "-0.20%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "25,812.40",
+          "change": "-106.20 pts",
+          "pct": "-0.41%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "52,645.10",
+          "change": "-67.35 pts",
+          "pct": "-0.13%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "LOW",
+          "company": "Lowe's Companies, Inc.",
+          "sector": "Consumer Cyclical / Home Improvement Retail",
+          "price": "$281.45",
+          "change": "+$12.55",
+          "pct": "+4.67%",
+          "catalyst": "Rallied to pace consumer discretionary gainers after beating Q3 earnings estimates and lifting full-year comparable sales guidance on pro-contractor demand."
+        },
+        {
+          "ticker": "PANW",
+          "company": "Palo Alto Networks",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$396.80",
+          "change": "+$14.20",
+          "pct": "+3.71%",
+          "catalyst": "Advanced on heavy institutional block volume ahead of upcoming quarterly results as enterprise cybersecurity budgets remained resilient."
+        },
+        {
+          "ticker": "VIXY",
+          "company": "ProShares VIX Short-Term",
+          "sector": "Financials / Volatility Proxy",
+          "price": "$13.02",
+          "change": "+$0.42",
+          "pct": "+3.33%",
+          "catalyst": "Bounced off multi-day lows as derivatives desks hedged equity exposure ahead of NVIDIA's after-hours earnings release."
+        },
+        {
+          "ticker": "NET",
+          "company": "Cloudflare, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$388.50",
+          "change": "+$10.40",
+          "pct": "+2.75%",
+          "catalyst": "Captured steady software inflows as zero-trust cloud security demand insulated shares from broader semiconductor caution."
+        },
+        {
+          "ticker": "UNH",
+          "company": "UnitedHealth Group Inc.",
+          "sector": "Healthcare / Healthcare Plans",
+          "price": "$641.20",
+          "change": "+$14.80",
+          "pct": "+2.36%",
+          "catalyst": "Led Dow Jones gainers as portfolio managers rotated defensive capital into managed care and large-cap healthcare anchors."
+        },
+        {
+          "ticker": "CRWD",
+          "company": "CrowdStrike Holdings",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$348.90",
+          "change": "+$7.60",
+          "pct": "+2.23%",
+          "catalyst": "Climbed steadily alongside cybersecurity peers on constructive channel checks for enterprise platform consolidation."
+        },
+        {
+          "ticker": "XOM",
+          "company": "Exxon Mobil Corporation",
+          "sector": "Energy / Oil & Gas Integrated",
+          "price": "$141.45",
+          "change": "+$2.55",
+          "pct": "+1.84%",
+          "catalyst": "Rebounded modestly as Brent crude firmed toward $95/bbl on tightening global supply balances and Gulf transit premiums."
+        },
+        {
+          "ticker": "LLY",
+          "company": "Eli Lilly & Co.",
+          "sector": "Healthcare / Drug Manufacturers—General",
+          "price": "$938.50",
+          "change": "+$15.40",
+          "pct": "+1.67%",
+          "catalyst": "Attracted defensive growth allocations as institutional funds balanced high-beta tech risk before major chip earnings."
+        },
+        {
+          "ticker": "NEE",
+          "company": "NextEra Energy, Inc.",
+          "sector": "Utilities / Utilities—Regulated Electric",
+          "price": "$78.40",
+          "change": "+$1.15",
+          "pct": "+1.49%",
+          "catalyst": "Gained on steady utility sector inflows driven by long-term data center power demand and defensive yield positioning."
+        },
+        {
+          "ticker": "WMT",
+          "company": "Walmart Inc.",
+          "sector": "Consumer Defensive / Discount Stores",
+          "price": "$91.55",
+          "change": "+$1.15",
+          "pct": "+1.27%",
+          "catalyst": "Extended Tuesday's post-earnings breakout to fresh highs as analysts raised price targets following strong grocery market-share gains."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "TGT",
+          "company": "Target Corporation",
+          "sector": "Consumer Defensive / Discount Stores",
+          "price": "$132.40",
+          "change": "-$16.85",
+          "pct": "-11.29%",
+          "catalyst": "Cratered double digits after missing Q3 profit expectations and cutting full-year guidance due to soft discretionary apparel and home goods demand."
+        },
+        {
+          "ticker": "DG",
+          "company": "Dollar General Corp.",
+          "sector": "Consumer Defensive / Discount Stores",
+          "price": "$79.80",
+          "change": "-$3.45",
+          "pct": "-4.14%",
+          "catalyst": "Slipped in sympathy with Target's cautious consumer commentary as margin pressures weighed on value-tier retail chains."
+        },
+        {
+          "ticker": "CRWV",
+          "company": "CoreWeave, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$86.60",
+          "change": "-$3.35",
+          "pct": "-3.72%",
+          "catalyst": "Pulled back on pre-earnings de-risking across AI infrastructure proxies ahead of NVIDIA's quarterly financial print."
+        },
+        {
+          "ticker": "DLTR",
+          "company": "Dollar Tree, Inc.",
+          "sector": "Consumer Defensive / Discount Stores",
+          "price": "$68.15",
+          "change": "-$2.40",
+          "pct": "-3.40%",
+          "catalyst": "Traded lower alongside discount retail peers as investors differentiated between Walmart's grocery strength and discretionary headwinds."
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices",
+          "sector": "Technology / Semiconductors",
+          "price": "$184.90",
+          "change": "-$5.25",
+          "pct": "-2.76%",
+          "catalyst": "Eased lower as institutional desks trimmed semiconductor exposure ahead of sector bellwether earnings after the closing bell."
+        },
+        {
+          "ticker": "SMCI",
+          "company": "Super Micro Computer Inc.",
+          "sector": "Technology / Computer Hardware",
+          "price": "$37.15",
+          "change": "-$0.97",
+          "pct": "-2.54%",
+          "catalyst": "Ground lower alongside AI server hardware peers on cautious positioning before hyperscaler demand commentary."
+        },
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$109.10",
+          "change": "-$2.70",
+          "pct": "-2.42%",
+          "catalyst": "Saw mild profit-taking following multi-session gains as memory storage desks hedged near-term volatility."
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$196.20",
+          "change": "-$4.25",
+          "pct": "-2.12%",
+          "catalyst": "Pulled back modestly from psychological resistance as custom silicon names consolidated recent advances."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$179.40",
+          "change": "-$3.10",
+          "pct": "-1.70%",
+          "catalyst": "Softened ahead of its highly anticipated after-hours Q3 earnings release as options desks priced in elevated post-print volatility."
+        },
+        {
+          "ticker": "AAL",
+          "company": "American Airlines",
+          "sector": "Consumer Cyclical / Airlines",
+          "price": "$13.86",
+          "change": "-$0.22",
+          "pct": "-1.56%",
+          "catalyst": "Gave back a portion of Tuesday's rebound as Brent crude edged higher toward $95/bbl."
+        }
+      ],
+      "catalysts": [
+        "Retail Bifurcation Widens as Lowe's Beats and Target Slumps: Third-quarter big-box retail earnings highlighted a sharp divide in U.S. consumer spending priorities. Lowe's ($LOW) climbed 4.67% after topping profit forecasts and raising full-year comparable sales guidance on resilient pro-contractor demand, reinforcing Home Depot's upbeat commentary from Tuesday. Conversely, Target ($TGT) plunged over 11% after slashing its full-year earnings outlook on sluggish discretionary apparel and home goods traffic, underscoring persistent household budget pressure from elevated interest rates.",
+        "Semiconductors Pause Ahead of NVIDIA's Q3 Earnings Print: High-multiple technology and artificial intelligence hardware networks entered a defensive holding pattern during regular trading hours ahead of NVIDIA's ($NVDA) third-quarter financial results and forward data-center guidance after the closing bell. Institutional desks pared exposure across $NVDA (-1.70%), $AMD (-2.76%), and $CRWV (-3.72%) while bidding up near-term volatility hedges ($VIXY +3.33%) in anticipation of cross-sector ripple effects across the AI supply chain.",
+        "Compile a post-market breakdown analyzing NVIDIA's ($NVDA) Q3 earnings reaction and its impact on semiconductor peers heading into Thursday's open?",
+        "Run a specialized scan on cybersecurity and enterprise software stocks breaking out on resilient Q4 IT spending checks?",
+        "Adjust the active $7.00 programmatic filter parameters before today's session close?"
+      ]
+    },
+    {
       "timestamp": "2026-11-17T20:00:00+00:00",
       "header": "Tuesday, November 17, 2026's Report",
       "headline": "The S&P 500 and NASDAQ Composite rebound cleanly as resilient big-box retail earnings from Walmart and Home Depot combine with easing crude oil benchmarks to restore institutional risk appetite. Wall Street shook off Monday's geopolitical pullback on Tuesday, with consumer discretionary and technology portfolios advancing as third-quarter retail prints confirmed steady domestic household spending despite elevated borrowing costs. Sovereign fixed-income markets stabilized alongside cooling energy prices, allowing the benchmark 10-year U.S. Treasury yield to ease back toward 4.94%. Concurrently, international energy risk premiums moderated slightly as Brent crude oil futures pulled back to settle near $94.35 a barrel, with traders balancing ongoing Persian Gulf naval patrols against diplomatic efforts to keep commercial transit corridors open.",
@@ -867,7 +1084,9 @@
         "Compile a watch-matrix mapping upcoming retail and enterprise software earnings scheduled for next week?",
         "Adjust the active $7.00 programmatic filter parameters before the next scheduled closing broadcast?"
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-11-11T20:00:00+00:00",
       "header": "Wednesday, November 11, 2026's Report",
@@ -1084,9 +1303,7 @@
         "Compile a watch-matrix mapping institutional anchor positioning ahead of Anthropic's $90.4 billion IPO debut?",
         "Adjust the active $7.00 programmatic filter parameters ahead of today's session close?"
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-11-10T20:00:00+00:00",
       "header": "Tuesday, November 10, 2026's Report",
@@ -3464,7 +3681,9 @@
         "Compile an early watch-matrix mapping the massive post-market mega-cap tech earnings drops (GOOGL, MSFT) scheduled for this afternoon ?",
         "Adjust the active $7.00 programmatic filter configurations ahead of the next database ingestion cycle?"
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-10-26T20:00:00+00:00",
       "header": "Monday, October 26, 2026's Report",
@@ -3681,9 +3900,7 @@
         "Compile a comprehensive watch-matrix mapping the impending tech mega-cap earnings drops (GOOGL, MSFT) slated for this week ?",
         "Adjust the active $7.00 programmatic filter parameters ahead of the next post-close ingestion cycle?"
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-10-23T20:00:00+00:00",
       "header": "Friday, October 23, 2026's Report",
@@ -11811,7 +12028,9 @@
         "The Hawkish Warsh Effect: Bond yields climbed decisively as Fed Chair Kevin Warsh signaled that interest rates may need to remain elevated for longer to anchor long-term structural expectations. Short-dated 2-year Treasury yields surged 12 basis points to 4.35%, introducing significant headwind risks for high-multiple growth equities.",
         "Corporate Actions Cut Deep: The macro correction was compounded by massive localized micro adjustments—namely the abandonment of the private PayPal deal and strict forward capacity boundaries set by hardware leaders like Marvell."
       ]
-    },
+    }
+  ],
+  "past_6_months": [
     {
       "timestamp": "2026-08-27T20:00:00+00:00",
       "header": "Thursday, August 27, 2026's Report",
@@ -11962,9 +12181,7 @@
         "The AI Wave is Real: Blockbuster earnings from NVIDIA and enterprise tech giants proved that software, infrastructure, and chip buildouts are operating at maximum capacity, pulling the wider market along with them.",
         "Jackson Hole Caution: Despite a slight drop in initial weekly jobless claims to 203,000, market participants kept a careful eye on the impending Federal Reserve address for clues on incoming autumn policy stances."
       ]
-    }
-  ],
-  "past_6_months": [
+    },
     {
       "timestamp": "2026-08-26T20:00:00+00:00",
       "header": "Wednesday, August 26, 2026's Report",
