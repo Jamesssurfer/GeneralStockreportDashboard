@@ -1,5 +1,219 @@
 [
   {
+    "timestamp": "2026-11-25T20:00:00+00:00",
+    "header": "Wednesday, November 25, 2026's Report",
+    "headline": "The S&P 500 and NASDAQ Composite edge lower in a muted pre-Thanksgiving session as firmer-than-expected October core PCE inflation data tempers rate-cut expectations ahead of Thursday's market holiday. Wall Street consolidated Tuesday's retail-led gains on light institutional volume, with technology and rate-sensitive growth portfolios digesting sticky personal consumption inflation metrics alongside mixed enterprise hardware earnings. Sovereign fixed-income markets traded defensively following the morning inflation print and FOMC minutes release, nudging the benchmark 10-year U.S. Treasury yield up 4 basis points to settle near 4.95% as bond desks adjusted December policy expectations. Concurrently, international energy markets traded slightly firmer into the holiday break as Brent crude oil futures edged up to settle near $93.35 a barrel, supported by steady winter distillate demand and ongoing Persian Gulf maritime monitoring.",
+    "market_direction": "DOWN",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,742.15",
+        "change": "-16.75 pts",
+        "pct": "-0.22%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,358.40",
+        "change": "-86.70 pts",
+        "pct": "-0.33%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "53,210.30",
+        "change": "-38.45 pts",
+        "pct": "-0.07%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "DE",
+        "company": "Deere & Company",
+        "sector": "Industrials / Farm & Heavy Construction",
+        "price": "$442.80",
+        "change": "+$24.15",
+        "pct": "+5.77%",
+        "catalyst": "Rallied forcefully to pace industrial gainers after topping fiscal Q4 earnings expectations and issuing constructive 2027 margin guidance."
+      },
+      {
+        "ticker": "ADSK",
+        "company": "Autodesk, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$308.40",
+        "change": "+$12.60",
+        "pct": "+4.26%",
+        "catalyst": "Climbed on heavy institutional block volume after beating quarterly revenue estimates and raising full-year subscription billings outlook."
+      },
+      {
+        "ticker": "VIXY",
+        "company": "ProShares VIX Short-Term",
+        "sector": "Financials / Volatility Proxy",
+        "price": "$11.35",
+        "change": "+$0.40",
+        "pct": "+3.65%",
+        "catalyst": "Rebounded off multi-week lows as firmer October PCE inflation data prompted light pre-holiday portfolio hedging."
+      },
+      {
+        "ticker": "NTNX",
+        "company": "Nutanix, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$74.90",
+        "change": "+$2.45",
+        "pct": "+3.38%",
+        "catalyst": "Advanced past near-term chart resistance following a strong quarterly recurring revenue beat driven by enterprise hybrid-cloud migrations."
+      },
+      {
+        "ticker": "URBN",
+        "company": "Urban Outfitters, Inc.",
+        "sector": "Consumer Cyclical / Apparel Retail",
+        "price": "$46.20",
+        "change": "+$1.35",
+        "pct": "+3.01%",
+        "catalyst": "Gained after delivering upbeat Q3 comparable store sales across Free People and Anthropologie heading into Black Friday."
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$99.60",
+        "change": "+$2.45",
+        "pct": "+2.52%",
+        "catalyst": "Extended Tuesday's breakout to test the psychological $100 threshold on continued institutional neocloud accumulation."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$96.85",
+        "change": "+$1.75",
+        "pct": "+1.84%",
+        "catalyst": "Reached fresh all-time highs as institutional buyers favored grocery and omnichannel retail scale entering peak holiday shopping."
+      },
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$941.50",
+        "change": "+$14.70",
+        "pct": "+1.59%",
+        "catalyst": "Captured defensive retail inflows as membership warehouse traffic remained resilient despite sticky inflation prints."
+      },
+      {
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$136.75",
+        "change": "+$1.85",
+        "pct": "+1.37%",
+        "catalyst": "Rebounded modestly as Brent crude firmed toward $93.35/bbl on tightening global distillate balances."
+      },
+      {
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc.",
+        "sector": "Healthcare / Healthcare Plans",
+        "price": "$651.20",
+        "change": "+$7.10",
+        "pct": "+1.10%",
+        "catalyst": "Helped cushion the Dow Jones Industrial Average on steady defensive managed-care accumulation before the holiday break."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$122.40",
+        "change": "-$12.10",
+        "pct": "-8.99%",
+        "catalyst": "Cratered nearly 9% after issuing softer-than-expected Q4 revenue guidance due to sluggish traditional enterprise PC refresh demand."
+      },
+      {
+        "ticker": "HPQ",
+        "company": "HP Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$34.15",
+        "change": "-$2.75",
+        "pct": "-7.45%",
+        "catalyst": "Slipped forcefully after reporting tepid commercial PC and printing margins alongside a cautious holiday-quarter profit outlook."
+      },
+      {
+        "ticker": "WDAY",
+        "company": "Workday, Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$252.80",
+        "change": "-$15.90",
+        "pct": "-5.92%",
+        "catalyst": "Retrenched beneath intermediate moving averages after flagging slower near-term enterprise subscription backlog growth."
+      },
+      {
+        "ticker": "SMCI",
+        "company": "Super Micro Computer Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$38.95",
+        "change": "-$1.55",
+        "pct": "-3.83%",
+        "catalyst": "Traded lower in sympathy with Dell's cautious server timing commentary on light pre-holiday volume."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$196.40",
+        "change": "-$4.70",
+        "pct": "-2.34%",
+        "catalyst": "Slipped back beneath the $200 level as institutional desks trimmed chip exposure following the warmer PCE inflation print."
+      },
+      {
+        "ticker": "MU",
+        "company": "Micron Technology, Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$112.80",
+        "change": "-$2.10",
+        "pct": "-1.83%",
+        "catalyst": "Pulled back modestly alongside PC and memory hardware peers following HP and Dell's cautious client compute commentary."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$200.65",
+        "change": "-$3.15",
+        "pct": "-1.55%",
+        "catalyst": "Consolidated just above the psychological $200 threshold on routine pre-Thanksgiving profit-taking."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$213.20",
+        "change": "-$3.20",
+        "pct": "-1.48%",
+        "catalyst": "Eased lower alongside custom AI silicon peers as rising 10-year Treasury yields tempered high-multiple growth bids."
+      },
+      {
+        "ticker": "BEST",
+        "company": "Best Buy Co., Inc.",
+        "sector": "Consumer Cyclical / Specialty Retail",
+        "price": "$98.90",
+        "change": "-$1.55",
+        "pct": "-1.54%",
+        "catalyst": "Experienced minor profit-taking after surging nearly 6% on Tuesday, weighed down slightly by PC hardware sector caution."
+      },
+      {
+        "ticker": "AAL",
+        "company": "American Airlines",
+        "sector": "Consumer Cyclical / Airlines",
+        "price": "$13.52",
+        "change": "-$0.18",
+        "pct": "-1.31%",
+        "catalyst": "Drifted lower as firmer crude oil prices offset peak Thanksgiving holiday passenger traffic projections."
+      }
+    ],
+    "catalysts": [
+      "Sticky October Core PCE & FOMC Minutes Lift Yields: Pre-holiday macro data showed October core Personal Consumption Expenditures (PCE) inflation rising slightly above consensus forecasts, while FOMC minutes underscored policymakers' reluctance to rush additional rate cuts amid resilient consumer spending. The releases pushed the 10-year Treasury yield up to 4.95% and prompted light profit-taking across rate-sensitive semiconductors ($AMD -2.34%, $NVDA -1.55%).",
+      "Enterprise PC Hardware Weakness Contrasts With Industrial & Software Beats: Corporate earnings produced sharp sector divergence heading into Thanksgiving. Dell Technologies ($DELL -8.99%) and HP Inc. ($HPQ -7.45%) tumbled on sluggish commercial PC refresh cycles, whereas Deere & Company ($DE +5.77%) and Autodesk ($ADSK +4.26%) rallied strongly on upbeat margin and subscription guidance."
+    ]
+  },
+  {
     "timestamp": "2026-11-24T20:00:00+00:00",
     "header": "Tuesday, November 24, 2026's Report",
     "headline": "The S&P 500 and NASDAQ Composite rebound cleanly as upbeat quarterly earnings from Best Buy, Dick's Sporting Goods, and Zoom Video Communications restore pre-holiday momentum across consumer discretionary and enterprise software networks. Wall Street shook off Monday's light consolidation on Tuesday, with institutional desks rotating back into retail and artificial intelligence hardware leaders ahead of Wednesday's dense cluster of pre-Thanksgiving economic releases. Sovereign fixed-income markets traded steadily within a tight range as bond traders positioned ahead of the October Personal Consumption Expenditures (PCE) inflation print and FOMC minutes, holding the benchmark 10-year U.S. Treasury yield anchored near 4.91%. Concurrently, international energy markets edged modestly lower as Brent crude oil futures slipped toward $92.85 a barrel, with traders weighing steady domestic fuel production against ongoing Persian Gulf maritime transit monitoring.",
