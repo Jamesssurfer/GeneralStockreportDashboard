@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-11-26T20:00:00+00:00",
+    "header": "Thursday, November 26, 2026's Report",
+    "headline": "U.S. equity and fixed-income markets remained officially closed on Thursday, November 26, 2026, in observance of the Thanksgiving Day federal holiday. With the New York Stock Exchange (NYSE) and NASDAQ halted for the full session, domestic cash clearing matrices recorded zero regular-hours volume, leaving all major U.S. benchmarks unchanged from Wednesday's closing baselines. Sovereign debt trading was similarly suspended, keeping the benchmark 10-year U.S. Treasury yield static at 4.95%. In thinned international electronic trading, Brent crude oil futures drifted quietly near $93.20 a barrel as global energy desks awaited OPEC+ production commentary and Friday's U.S. trading resumption.",
+    "market_direction": "MIXED",
+    "indexes": [],
+    "gainers": [
+      {
+        "ticker": "N/A",
+        "company": "U.S. Exchanges Closed",
+        "sector": "Holiday Closure",
+        "price": "—",
+        "change": "$0.00",
+        "pct": "0.00%",
+        "catalyst": "NYSE and NASDAQ closed in observance of Thanksgiving Day; no regular-hours price discovery recorded."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "N/A",
+        "company": "U.S. Exchanges Closed",
+        "sector": "Holiday Closure",
+        "price": "—",
+        "change": "$0.00",
+        "pct": "0.00%",
+        "catalyst": "NYSE and NASDAQ closed in observance of Thanksgiving Day; no regular-hours price discovery recorded."
+      }
+    ],
+    "catalysts": [
+      "Thanksgiving Market Closure & Black Friday Half-Day Schedule: All major U.S. stock and bond exchanges observed a full market holiday on Thursday, November 26. Regular electronic and floor trading resumes on Friday, November 27, 2026, under an abbreviated Black Friday schedule, with equity markets closing early at 1:00 PM EST and bond markets closing at 2:00 PM EST.",
+      "Black Friday Retail & E-Commerce Traffic Watch: Institutional desks are closely monitoring early Thanksgiving evening and Black Friday online checkout telemetry across omnichannel leaders Walmart ($WMT), Amazon ($AMZN), and Best Buy ($BBY) to gauge consumer resilience following Wednesday's firmer October core PCE inflation reading.",
+      "Compile an early Black Friday retail and e-commerce watchlist ahead of the New York opening bell?",
+      "Review overnight Asian and European market performance while Wall Street was closed for Thanksgiving?",
+      "Adjust the active $7.00 programmatic filter parameters before today's abbreviated session close?"
+    ]
+  },
+  {
     "timestamp": "2026-11-25T20:00:00+00:00",
     "header": "Wednesday, November 25, 2026's Report",
     "headline": "The S&P 500 and NASDAQ Composite edge lower in a muted pre-Thanksgiving session as firmer-than-expected October core PCE inflation data tempers rate-cut expectations ahead of Thursday's market holiday. Wall Street consolidated Tuesday's retail-led gains on light institutional volume, with technology and rate-sensitive growth portfolios digesting sticky personal consumption inflation metrics alongside mixed enterprise hardware earnings. Sovereign fixed-income markets traded defensively following the morning inflation print and FOMC minutes release, nudging the benchmark 10-year U.S. Treasury yield up 4 basis points to settle near 4.95% as bond desks adjusted December policy expectations. Concurrently, international energy markets traded slightly firmer into the holiday break as Brent crude oil futures edged up to settle near $93.35 a barrel, supported by steady winter distillate demand and ongoing Persian Gulf maritime monitoring.",
