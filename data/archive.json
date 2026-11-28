@@ -1,6 +1,223 @@
 {
   "past_2_weeks": [
     {
+      "timestamp": "2026-11-20T20:00:00+00:00",
+      "header": "Friday, November 20, 2026's Report",
+      "headline": "The S&P 500 and NASDAQ Composite wrap up a strong rebound week in positive territory as continued institutional accumulation in artificial intelligence infrastructure and consumer software outweighs routine pre-weekend profit-taking. Wall Street held onto Thursday's NVIDIA-fueled breakout gains during Friday's session, with mega-cap technology and semiconductor platforms locking in solid weekly advances despite light end-of-week portfolio rebalancing. Sovereign fixed-income markets traded steadily within a tight consolidation range, holding the benchmark 10-year U.S. Treasury yield anchored near 4.92% as bond desks positioned ahead of next week's Thanksgiving holiday-shortened trading schedule. Concurrently, international energy markets traded slightly firmer into the weekend as Brent crude oil futures edged up to settle near $94.10 a barrel, supported by ongoing Persian Gulf maritime monitoring and steady winter distillate demand.",
+      "market_direction": "UP",
+      "indexes": [
+        {
+          "name": "S&P 500 Index (.INX)",
+          "value": "7,735.80",
+          "change": "+17.35 pts",
+          "pct": "+0.22%"
+        },
+        {
+          "name": "NASDAQ Composite (.IXIC)",
+          "value": "26,342.15",
+          "change": "+93.25 pts",
+          "pct": "+0.36%"
+        },
+        {
+          "name": "Dow Jones Industrial Average (.DJI)",
+          "value": "53,068.90",
+          "change": "+83.30 pts",
+          "pct": "+0.16%"
+        }
+      ],
+      "gainers": [
+        {
+          "ticker": "INTU",
+          "company": "Intuit Inc.",
+          "sector": "Technology / Software—Application",
+          "price": "$674.50",
+          "change": "+$36.20",
+          "pct": "+5.67%",
+          "catalyst": "Rallied forcefully after topping fiscal Q1 revenue and earnings expectations on strong small-business cloud accounting and Credit Karma momentum."
+        },
+        {
+          "ticker": "CRWV",
+          "company": "CoreWeave, Inc.",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$97.80",
+          "change": "+$4.15",
+          "pct": "+4.43%",
+          "catalyst": "Extended Thursday's post-NVIDIA breakout to fresh multi-month highs on heavy institutional block accumulation across neocloud compute providers."
+        },
+        {
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "sector": "Technology / Semiconductors",
+          "price": "$201.90",
+          "change": "+$7.10",
+          "pct": "+3.64%",
+          "catalyst": "Cleared the psychological $200 threshold on follow-through analyst price-target hikes following Thursday's blockbuster Q3 earnings print."
+        },
+        {
+          "ticker": "ROST",
+          "company": "Ross Stores, Inc.",
+          "sector": "Consumer Cyclical / Apparel Retail",
+          "price": "$154.20",
+          "change": "+$5.15",
+          "pct": "+3.46%",
+          "catalyst": "Climbed after beating Q3 profit estimates and lifting holiday-quarter comparable sales guidance as off-price retail captured value-conscious shoppers."
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$214.85",
+          "change": "+$6.35",
+          "pct": "+3.05%",
+          "catalyst": "Maintained strong upside momentum as institutional desks added custom AI networking silicon exposure heading into year-end."
+        },
+        {
+          "ticker": "SMCI",
+          "company": "Super Micro Computer Inc.",
+          "sector": "Technology / Computer Hardware",
+          "price": "$41.05",
+          "change": "+$1.15",
+          "pct": "+2.88%",
+          "catalyst": "Captured sustained server hardware inflows as hyperscaler rack-scale deployment estimates moved higher across Wall Street."
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices",
+          "sector": "Technology / Semiconductors",
+          "price": "$200.60",
+          "change": "+$5.20",
+          "pct": "+2.66%",
+          "catalyst": "Reclaimed the $200 mark alongside large-cap semiconductor peers on continued AI accelerator demand optimism."
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon.com, Inc.",
+          "sector": "Consumer Cyclical / Internet Retail",
+          "price": "$256.40",
+          "change": "+$5.90",
+          "pct": "+2.36%",
+          "catalyst": "Paced mega-cap retail and cloud anchors ahead of next week's Black Friday shopping kickoff and AWS re:Invent catalyst window."
+        },
+        {
+          "ticker": "MU",
+          "company": "Micron Technology, Inc.",
+          "sector": "Technology / Semiconductors",
+          "price": "$117.50",
+          "change": "+$2.55",
+          "pct": "+2.22%",
+          "catalyst": "Extended its multi-week recovery as tight high-bandwidth memory supply dynamics supported forward margin projections."
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$428.15",
+          "change": "+$6.40",
+          "pct": "+1.52%",
+          "catalyst": "Anchored large-cap enterprise software gains as institutional portfolios rotated capital back into core cloud platforms."
+        }
+      ],
+      "losers": [
+        {
+          "ticker": "GAP",
+          "company": "Gap Inc.",
+          "sector": "Consumer Cyclical / Apparel Retail",
+          "price": "$21.85",
+          "change": "-$2.45",
+          "pct": "-10.08%",
+          "catalyst": "Cratered double digits after issuing cautious fourth-quarter margin guidance due to elevated promotional discounting ahead of the holidays."
+        },
+        {
+          "ticker": "SOXS",
+          "company": "Direxion Semiconductor Bear",
+          "sector": "Financials / Inverse Industry",
+          "price": "$10.42",
+          "change": "-$1.03",
+          "pct": "-9.00%",
+          "catalyst": "Extended its steep weekly decline as follow-through semiconductor accumulation forced further bear-fund liquidations into Friday's close."
+        },
+        {
+          "ticker": "VIXY",
+          "company": "ProShares VIX Short-Term",
+          "sector": "Financials / Volatility Proxy",
+          "price": "$11.20",
+          "change": "-$0.65",
+          "pct": "-5.49%",
+          "catalyst": "Compressed further as steady index gains and upcoming holiday trading conditions dampened implied equity volatility premiums."
+        },
+        {
+          "ticker": "SQQQ",
+          "company": "ProShares UltraPro Short QQQ",
+          "sector": "Financials / Inverse Index",
+          "price": "$8.10",
+          "change": "-$0.28",
+          "pct": "-3.34%",
+          "catalyst": "Slipped beneath near-term moving averages as the NASDAQ Composite capped a strong weekly advance led by AI hardware."
+        },
+        {
+          "ticker": "PANW",
+          "company": "Palo Alto Networks",
+          "sector": "Technology / Software—Infrastructure",
+          "price": "$410.50",
+          "change": "-$9.65",
+          "pct": "-2.30%",
+          "catalyst": "Experienced routine end-of-week profit-taking after surging nearly 6% on Thursday following its quarterly earnings beat."
+        },
+        {
+          "ticker": "TGT",
+          "company": "Target Corporation",
+          "sector": "Consumer Defensive / Discount Stores",
+          "price": "$126.40",
+          "change": "-$2.50",
+          "pct": "-1.94%",
+          "catalyst": "Remained under institutional distribution pressure as investors favored off-price and grocery leaders heading into Black Friday."
+        },
+        {
+          "ticker": "DELL",
+          "company": "Dell Technologies Inc.",
+          "sector": "Technology / Computer Hardware",
+          "price": "$134.50",
+          "change": "-$2.30",
+          "pct": "-1.68%",
+          "catalyst": "Pulled back modestly on light profit-taking after rallying over 4% in the prior session."
+        },
+        {
+          "ticker": "UNH",
+          "company": "UnitedHealth Group Inc.",
+          "sector": "Healthcare / Healthcare Plans",
+          "price": "$632.80",
+          "change": "-$8.40",
+          "pct": "-1.31%",
+          "catalyst": "Drifted lower as portfolio managers rotated defensive healthcare allocations into higher-beta technology and consumer leaders."
+        },
+        {
+          "ticker": "LMT",
+          "company": "Lockheed Martin Corp.",
+          "sector": "Industrials / Aerospace & Defense",
+          "price": "$585.20",
+          "change": "-$6.60",
+          "pct": "-1.12%",
+          "catalyst": "Eased lower on routine weekend rebalancing as immediate Middle East escalation headlines remained contained."
+        },
+        {
+          "ticker": "T",
+          "company": "AT&T Inc.",
+          "sector": "Communication Services / Telecom Services",
+          "price": "$20.72",
+          "change": "-$0.23",
+          "pct": "-1.10%",
+          "catalyst": "Underperformed broader benchmarks slightly as legacy telecom carriers saw minor outflows during the growth-led advance."
+        }
+      ],
+      "catalysts": [
+        "NVIDIA & AMD Reclaim $200 on Follow-Through Institutional Accumulation: Semiconductor leadership carried cleanly into Friday's close as NVIDIA ($NVDA +3.64%) and Advanced Micro Devices ($AMD +2.66%) both reclaimed the psychological $200.00 level. Multiple Wall Street desks raised price targets across the AI compute supply chain following NVIDIA's Q3 beat and upbeat data-center commentary, fueling strong weekly returns across CoreWeave ($CRWV +4.43%) and Broadcom ($AVGO +3.05%).",
+        "Holiday Retail Bifurcation Persists Ahead of Black Friday: Third-quarter apparel and discount retail prints underscored heightened consumer price sensitivity entering the peak holiday shopping window. Off-price operator Ross Stores ($ROST +3.46%) rallied after raising Q4 comparable sales guidance on strong traffic, whereas Gap Inc. ($GAP -10.08%) tumbled after warning that heavier promotional markdowns will compress near-term gross margins.",
+        "Compile a watch-matrix mapping next week's Thanksgiving holiday trading schedule and key macro data releases (PCE inflation, FOMC minutes)?",
+        "Run a specialized scan tracking semiconductor and enterprise software breakouts holding above key moving averages into week-end?",
+        "Adjust the active $7.00 programmatic filter parameters ahead of Monday's session open?"
+      ]
+    },
+    {
       "timestamp": "2026-11-19T20:00:00+00:00",
       "header": "Thursday, November 19, 2026's Report",
       "headline": "The NASDAQ Composite and S&P 500 surge as blockbuster third-quarter earnings and raised data-center guidance from NVIDIA ignite a broad rally across artificial intelligence hardware and technology networks. Wall Street roared back from Wednesday's pre-earnings pause on Thursday, with institutional portfolios aggressively accumulating semiconductor, server infrastructure, and cloud software leaders after NVIDIA dispelled concerns over hyperscaler capital expenditure slowdowns. Sovereign fixed-income markets traded steadily as bond desks digested weekly jobless claims and stabilizing inflation expectations, holding the benchmark 10-year U.S. Treasury yield near 4.93%. Concurrently, international energy markets saw modest downward pressure as Brent crude oil futures slipped toward $93.60 a barrel, with traders weighing resilient U.S. fuel production against ongoing Persian Gulf maritime monitoring.",
@@ -867,7 +1084,9 @@
         "Run a specialized scan on energy and defense equities breaking out on Strait of Hormuz risk premiums?",
         "Adjust the active $7.00 programmatic filter parameters before today's session close?"
       ]
-    },
+    }
+  ],
+  "past_1_month": [
     {
       "timestamp": "2026-11-13T20:00:00+00:00",
       "header": "Friday, November 13, 2026's Report",
@@ -1084,9 +1303,7 @@
         "Run a specialized scan tracking energy and defense equities breaking out on renewed Strait of Hormuz risk premiums?",
         "Adjust the active $7.00 programmatic filter parameters before Monday's session open?"
       ]
-    }
-  ],
-  "past_1_month": [
+    },
     {
       "timestamp": "2026-11-12T20:00:00+00:00",
       "header": "Thursday, November 12, 2026's Report",
@@ -3464,7 +3681,9 @@
         "Compile an early watch-matrix mapping the brutal after-hours earnings slides from Amazon (-6%) and Intel (-21%) dropping late Thursday ?",
         "Adjust the active $7.00 programmatic liquidity filter configurations ahead of the incoming database injection cycle?"
       ]
-    },
+    }
+  ],
+  "past_3_months": [
     {
       "timestamp": "2026-10-28T20:00:00+00:00",
       "header": "Wednesday, October 28, 2026's Report",
@@ -3681,9 +3900,7 @@
         "Compile a comprehensive watch-matrix mapping the ensuing mega-cap tech earnings drops (AMZN, AAPL) slated for this afternoon?",
         "Adjust the active $7.00 programmatic filter configurations ahead of the next database ingestion cycle?"
       ]
-    }
-  ],
-  "past_3_months": [
+    },
     {
       "timestamp": "2026-10-27T20:00:00+00:00",
       "header": "Tuesday, October 27, 2026's Report",
