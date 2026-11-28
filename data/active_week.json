@@ -1,5 +1,222 @@
 [
   {
+    "timestamp": "2026-11-27T20:00:00+00:00",
+    "header": "Friday, November 27, 2026's Report",
+    "headline": "The S&P 500 and NASDAQ Composite edge higher in a quiet, holiday-shortened Black Friday session as early holiday e-commerce momentum and steady semiconductor inflows lift major benchmarks. Operating on an abbreviated schedule ahead of the 1:00 PM EST early close, Wall Street logged light institutional volume with consumer retail and mega-cap technology stocks leading modest gains. Sovereign fixed-income markets traded quietly prior to the 2:00 PM EST bond close, keeping the benchmark 10-year U.S. Treasury yield anchored near 4.93% as desks digested post-Thanksgiving liquidity conditions. Concurrently, international energy markets held steady within a tight range as Brent crude oil futures hovered near $93.10 a barrel, with traders balancing steady winter distillate demand against upcoming OPEC+ policy discussions.",
+    "market_direction": "UP",
+    "indexes": [
+      {
+        "name": "S&P 500 Index (.INX)",
+        "value": "7,768.40",
+        "change": "+26.25 pts",
+        "pct": "+0.34%"
+      },
+      {
+        "name": "NASDAQ Composite (.IXIC)",
+        "value": "26,482.15",
+        "change": "+123.75 pts",
+        "pct": "+0.47%"
+      },
+      {
+        "name": "Dow Jones Industrial Average (.DJI)",
+        "value": "53,315.80",
+        "change": "+105.50 pts",
+        "pct": "+0.20%"
+      }
+    ],
+    "gainers": [
+      {
+        "ticker": "SHOP",
+        "company": "Shopify Inc.",
+        "sector": "Technology / Software—Application",
+        "price": "$118.40",
+        "change": "+$5.10",
+        "pct": "+4.50%",
+        "catalyst": "Rallied on upbeat early Black Friday merchant gross merchandise volume indicators across digital storefronts."
+      },
+      {
+        "ticker": "AMZN",
+        "company": "Amazon.com, Inc.",
+        "sector": "Consumer Cyclical / Internet Retail",
+        "price": "$263.80",
+        "change": "+$7.40",
+        "pct": "+2.89%",
+        "catalyst": "Paced mega-cap consumer cyclicals as strong Thanksgiving evening and Black Friday e-commerce traffic boosted sentiment."
+      },
+      {
+        "ticker": "WMT",
+        "company": "Walmart Inc.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$99.20",
+        "change": "+$2.35",
+        "pct": "+2.43%",
+        "catalyst": "Extended its record-setting run toward the psychological $100 mark on brisk omnichannel and curbside pickup demand."
+      },
+      {
+        "ticker": "BBY",
+        "company": "Best Buy Co., Inc.",
+        "sector": "Consumer Cyclical / Specialty Retail",
+        "price": "$101.25",
+        "change": "+$2.35",
+        "pct": "+2.38%",
+        "catalyst": "Rebounded from Wednesday's dip as holiday consumer electronics and AI PC promotions drew strong store foot traffic."
+      },
+      {
+        "ticker": "CRWV",
+        "company": "CoreWeave, Inc.",
+        "sector": "Technology / Software—Infrastructure",
+        "price": "$101.85",
+        "change": "+$2.25",
+        "pct": "+2.26%",
+        "catalyst": "Cleared the $100 threshold on light institutional accumulation heading into the final month of the year."
+      },
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "sector": "Technology / Semiconductors",
+        "price": "$204.90",
+        "change": "+$4.25",
+        "pct": "+2.12%",
+        "catalyst": "Added to recent gains as large-cap semiconductor weights supported NASDAQ Composite outperformance on thin volume."
+      },
+      {
+        "ticker": "AMD",
+        "company": "Advanced Micro Devices",
+        "sector": "Technology / Semiconductors",
+        "price": "$200.45",
+        "change": "+$4.05",
+        "pct": "+2.06%",
+        "catalyst": "Reclaimed the $200 level alongside chip peers during the post-Thanksgiving growth bounce."
+      },
+      {
+        "ticker": "ROST",
+        "company": "Ross Stores, Inc.",
+        "sector": "Consumer Cyclical / Apparel Retail",
+        "price": "$162.10",
+        "change": "+$3.00",
+        "pct": "+1.89%",
+        "catalyst": "Climbed steadily as off-price apparel retailers captured value-conscious Black Friday shoppers."
+      },
+      {
+        "ticker": "COST",
+        "company": "Costco Wholesale Corp.",
+        "sector": "Consumer Defensive / Discount Stores",
+        "price": "$956.40",
+        "change": "+$14.90",
+        "pct": "+1.58%",
+        "catalyst": "Maintained defensive retail momentum on strong holiday warehouse traffic and discretionary big-ticket sales."
+      },
+      {
+        "ticker": "AVGO",
+        "company": "Broadcom Inc.",
+        "sector": "Technology / Semiconductors",
+        "price": "$216.35",
+        "change": "+$3.15",
+        "pct": "+1.48%",
+        "catalyst": "Advanced modestly on steady institutional positioning ahead of December's earnings calendar."
+      }
+    ],
+    "losers": [
+      {
+        "ticker": "VIXY",
+        "company": "ProShares VIX Short-Term",
+        "sector": "Financials / Volatility Proxy",
+        "price": "$10.55",
+        "change": "-$0.80",
+        "pct": "-7.05%",
+        "catalyst": "Dropped sharply as holiday-thinned trading volume and calm index action compressed implied equity volatility."
+      },
+      {
+        "ticker": "SOXS",
+        "company": "Direxion Semiconductor Bear",
+        "sector": "Financials / Inverse Industry",
+        "price": "$9.55",
+        "change": "-$0.50",
+        "pct": "-4.98%",
+        "catalyst": "Slipped beneath near-term moving averages as NVIDIA and AMD pushed higher during the abbreviated session."
+      },
+      {
+        "ticker": "KSS",
+        "company": "Kohl's Corporation",
+        "sector": "Consumer Cyclical / Department Stores",
+        "price": "$15.85",
+        "change": "-$0.55",
+        "pct": "-3.35%",
+        "catalyst": "Extended post-earnings weakness as early Black Friday store checks pointed to ongoing traffic share losses to off-price rivals."
+      },
+      {
+        "ticker": "SQQQ",
+        "company": "ProShares UltraPro Short QQQ",
+        "sector": "Financials / Inverse Index",
+        "price": "$7.68",
+        "change": "-$0.20",
+        "pct": "-2.54%",
+        "catalyst": "Ground lower as the NASDAQ Composite gained nearly 0.5% in early-close trading."
+      },
+      {
+        "ticker": "M",
+        "company": "Macy's, Inc.",
+        "sector": "Consumer Cyclical / Department Stores",
+        "price": "$15.50",
+        "change": "-$0.35",
+        "pct": "-2.21%",
+        "catalyst": "Traded lower alongside traditional department store peers amid heightened promotional discounting pressure."
+      },
+      {
+        "ticker": "DE",
+        "company": "Deere & Company",
+        "sector": "Industrials / Farm & Heavy Construction",
+        "price": "$436.10",
+        "change": "-$6.70",
+        "pct": "-1.51%",
+        "catalyst": "Experienced minor profit-taking on light volume after surging nearly 6% on Wednesday following its fiscal Q4 beat."
+      },
+      {
+        "ticker": "DELL",
+        "company": "Dell Technologies Inc.",
+        "sector": "Technology / Computer Hardware",
+        "price": "$120.80",
+        "change": "-$1.60",
+        "pct": "-1.31%",
+        "catalyst": "Remained under mild pressure following Wednesday's cautious Q4 commercial PC guidance."
+      },
+      {
+        "ticker": "XOM",
+        "company": "Exxon Mobil Corporation",
+        "sector": "Energy / Oil & Gas Integrated",
+        "price": "$135.40",
+        "change": "-$1.35",
+        "pct": "-0.99%",
+        "catalyst": "Eased lower on quiet holiday energy trading as Brent crude held flat near $93.10/bbl."
+      },
+      {
+        "ticker": "UNH",
+        "company": "UnitedHealth Group Inc.",
+        "sector": "Healthcare / Healthcare Plans",
+        "price": "$645.80",
+        "change": "-$5.40",
+        "pct": "-0.83%",
+        "catalyst": "Drifted modestly lower as light institutional flows favored consumer retail and technology leaders."
+      },
+      {
+        "ticker": "T",
+        "company": "AT&T Inc.",
+        "sector": "Communication Services / Telecom Services",
+        "price": "$20.38",
+        "change": "-$0.17",
+        "pct": "-0.83%",
+        "catalyst": "Underperformed broader benchmarks slightly on muted pre-weekend telecom volume."
+      }
+    ],
+    "catalysts": [
+      "Black Friday E-Commerce & Omnichannel Momentum: Early Thanksgiving evening and Black Friday digital checkout telemetry pointed to resilient consumer spending across online and value-oriented platforms. Shopify ($SHOP +4.50%), Amazon ($AMZN +2.89%), and Walmart ($WMT +2.43%) led retail gainers, whereas traditional department stores Kohl's ($KSS -3.35%) and Macy's ($M -2.21%) lagged amid intense promotional competition.",
+      "Holiday-Shortened Liquidity Lifts Mega-Cap Tech Into Month-End: With U.S. equities closing early at 1:00 PM EST, low-volume institutional accumulation lifted NVIDIA ($NVDA +2.12%) and Advanced Micro Devices ($AMD +2.06%) while compressing short-term volatility hedges ($VIXY -7.05%). Attention now turns to Cyber Monday retail figures and next week's November nonfarm payrolls report to set the tone for December trading.",
+      "Compile a watch-matrix tracking next week's Cyber Monday retail data and November jobs report consensus expectations?",
+      "Run a specialized scan on retail and e-commerce leaders approaching 52-week highs heading into December?",
+      "Adjust the active $7.00 programmatic filter parameters before Monday's session open?"
+    ]
+  },
+  {
     "timestamp": "2026-11-26T20:00:00+00:00",
     "header": "Thursday, November 26, 2026's Report",
     "headline": "U.S. equity and fixed-income markets remained officially closed on Thursday, November 26, 2026, in observance of the Thanksgiving Day federal holiday. With the New York Stock Exchange (NYSE) and NASDAQ halted for the full session, domestic cash clearing matrices recorded zero regular-hours volume, leaving all major U.S. benchmarks unchanged from Wednesday's closing baselines. Sovereign debt trading was similarly suspended, keeping the benchmark 10-year U.S. Treasury yield static at 4.95%. In thinned international electronic trading, Brent crude oil futures drifted quietly near $93.20 a barrel as global energy desks awaited OPEC+ production commentary and Friday's U.S. trading resumption.",
